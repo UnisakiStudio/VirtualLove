@@ -13,7 +13,7 @@
   "keywords": [
     "VRChat"
   ],
-  "url": "https://github.com/UnisakiStudio/VirtualLove/releases/download/2.0.0/jp.unisakistudio.kawaiiposing-2.0.0.zip?",
+  "url": "https://github.com/UnisakiStudio/VirtualLove/releases/download/2.0.0/jp.unisakistudio.virtuallove-2.0.0.zip?",
   "repo": "https://github.com/UnisakiStudio/VirtualLove",
   "dependencies": {
     "jp.unisakistudio.posingsystem": "2.1.4"
