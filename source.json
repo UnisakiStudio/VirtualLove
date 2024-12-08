@@ -1,0 +1,20 @@
+{
+    "name":"三点だいしゅきツール",
+    "id":"jp.unisakistudio.virtuallove",
+    "url":"https://UnisakiStudio.github.io/VirtualLove/index.json",
+    "author":{
+        "email":"unisaki.studio@gmail.com",
+        "name":"UnisakiStudio",
+        "url":"https://yunisaki.booth.pm/"
+    },
+    "description":"三点だいしゅきツールは3点トラッキングやデスクトップモードでも大好きな人とイチャイチャするポーズが撮れるようにするVRChatアバター向けギミックの設定ツールです",
+    "infoLink":{
+        "url":"https://github.com/UnisakiStudio/VirtualLove",
+        "text":"View on GitHub"
+    },
+    "bannerUrl":"banner.png",
+    "githubRepos":[
+        "UnisakiStudio/VirtualLove",
+        "UnisakiStudio/PosingSystem"
+    ]
+}
