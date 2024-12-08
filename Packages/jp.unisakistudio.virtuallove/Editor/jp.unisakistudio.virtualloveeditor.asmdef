@@ -1,0 +1,20 @@
+{
+    "name": "jp.unisakistudio.virtualloveeditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7b3938c1b841b444f903f533a30543e0",
+        "GUID:825b9a72d3c257c4fa790ca6cc5d6acb",
+        "GUID:c3aa5730363babd4d9ea2cc1159e3907"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
