@@ -3,6 +3,7 @@ using UnityEditor;
 using Microsoft.Win32;
 using jp.unisakistudio.virtuallove;
 using System.Collections.Generic;
+using System.IO;
 
 namespace jp.unisakistudio.virtualloveeditor
 {
@@ -14,6 +15,19 @@ namespace jp.unisakistudio.virtualloveeditor
         internal const string APPKEY_BOY = "virtuallove_boy";
         internal const string APPKEY_GIRL = "virtuallove_girl";
 
+        static VirtualLoveEditor()
+        {
+            checkFunctions.Add(CheckExistFolderVirtualLove);
+        }
+
+#if UNITY_EDITOR_OSX || UNITY_EDITOR_LINUX
+        private static string GetLicenseFilePath(string appKey)
+        {
+            string homeDir = System.Environment.GetFolderPath(System.Environment.SpecialFolder.UserProfile);
+            return Path.Combine(homeDir, ".unisakistudio", appKey + ".license");
+        }
+#endif
+    
         public override void OnInspectorGUI()
         {
             VirtualLove virtualLove = target as VirtualLove;
@@ -34,19 +48,59 @@ namespace jp.unisakistudio.virtualloveeditor
                 return;
             }
 
-            var regKey = Registry.CurrentUser.CreateSubKey(REGKEY);
-
-            var regValueBoy = (string)regKey.GetValue(APPKEY_BOY);
-            if (regValueBoy == "licensed")
+            // Windows: レジストリをチェック
+#if UNITY_EDITOR_WIN
+            try
             {
-                virtualLove.isVirtualLoveBoyLicensed = true;
-            }
+                var regKey = Registry.CurrentUser.CreateSubKey(REGKEY);
 
-            var regValueGirl = (string)regKey.GetValue(APPKEY_GIRL);
-            if (regValueGirl == "licensed")
-            {
-                virtualLove.isVirtualLoveGirlLicensed = true;
+                var regValueBoy = (string)regKey.GetValue(APPKEY_BOY);
+                if (regValueBoy == "licensed")
+                {
+                    virtualLove.isVirtualLoveBoyLicensed = true;
+                }
+
+                var regValueGirl = (string)regKey.GetValue(APPKEY_GIRL);
+                if (regValueGirl == "licensed")
+                {
+                    virtualLove.isVirtualLoveGirlLicensed = true;
+                }
             }
+            catch (System.Exception)
+            {
+                // レジストリアクセスに失敗した場合は次のチェックへ
+            }
+#endif
+
+            // Mac/Linux: 設定ファイルをチェック
+#if UNITY_EDITOR_OSX || UNITY_EDITOR_LINUX
+            try
+            {
+                string licenseFilePathBoy = GetLicenseFilePath(APPKEY_BOY);
+                if (File.Exists(licenseFilePathBoy))
+                {
+                    string fileContent = File.ReadAllText(licenseFilePathBoy);
+                    if (fileContent == "licensed")
+                    {
+                        virtualLove.isVirtualLoveBoyLicensed = true;
+                    }
+                }
+
+                string licenseFilePathGirl = GetLicenseFilePath(APPKEY_GIRL);
+                if (File.Exists(licenseFilePathGirl))
+                {
+                    string fileContent = File.ReadAllText(licenseFilePathGirl);
+                    if (fileContent == "licensed")
+                    {
+                        virtualLove.isVirtualLoveGirlLicensed = true;
+                    }
+                }
+            }
+            catch (System.Exception)
+            {
+                // ファイルアクセスに失敗
+            }
+#endif
 
             if (virtualLove.isBoy && virtualLove.isVirtualLoveBoyLicensed)
             {
@@ -72,14 +126,14 @@ namespace jp.unisakistudio.virtualloveeditor
 
         }
 
-        private readonly List<string> folderDefines = new()
+        private static readonly List<string> folderDefines = new()
         {
             "Assets/UnisakiStudio/VirtualLove",
         };
 
-        override protected List<string> CheckExistFolder()
+        public static List<string> CheckExistFolderVirtualLove()
         {
-            List<string> existFolders = base.CheckExistFolder();
+            var existFolders = new List<string>();
             foreach (var folderDefine in folderDefines)
             {
                 if (AssetDatabase.IsValidFolder(folderDefine))

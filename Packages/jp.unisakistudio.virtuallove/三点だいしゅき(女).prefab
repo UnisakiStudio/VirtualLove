@@ -1234,7 +1234,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6832260626802651101, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
-      insertIndex: 2
+      insertIndex: 1
       addedObject: {fileID: 9099193010263984376}
     - targetCorrespondingSourceObject: {fileID: 3914514350218046423, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
       insertIndex: -1
@@ -1266,9 +1266,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   developmentMode: 0
-  isPosingSystemLicensed: 1
   settingName: "\u4E09\u70B9\u3060\u3044\u3057\u3085\u304D\u30C4\u30FC\u30EB\u8A2D\u5B9A\uFF08\u5973\uFF09"
   isIconDisabled: 0
+  isIconSmall: 0
+  mergeTrackingControl: 1
+  autoImportAvatarAnimations: 1
+  previewAvatarObject: {fileID: 0}
   defines:
   - menuName: "[A]\u6B63\u5E38\u4F4D\u30FB\u5C48\u6298\u4F4D"
     description: 
@@ -1277,66 +1280,66 @@ MonoBehaviour:
     icon: {fileID: 0}
     locomotionTypeValue: 41
     animations:
-    - displayName: "A1-\u6B63\u5E38\u4F4D\u524D\u50BE"
-      enabled: 1
-      initial: 0
-      initialSet: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: c6978b2dd8578b44dbc0b270334d0a9d, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "A2-\u6B63\u5E38\u4F4D\u5F8C\u50BE"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "A1-\u6B63\u5E38\u4F4D\u524D\u50BE"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 6cd5c5310d02df74db8ab0d8902cadbd, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "A3-\u5C48\u6298\u4F4D"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "A2-\u6B63\u5E38\u4F4D\u5F8C\u50BE"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 6d9cc33ad2c4e6046aeb6f5011b9905e, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "A4-\u3060\u3044\u3057\u3085\u304D\u30DB\u30FC\u30EB\u30C9"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "A3-\u5C48\u6298\u4F4D"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
+      animationClip: {fileID: 7400000, guid: 6fe1bcf1ae14dfc4695839a9de8ddfcb, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      displayName: "A4-\u3060\u3044\u3057\u3085\u304D\u30DB\u30FC\u30EB\u30C9"
+      initial: 0
+      initialSet: 0
       isCustomIcon: 0
       icon: {fileID: 0}
-      animationClip: {fileID: 7400000, guid: 6fe1bcf1ae14dfc4695839a9de8ddfcb, type: 2}
       typeParameterValue: 0
       syncdParameterValue: 0
-      previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
   - menuName: "[B]\u5EA7\u4F4D\u30FB\u9A0E\u4E57\u4F4D"
     description: 
     stateMachineName: VirtualLove
@@ -1344,81 +1347,81 @@ MonoBehaviour:
     icon: {fileID: 0}
     locomotionTypeValue: 41
     animations:
-    - displayName: "B1-\u5BFE\u9762\u5EA7\u4F4D\u62B1\u304D\u3057\u3081"
-      enabled: 1
-      initial: 0
-      initialSet: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: a5208bde70e04444887614eba2111a8f, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "B2-\u5BFE\u9762\u5EA7\u4F4D\u819D\u7ACB\u3061"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "B1-\u5BFE\u9762\u5EA7\u4F4D\u62B1\u304D\u3057\u3081"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: a63cfd9ace2400845ba90bd05eb5e841, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "B3-\u5BFE\u9762\u5EA7\u4F4DM\u5B57\u958B\u811A"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "B2-\u5BFE\u9762\u5EA7\u4F4D\u819D\u7ACB\u3061"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: c2c474ba9c35f21429a9e4c0878fbf72, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "B4-\u9A0E\u4E57\u4F4D"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "B3-\u5BFE\u9762\u5EA7\u4F4DM\u5B57\u958B\u811A"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 0944e0d36be79d3428017f00ab7e7468, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "B5-\u80CC\u9762\u5EA7\u4F4D(\u6905\u5B50)"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "B4-\u9A0E\u4E57\u4F4D"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
+      animationClip: {fileID: 7400000, guid: 656cfcc4a8ddbb2468fdc49d7e53b40c, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      displayName: "B5-\u80CC\u9762\u5EA7\u4F4D(\u6905\u5B50)"
+      initial: 0
+      initialSet: 0
       isCustomIcon: 0
       icon: {fileID: 0}
-      animationClip: {fileID: 7400000, guid: 656cfcc4a8ddbb2468fdc49d7e53b40c, type: 2}
       typeParameterValue: 0
       syncdParameterValue: 0
-      previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
   - menuName: "[C]\u5F8C\u80CC\u4F4D"
     description: 
     stateMachineName: VirtualLove
@@ -1426,66 +1429,66 @@ MonoBehaviour:
     icon: {fileID: 0}
     locomotionTypeValue: 41
     animations:
-    - displayName: "C1-\u5F8C\u80CC\u4F4D"
-      enabled: 1
-      initial: 0
-      initialSet: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: f925a98ccabd5214099d660b74b68729, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "C2-\u5F8C\u80CC\u4F4D\u306E\u3057\u304B\u304B\u308A"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "C1-\u5F8C\u80CC\u4F4D"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 64a7d5e24c3e92f4aa17362de38af73a, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "C3-\u5BDD\u30D0\u30C3\u30AF"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "C2-\u5F8C\u80CC\u4F4D\u306E\u3057\u304B\u304B\u308A"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: b38760c28bc18b047a94d256cc0c395a, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "C4-\u7ACB\u3061\u30D0\u30C3\u30AF"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "C3-\u5BDD\u30D0\u30C3\u30AF"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
+      animationClip: {fileID: 7400000, guid: 7df91527250951a419dfbd5830b71c3f, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      displayName: "C4-\u7ACB\u3061\u30D0\u30C3\u30AF"
+      initial: 0
+      initialSet: 0
       isCustomIcon: 0
       icon: {fileID: 0}
-      animationClip: {fileID: 7400000, guid: 7df91527250951a419dfbd5830b71c3f, type: 2}
       typeParameterValue: 0
       syncdParameterValue: 0
-      previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
   - menuName: "[D]\u5074\u4F4D"
     description: 
     stateMachineName: VirtualLove
@@ -1493,66 +1496,66 @@ MonoBehaviour:
     icon: {fileID: 0}
     locomotionTypeValue: 41
     animations:
-    - displayName: "D1-\u80CC\u9762\u5074\u4F4D\u9589\u811A"
-      enabled: 1
-      initial: 0
-      initialSet: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 45f9a41b93e66b94faed8e8a3a6c983e, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "D2-\u80CC\u9762\u5074\u4F4D\u958B\u811A"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "D1-\u80CC\u9762\u5074\u4F4D\u9589\u811A"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: a708a25161a290a4abb149d24a8518f8, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "D3-\u5EA7\u308A\u5074\u4F4D"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "D2-\u80CC\u9762\u5074\u4F4D\u958B\u811A"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 206ca61ddb71b934baeab5191840b5ae, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "D4-\u5BFE\u9762\u5074\u4F4D"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "D3-\u5EA7\u308A\u5074\u4F4D"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
+      animationClip: {fileID: 7400000, guid: cf04da7c33c79984cae4bc233ffbe412, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      displayName: "D4-\u5BFE\u9762\u5074\u4F4D"
+      initial: 0
+      initialSet: 0
       isCustomIcon: 0
       icon: {fileID: 0}
-      animationClip: {fileID: 7400000, guid: cf04da7c33c79984cae4bc233ffbe412, type: 2}
       typeParameterValue: 0
       syncdParameterValue: 0
-      previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
   - menuName: "[Ex]\u305D\u306E\u4ED6"
     description: 
     stateMachineName: VirtualLove
@@ -1560,85 +1563,88 @@ MonoBehaviour:
     icon: {fileID: 0}
     locomotionTypeValue: 41
     animations:
-    - displayName: "Ex-\u5BFE\u9762\u99C5\u5F01"
-      enabled: 1
-      initial: 0
-      initialSet: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 9e5f11a02a308954e851b2a543172894, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "Ex-\u80CC\u9762\u99C5\u5F01"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "Ex-\u5BFE\u9762\u99C5\u5F01"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 07d04a92edf4d5f449b4b319ec3e0e34, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "Ex-I\u5B57\u30C1\u30E3\u30EC\u30F3\u30B8"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "Ex-\u80CC\u9762\u99C5\u5F01"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: f7cc5be1a87bf65468e8f7f066c6833c, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "Ex-JackO\u30C1\u30E3\u30EC\u30F3\u30B8"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "Ex-I\u5B57\u30C1\u30E3\u30EC\u30F3\u30B8"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
-      isCustomIcon: 0
-      icon: {fileID: 0}
       animationClip: {fileID: 7400000, guid: 03ac1001a1d6cb547ac9638da58f2de4, type: 2}
-      typeParameterValue: 0
-      syncdParameterValue: 0
       previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
-    - displayName: "Ex-M\u5B57\u958B\u811A"
-      enabled: 1
+      adjustmentClip: {fileID: 0}
+      displayName: "Ex-JackO\u30C1\u30E3\u30EC\u30F3\u30B8"
       initial: 0
       initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 0
+      syncdParameterValue: 0
+    - enabled: 1
       isRotate: 0
       rotate: 0
       isMotionTime: 1
       motionTimeParamName: AlwaysZero
+      animationClip: {fileID: 7400000, guid: 7f9a4b27f420d75428146307b5f6dd2a, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      displayName: "Ex-M\u5B57\u958B\u811A"
+      initial: 0
+      initialSet: 0
       isCustomIcon: 0
       icon: {fileID: 0}
-      animationClip: {fileID: 7400000, guid: 7f9a4b27f420d75428146307b5f6dd2a, type: 2}
       typeParameterValue: 0
       syncdParameterValue: 0
-      previewImage: {fileID: 0}
-      menuImage: {fileID: 0}
+  overrideDefines: []
   SubmenuRoot: {fileID: 1246480959746876431}
   data: 
-  isVirtualLoveBoyLicensed: 0
-  isVirtualLoveGirlLicensed: 0
+  savedInstanceId: 
+  thumbnailPackObject: {fileID: 0}
+  isVirtualLoveBoyLicensed: 1
+  isVirtualLoveGirlLicensed: 1
   isBoy: 0
 --- !u!1 &5094569379812538518 stripped
 GameObject:
@@ -1663,11 +1669,12 @@ MonoBehaviour:
   height: 3
   position: {x: 0, y: -2, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
+  contentTypes: -1
   collisionTags:
   - KawaiiPosing_IsDown
   allowSelf: 1
   allowOthers: 0
-  localOnly: 0
   receiverType: 0
   parameter: KawaiiPosing_IsDown
   minVelocity: 0.05
@@ -1694,5 +1701,7 @@ MonoBehaviour:
   height: 2
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
+  contentTypes: -1
   collisionTags:
   - KawaiiPosing_IsDown
