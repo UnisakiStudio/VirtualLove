@@ -20,13 +20,18 @@ namespace jp.unisakistudio.virtualloveeditor
             checkFunctions.Add(CheckExistFolderVirtualLove);
         }
 
-#if UNITY_EDITOR_OSX || UNITY_EDITOR_LINUX
         private static string GetLicenseFilePath(string appKey)
         {
-            string homeDir = System.Environment.GetFolderPath(System.Environment.SpecialFolder.UserProfile);
-            return Path.Combine(homeDir, ".unisakistudio", appKey + ".license");
-        }
+#if UNITY_EDITOR_OSX
+            string appSupport = System.Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData);
+            return Path.Combine(appSupport, "UnisakiStudio", $"{appKey}.lic");
+#elif UNITY_EDITOR_LINUX
+            string homeDir = System.Environment.GetEnvironmentVariable("HOME");
+            return Path.Combine(homeDir, ".local", "share", "UnisakiStudio", $"{appKey}.lic");
+#else
+            return null;
 #endif
+        }
     
         public override void OnInspectorGUI()
         {
