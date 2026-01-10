@@ -8,12 +8,6 @@ namespace jp.unisakistudio.virtuallove
     public class VirtualLove : PosingSystem
     {
         [HideInInspector]
-        public bool isVirtualLoveBoyLicensed = false;
-
-        [HideInInspector]
-        public bool isVirtualLoveGirlLicensed = false;
-
-        [HideInInspector]
         public bool isBoy;
     }
 }
