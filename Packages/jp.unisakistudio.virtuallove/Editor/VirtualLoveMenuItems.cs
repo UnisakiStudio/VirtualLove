@@ -1,4 +1,4 @@
-﻿/*
+/*
  * VirtualLoveEditor
  * 三点だいしゅきツールの簡易設定用ツール
  * 
@@ -25,17 +25,12 @@ namespace jp.unisakistudio.virtualloveeditor
         private const string APPKEY_GIRL = "virtuallove_girl";
         private const string LICENSE_VALUE = "licensed";
 
-        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール/三点だいしゅきツール(男)追加", false, 22)]
+        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール(男)追加", false, 22)]
         static public void AddPrefab01() { PosingSystemMenuItems.AddPrefab("三点だいしゅき(男)"); }
-        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール/三点だいしゅきツール(女)追加", false, 23)]
+        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール(女)追加", false, 23)]
         static public void AddPrefab02() { PosingSystemMenuItems.AddPrefab("三点だいしゅき(女)"); }
-        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール/三点だいしゅきツール(男)追加(8bit・足の高さなし)", false, 24)]
-        static public void AddPrefab03() { PosingSystemMenuItems.AddPrefab("三点だいしゅき(男)(8bit・足の高さなし)"); }
-        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール/三点だいしゅきツール(女)追加(8bit・足の高さなし)", false, 25)]
-        static public void AddPrefab04() { PosingSystemMenuItems.AddPrefab("三点だいしゅき(女)(8bit・足の高さなし)"); }
 
-        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール/三点だいしゅきツール(男)追加", true)]
-        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール/三点だいしゅきツール(男)追加(8bit・足の高さなし)", true)]
+        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール(男)追加", true)]
         private static bool ValidateBoy()
         {
             if (!Selection.activeGameObject)
@@ -51,8 +46,7 @@ namespace jp.unisakistudio.virtualloveeditor
             return avatar != null;
         }
 
-        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール/三点だいしゅきツール(女)追加", true)]
-        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール/三点だいしゅきツール(女)追加(8bit・足の高さなし)", true)]
+        [MenuItem("GameObject/ゆにさきスタジオ/三点だいしゅきツール(女)追加", true)]
         private static bool ValidateGirl()
         {
             if (!Selection.activeGameObject)
