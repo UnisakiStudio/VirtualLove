@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.1.0-beta.1] - 2026-11-06
+- ゆにさきポーズシステム 3.1.0-beta.2 に対応
+- 男女の通常版・8bit版Prefabに現行の追加機能設定を明示し、軽量版の足の高さ・ミラー・指制御を無効化
+- 姿勢別IKは採用せず、収録ポーズを維持
+- 男女の追加メニューを「ゆにさきスタジオ」直下へ移動し、8bit版の追加メニューを廃止
+- Anonの基準データを登録し、アバター固有補正と膝の逆関節防止に対応
+- 足の高さのアイコン参照を修正
+
 ## [3.0.3] - 2026-08-29
 - PosingSystem 3.0.10に更新し、プリセット読込とHierarchyアイコン判定の負荷を軽減
 - 同一アバターに複数のポーズシステムがある場合のプレビルドエラーを修正

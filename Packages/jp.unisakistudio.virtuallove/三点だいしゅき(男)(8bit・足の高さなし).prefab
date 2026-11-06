@@ -76,6 +76,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: EditorOnly
       objectReference: {fileID: 0}
+    - target: {fileID: 8296855861575574165, guid: 3d0690cd5e3cb534d84ad9db0b898076, type: 3}
+      propertyPath: features.mirror
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296855861575574165, guid: 3d0690cd5e3cb534d84ad9db0b898076, type: 3}
+      propertyPath: features.footHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296855861575574165, guid: 3d0690cd5e3cb534d84ad9db0b898076, type: 3}
+      propertyPath: features.fingerGestureControl
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
