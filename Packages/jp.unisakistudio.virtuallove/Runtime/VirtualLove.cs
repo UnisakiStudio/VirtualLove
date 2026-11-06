@@ -7,6 +7,8 @@ namespace jp.unisakistudio.virtuallove
 {
     public class VirtualLove : PosingSystem
     {
+        public override string AvatarReferenceProfileResourceName => "VirtualLoveAvatarReference";
+
         [HideInInspector]
         public bool isBoy;
     }
