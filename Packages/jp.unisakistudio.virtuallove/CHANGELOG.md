@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.1.0-beta.1] - 2026-11-07
+## [3.1.0] - 2026-11-07
 
 - 撮影モードを追加。アバターを前方へ動かしたり回転させたりして、撮影しやすい位置に調整できます。他の人への位置・向きの同期や、撮影中に自分の頭を表示する設定も選べます。
 - 「床の高さ」を追加。頭を含む身体全体を上下に移動でき、頭の位置を保って足側を動かす「足の高さ」と使い分けられます。
@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 必要な機能をInspectorで選び、パラメーター使用量を確認できるようになりました。
 - ポーズ一覧での検索、一括追加、並べ替え、Sceneでの簡易プレビューを利用できます。
 - アバターの右クリックメニューから「ゆにさきスタジオ > 三点だいしゅきツール(男)追加／(女)追加」で導入できます。追加後の機能はInspectorで選びます。
-- ゆにさきポーズシステム 3.1.0-beta.2 が必要です。
+- ゆにさきポーズシステム 3.1.0 が必要です。
 
 ## [3.0.3] - 2026-08-29
 - PosingSystem 3.0.10に更新し、プリセット読込とHierarchyアイコン判定の負荷を軽減
