@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Virtual Love</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Português · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Histórico de alterações</a></nav>
+<main><h1>Virtual Love</h1>
+<p>Ferramenta para avatares VRChat que permite desfrutar de poses a dois com outra pessoa, em rastreamento de 3 pontos ou no modo desktop. Inclui 22 poses para cada lado, masculino e feminino, num total de 44. Também permite fazer a espargata em pé e o desafio Jack-O.</p>
+<p>Este README refere-se a v3.2.0 em desenvolvimento. A data oficial não está definida. A versão instalada aparece no topo do Inspector.</p>
+<ul>
+<li><a href="https://yunisaki.booth.pm/items/3641334">Página do produto na BOOTH</a></li>
+<li><a href="CHANGELOG.html">Histórico de alterações</a></li>
+</ul>
+<h2>Idioma de apresentação e documentos offline</h2>
+<p>Escolha o idioma em «Language / 言語», no topo do Inspector. Uma única escolha aplica-se ao Inspector e aos menus VRChat gerados. Carregue novamente o avatar para mudar o idioma dentro do jogo.</p>
+<p>Sem escolha explícita, é usado o idioma do computador; idiomas não suportados utilizam inglês. São suportados Windows, macOS e Linux. A última escolha é guardada em EditorPrefs e reutilizada noutros projetos do mesmo utilizador do sistema neste computador. Todas as ferramentas de poses e todos os avatares usam o mesmo idioma. Alterá-lo no Inspector de qualquer ferramenta atualiza a preferência comum; as escolhas de idioma por avatar são ignoradas. Não existe sincronização com outros computadores. O armazenamento da licença não é alterado. O botão de idioma aparece apenas na confirmação inicial da instalação quando não há um idioma guardado. As alterações posteriores são feitas no Inspector.</p>
+<p>Pode escolher o README e o histórico de alterações na <a href="../index.html">lista de idiomas</a> incluída. «Manual» e «Ver alterações», no Inspector, também seguem o idioma selecionado. Os nomes das poses incluídas e das categorias do menu no jogo são igualmente apresentados no idioma selecionado. Os termos de utilização continuam a ser fornecidos em japonês, como até agora.</p>
+<h2>Instalação</h2>
+<ol>
+<li>Importe para o Unity «VirtualLove_Boy.unitypackage» ou «VirtualLove_Girl.unitypackage», incluídos nos ficheiros da compra.</li>
+<li>Depois de registar a origem dos pacotes, pode adicionar «Virtual Love» ao projeto pretendido a partir de VCC ou ALCOM. É necessário Unisaki Posing System 3.2.0.</li>
+<li>Na Hierarchy, clique com o botão direito no avatar pretendido e escolha «Unisaki Studio &gt; Adicionar Virtual Love (Masculino)» ou «Unisaki Studio &gt; Adicionar Virtual Love (Feminino)».</li>
+<li>Selecione «三点だいしゅき(男)» ou «三点だいしゅき(女)», adicionado dentro do avatar, e configure no Inspector as funções e as poses a utilizar.</li>
+<li>Verifique as poses na pré-visualização e carregue o avatar como habitualmente.</li>
+</ol>
+<p>Requisitos: Unity 2022.3, VRChat Avatars SDK 3.10.4 ou posterior, Modular Avatar 1.x desde 1.15.1 e NDMF 1.x desde 1.14.0. Atualize os pacotes necessários em conjunto com VCC ou ALCOM.</p>
+<h2>Atualizar versões anteriores</h2>
+<p>Atualize produto e Unisaki Posing System juntos. Configurações existentes são mantidas. Reveja funções e ExpressionParameters; se usava pré-cálculo, atualize-o antes de enviar novamente.</p>
+<h2>Onde configurar</h2>
+<div class="table-scroll"><table><thead><tr><th>Separador</th><th>Definições principais</th></tr></thead><tbody>
+<tr><td>Funções</td><td>Adição de funções ao menu no jogo, Modo foto, respiração, imagens dos ícones e verificação do consumo de parâmetros</td></tr>
+<tr><td>Poses</td><td>Poses a utilizar, pesquisa, adição, reordenação, pré-visualização e ajuste de animação</td></tr>
+<tr><td>Configuração do avatar</td><td>Correção do corpo, importação da postura original e de movimentos próprios, predefinições</td></tr>
+</tbody></table></div>
+<p>Ative as funções necessárias antes de carregar o avatar. Os itens com «Abrir configurações» podem mostrar configurações detalhadas por baixo.</p>
+<h2>Controlos básicos no jogo</h2>
+<p>Abra o menu Expressions e escolha uma pose de Virtual Love. Escolha as poses que formam par entre o lado masculino e o feminino e alinhe a sua posição e direção com as da outra pessoa.</p>
+<p>Pode alternar a fixação da cabeça, dos braços e dos pés para ajustar as partes que acompanham os seus movimentos. Com Fixar pés, pode mexer a cabeça enquanto o lado dos pés mantém a pose. Se quiser espelhar uma pose ou ajustar a sua altura, ative previamente as funções correspondentes no Unity.</p>
+<h3>Modo foto</h3>
+<p>Pode deslocar o seu avatar para um local onde o consiga ver, ajustar a direção e tirar fotografias.</p>
+<ol>
+<li>No Unity, ative «Funções &gt; Funções do menu &gt; Modo foto».</li>
+<li>No VRChat, abra «Modo foto» e escolha a pose pretendida em «Escolher pose».</li>
+<li>Com «Distância», desloque o avatar para a frente até 3m. Com uma distância superior a 0, o avatar fica virado para si.</li>
+<li>Rode-o com «Direção» e, quando a posição estiver definida, ative «Fixar pés» se necessário. Os pés não são fixados automaticamente no início, pelo que pode ajustar a posição antes de os fixar.</li>
+<li>Quando terminar de fotografar, prima «Sair da foto». A distância e a direção são repostas e a fixação dos pés é desativada.</li>
+</ol>
+<p>Se adicionou «Sem gestos» ao menu, também pode mudar a forma das mãos dentro do Modo foto.</p>
+<p>Se alterar a posição e a direção apenas no seu ecrã, os parâmetros sincronizados do Modo foto não são utilizados. Para mostrar a mesma posição e direção às outras pessoas, ative «Funções &gt; Funções práticas &gt; Sincronizar Modo foto» no Unity.</p>
+<p>Se a sua cabeça ficar oculta ao aproximar-se e dificultar as fotografias, ative «Manter cabeça visível no Modo foto». Aplica-se ao seu ecrã durante as fotografias e, ao terminar, regressa a apresentação normal.</p>
+<h3>Altura pés e Altura chão</h3>
+<p>Ao ativar os itens pretendidos em «Funções &gt; Funções do menu» no Unity, estes são adicionados ao menu «Definições» do VRChat.</p>
+<ul>
+<li><strong>Altura pés</strong>: ajusta a altura do lado dos pés, mantendo a posição da cabeça. Utilize quando os pés se afundam no chão ou ficam a flutuar, ou para acertar a altura com a da outra pessoa.</li>
+<li><strong>Altura chão</strong>: desloca todo o corpo, incluindo a cabeça, para cima e para baixo. 50% é a altura original, 0% corresponde a 3m abaixo e 100% a 3m acima. Para repor a altura original, volte a um valor próximo de 50%.</li>
+</ul>
+<p>Em combinação com o Modo foto, pode ajustar a altura, a distância e a direção do avatar. O movimento e a rotação do Modo foto e a Altura chão também corrigem os movimentos padrão e personalizados utilizados quando nenhuma pose está selecionada. Verifique no próprio VRChat o ponto de vista e o comportamento após a substituição dos movimentos padrão.</p>
+<h3>Espelhar e Sem gestos</h3>
+<ul>
+<li><strong>Espelhar</strong>: ative «Funções &gt; Funções do menu &gt; Espelhar» e, no menu do VRChat, troque a esquerda e a direita da pose.</li>
+<li><strong>Sem gestos</strong>: ative «Funções &gt; Funções do menu &gt; Sem gestos». Quando ativado no VRChat, a forma dos dedos definida na pose mantém-se mesmo ao apertar os comandos.</li>
+</ul>
+<h3>Respiração</h3>
+<ol>
+<li>Ative «Funções &gt; Funções práticas &gt; Animar respiração».</li>
+<li>Em «Abrir configurações», escolha entre «Nenhum», «Fraco», «Médio», «Forte», «Rápido» e «Personalizado» para cada categoria de postura. Ajuste a intensidade na categoria correspondente às poses de Virtual Love. Em «Personalizado», pode indicar uma animação de respiração preparada por si.</li>
+<li>Se também quiser parar e retomar a respiração dentro do jogo, ative igualmente «Funções &gt; Funções do menu &gt; Respiração». No VRChat, «Respiração» alterna entre ON/OFF.</li>
+</ol>
+<p>Ao ativar «Desativar balanço em repouso do VRChat», reduz o balanço padrão do corpo que é adicionado automaticamente em repouso. A respiração definida na ferramenta de poses continua a funcionar normalmente.</p>
+<h3>Reduzir a deformação da pose causada pela rotação da cabeça</h3>
+<p>Ative «Funções &gt; Funções práticas &gt; Reduzir deformação por rotação da cabeça». Utilize quando, ao desativar Fixar cabeça, a postura do corpo se deforma porque a orientação do pescoço difere da pose original.</p>
+<h3>Virar</h3>
+<p>Virar é uma função que se utiliza preparando uma pose deitada compatível e as respetivas animações de lado.</p>
+<ol>
+<li>Ative «Funções &gt; Funções do menu &gt; Virar».</li>
+<li>Em «Poses», abra «Detalhes» da pose pretendida e ative «Ativar Virar».</li>
+<li>Indique as animações correspondentes em «Pose lateral para virar» e, se necessário, ajuste «Intensidade da correção do chão».</li>
+<li>No VRChat, escolha a pose correspondente, desative Fixar cabeça e ative «Virar». Ao inclinar a cabeça para a esquerda ou para a direita, o avatar vira-se.</li>
+</ol>
+<p>Nas poses que utilizam Virar, a configuração normal de MotionTime não pode ser usada. As poses incluídas em Virtual Love não trazem animações laterais para Virar; se quiser utilizar a função, prepare os movimentos correspondentes.</p>
+<h2>Consumo de parâmetros</h2>
+<p>Desativar as funções desnecessárias reduz o consumo de ExpressionParameters.</p>
+<div class="table-scroll"><table><thead><tr><th>Função</th><th>Consumo adicional</th></tr></thead><tbody>
+<tr><td>Espelhar</td><td>1 bit</td></tr>
+<tr><td>Sem gestos</td><td>1 bit</td></tr>
+<tr><td>Altura pés</td><td>8 bit</td></tr>
+<tr><td>Altura chão</td><td>8 bit</td></tr>
+<tr><td>Movimento de respiração</td><td>0 bit</td></tr>
+<tr><td>ON/OFF da respiração no jogo</td><td>1 bit</td></tr>
+<tr><td>Modo foto (apenas no seu ecrã)</td><td>0 bit</td></tr>
+<tr><td>Sincronização do Modo foto</td><td>16 bit</td></tr>
+<tr><td>Cabeça visível durante as fotografias</td><td>0 bit</td></tr>
+<tr><td>Redução da deformação por rotação da cabeça</td><td>1 bit (partilhado com Virar)</td></tr>
+<tr><td>Virar</td><td>10 bit (dos quais 1 bit partilhado com a redução da deformação)</td></tr>
+</tbody></table></div>
+<p>A estes valores soma-se o consumo da seleção de poses, entre outros. Verifique o total no Inspector. Quando várias ferramentas de poses utilizam as funções comuns, a parte partilhada não é contada em duplicado. O consumo de outros sistemas, como roupas, não está incluído neste total.</p>
+<h2>Verificar e ajustar as poses</h2>
+<p>Com «Pré-visualização», disponível em cada pose de «Poses», pode mostrar a postura na Scene. Ao abrir «Ajuste de animação», pode ajustar a orientação do corpo e as articulações durante a pré-visualização e guardar o resultado.</p>
+<p>As poses incluídas foram criadas tendo como referência «あのん（Anon）», de こよりLab. Ajuste, por exemplo, os pontos de contacto com a outra pessoa de acordo com a constituição física e a roupa.</p>
+<p>Com «Ativar correção específica do avatar», em «Configuração do avatar», pode corrigir as diferenças nos ângulos iniciais das articulações e na torção em relação ao avatar de referência. «Impedir flexão inversa dos joelhos» reduz a flexão dos joelhos no sentido inverso. Ao abrir as configurações detalhadas, pode ajustar «Flexão mínima do joelho (graus)». Verifique também na pré-visualização o aspeto com as correções ativadas.</p>
+<p>A pesquisa por nome de pose, a adição de várias animações e a alteração da ordem também são feitas em «Poses». Desative ou elimine as poses desnecessárias.</p>
+<p>A pré-visualização rápida não executa a compilação de MA e NDMF; por isso, verifique também o estado final, incluindo roupas e outros sistemas, depois de compilar o avatar.</p>
+<h3>Imagens dos ícones das poses</h3>
+<p>Ao ativar «Gerar ícones das poses», em «Funções», pode adicionar imagens das poses ao menu no jogo. A compilação demora mais tempo devido à geração das imagens. Para reduzir o tamanho, ative «Reduzir tamanho dos ícones». Para Android, os ícones das poses não são gerados.</p>
+<h3>Predefinições</h3>
+<p>Pode escolher uma predefinição no fundo de «Configuração do avatar». «Aplicar esta predefinição» substitui as configurações atuais das poses; por isso, guarde os ajustes já feitos antes de mudar.</p>
+<p>Os ficheiros de animação de ajuste criados com a função Ajuste de animação, bem como as predefinições que os utilizam, podem ser distribuídos e vendidos sem autorização individual de Unisaki Studio. Utilize-os, por exemplo, para partilhar dados de ajuste para avatares criados por si.</p>
+<h2>Pré-cálculo</h2>
+<p>Ao guardar com «Atualizar pré-cálculo» os menus e as animações gerados, estes são reutilizados na compilação do avatar, o que torna o processo mais rápido. Mesmo sem pré-cálculo, os dados necessários são gerados durante a compilação normal.</p>
+<p>Depois de alterar poses ou funções, consulte «Verificar configurações» no Inspector e, se utilizar o pré-cálculo, atualize-o. Ocultar um aviso não atualiza o resultado gerado.</p>
+<h2>Oferecer como presente</h2>
+<p>Se não for utilizar pessoalmente, pode oferecer a versão masculina ou a feminina ao seu par. Quem recebe a oferta só a pode utilizar com a pessoa que a ofereceu.</p>
+<h2>Notas de utilização</h2>
+<ul>
+<li>Este produto foi criado com fins humorísticos. Não o utilize para atos de assédio.</li>
+<li>Utilize-o respeitando os termos de utilização e as regras de boa convivência do VRChat.</li>
+<li>A fixação da postura durante o rastreamento de corpo inteiro não é suportada.</li>
+<li>Consoante a constituição física, a roupa e as modificações do avatar, pode ser necessário um ajuste manual.</li>
+<li>Se utilizar em conjunto outros sistemas que alteram a postura, verifique o funcionamento das fixações e da mudança de pose. Em alguns casos, é possível ajustá-lo em «Configuração do avatar &gt; Integrar bloqueios de rastreamento com outras ferramentas».</li>
+<li>O criador não se responsabiliza por quaisquer prejuízos resultantes da utilização desta ferramenta.</li>
+</ul>
+<h2>Termos de utilização</h2>
+<p>Utilize este produto apenas depois de aceitar os termos de utilização, elaborados com a licença VN3.</p>
+<p><a href="https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing">Termos de utilização de Virtual Love</a></p></main>
+</body></html>

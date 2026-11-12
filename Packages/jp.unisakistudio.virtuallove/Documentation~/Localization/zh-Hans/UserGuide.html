@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Virtual Love</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">简体中文 · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">更新记录</a></nav>
+<main><h1>Virtual Love</h1>
+<p>这是一款面向VRChat虚拟形象的工具，使用3点跟踪或桌面模式时，也能与对方摆出成对的姿势。男性、女性各收录22种，共44种姿势。还可以做站立一字马和Jack-O挑战。</p>
+<p>本README面向开发中的v3.2.0。正式发布日期尚未确定。已安装的版本可在Inspector顶部查看。</p>
+<ul>
+<li><a href="https://yunisaki.booth.pm/items/3641334">BOOTH商品页面</a></li>
+<li><a href="CHANGELOG.html">更新记录</a></li>
+</ul>
+<h2>显示语言与离线文档</h2>
+<p>在Inspector最上方的“Language / 言語”中选择显示语言。同一项选择会同时应用于Inspector和生成的VRChat菜单。要更改游戏内的显示语言，请重新上传虚拟形象。</p>
+<p>未选择语言时，使用计算机的语言；不支持该语言时使用英语。支持Windows、macOS和Linux。最后选择的语言保存在EditorPrefs中，同一台计算机上同一个OS用户的其他项目也会使用此设置。所有姿势工具和虚拟形象都使用同一种语言。在任意工具的Inspector中更改语言，都会更新共用设置；不采用单个虚拟形象的语言选择。语言设置不会同步到其他计算机。许可证的保存方式不变。 仅在尚未保存语言时的首次安装确认中显示语言按钮。之后请在Inspector中更改语言。</p>
+<p>可通过随附的<a href="../index.html">语言列表</a>选择README和更新记录。Inspector中的“使用说明”和“更新记录”也会遵循所选语言。收录姿势的名称和游戏内菜单的分类名称同样以所选语言显示。使用条款仍与以往一样随附日语版。</p>
+<h2>安装方法</h2>
+<ol>
+<li>将购买文件中随附的“VirtualLove_Boy.unitypackage”或“VirtualLove_Girl.unitypackage”导入Unity。</li>
+<li>注册软件包来源后，可通过VCC或ALCOM将Virtual Love添加到所用项目。需要Unisaki Posing System 3.2.0。</li>
+<li>在Hierarchy中右键点击要安装的虚拟形象，选择“Unisaki Studio &gt; 添加Virtual Love（男性）”或“Unisaki Studio &gt; 添加Virtual Love（女性）”。</li>
+<li>选中添加到虚拟形象内的“三点だいしゅき(男)”或“三点だいしゅき(女)”，在Inspector中设置要使用的功能和姿势。</li>
+<li>通过预览确认姿势，然后按普通流程上传虚拟形象。</li>
+</ol>
+<p>所需环境为Unity 2022.3、VRChat Avatars SDK 3.10.4或更高版本、Modular Avatar 1.15.1或更高版本的1.x系列，以及NDMF 1.14.0或更高版本的1.x系列。请通过VCC或ALCOM一同更新所需软件包。</p>
+<h2>从旧版本更新</h2>
+<p>请将本商品和Unisaki Posing System一同更新。已放置工具的设置会继承。请在Inspector确认启用功能和ExpressionParameters用量；如果使用过预构建，重新上传前请点击“更新预构建”。</p>
+<h2>设置位置</h2>
+<div class="table-scroll"><table><thead><tr><th>选项卡</th><th>主要设置</th></tr></thead><tbody>
+<tr><td>功能</td><td>添加游戏内菜单、拍照模式、呼吸、图标图片、参数用量确认</td></tr>
+<tr><td>姿势</td><td>使用的姿势、搜索、添加、顺序调整、预览、动画调整</td></tr>
+<tr><td>头像设置</td><td>身体修正、导入原始姿势或自定义动作、预设</td></tr>
+</tbody></table></div>
+<p>请先启用所需功能，再上传。带有“打开设置”的项目，可在其下方显示详细设置。</p>
+<h2>游戏内基本操作</h2>
+<p>打开Expressions菜单，选择Virtual Love的姿势。请选择男性与女性相互配对的姿势，并与对方对齐位置和朝向。</p>
+<p>切换头部、手臂和双脚的固定，可以调整希望跟随跟踪的部位。使用固定双脚时，可以在保持脚部一侧姿势的同时移动头部。如需左右镜像姿势或调整高度，请事先在Unity中启用相应功能。</p>
+<h3>拍照模式</h3>
+<p>可以把自己的虚拟形象移到看得见的位置，调整朝向后拍照。</p>
+<ol>
+<li>在Unity中启用“功能 &gt; 菜单功能 &gt; 拍照模式”。</li>
+<li>在VRChat中打开“拍照模式”，通过“选择姿势”选择要使用的姿势。</li>
+<li>使用“距离”将虚拟形象向前移动，最远可达3m。距离大于0时，虚拟形象会朝向自己。</li>
+<li>使用“朝向”进行旋转，位置确定后按需启用“固定双脚”。启动时不会自动固定双脚，因此可在固定前调整位置。</li>
+<li>拍照结束后按下“结束拍照”。距离和朝向会恢复，双脚固定也会解除。</li>
+</ol>
+<p>如果在菜单中添加了“禁用手势”，在拍照模式中也可以切换手型。</p>
+<p>仅在自己的画面中改变位置和朝向时，不使用拍照模式的同步参数。希望其他人也能看到相同的位置和朝向时，请在Unity中启用“功能 &gt; 便捷功能 &gt; 同步拍照模式”。</p>
+<p>如果自己的头部靠近时会消失而不便拍照，请启用“拍照模式中保持头部可见”。此设置只影响拍照期间自己的画面，结束拍照后会恢复普通显示。</p>
+<h3>脚部高度与地面高度</h3>
+<p>在Unity的“功能 &gt; 菜单功能”中启用所需项目后，这些项目会添加到VRChat的“设置”菜单中。</p>
+<ul>
+<li><strong>脚部高度</strong>：保持头部位置，调整脚部一侧的高度。用于双脚陷入地面或悬空时，或希望与对方对齐高度时。</li>
+<li><strong>地面高度</strong>：上下移动包含头部在内的整个身体。50%为原始高度，0%为向下3m，100%为向上3m。要恢复原状时，请调回50%附近。</li>
+</ul>
+<p>与拍照模式搭配使用，可以调整虚拟形象的高度、距离和朝向。拍照模式的移动、旋转以及地面高度，也会修正未选择姿势时的默认动作和自定义动作。VRChat内的视角以及替换默认动作后的表现，请在实际环境中确认。</p>
+<h3>左右镜像与禁用手势</h3>
+<ul>
+<li><strong>左右镜像</strong>：启用“功能 &gt; 菜单功能 &gt; 左右镜像”，然后在VRChat的菜单中切换姿势的左右。</li>
+<li><strong>禁用手势</strong>：启用“功能 &gt; 菜单功能 &gt; 禁用手势”。在VRChat中开启后，即使握住控制器，也能保持姿势中设定的手指形状。</li>
+</ul>
+<h3>呼吸</h3>
+<ol>
+<li>启用“功能 &gt; 便捷功能 &gt; 启用呼吸动画”。</li>
+<li>通过“打开设置”，为各姿势分类选择“无、弱、中、强、急促、自定义”。请在与Virtual Love姿势对应的分类中调整强度。“自定义”可指定自己准备的呼吸动画。</li>
+<li>如果还想在游戏内暂停或恢复呼吸，请同时启用“功能 &gt; 菜单功能 &gt; 呼吸”。在VRChat中通过“呼吸”切换ON/OFF。</li>
+</ol>
+<p>启用“关闭VRChat默认站立摇摆”后，可抑制待机时自动加入的默认身体摇摆。在姿势工具中设置的呼吸仍可照常使用。</p>
+<h3>减轻头部朝向造成的姿势变形</h3>
+<p>启用“功能 &gt; 便捷功能 &gt; 减轻头部旋转造成的姿势变形”。解除头部固定后，如果头部朝向与原始姿势不同而导致身体姿势变形，请使用此功能。</p>
+<h3>翻身</h3>
+<p>翻身功能需要准备相应的躺姿和侧躺动画后才能使用。</p>
+<ol>
+<li>启用“功能 &gt; 菜单功能 &gt; 翻身”。</li>
+<li>在“姿势”中打开所需姿势的“详情”，启用“启用翻身”。</li>
+<li>在“翻身侧向姿势”中指定相应的动画，并按需调整“接地修正强度”。</li>
+<li>在VRChat中选择相应的姿势，解除头部固定后打开“翻身”。向左或向右倾斜头部即可翻身。</li>
+</ol>
+<p>启用翻身的姿势无法使用普通MotionTime设置。Virtual Love的收录姿势未附带翻身用的侧躺动画，如需使用，请自行准备相应的动作。</p>
+<h2>参数用量</h2>
+<p>关闭不需要的功能，可以降低ExpressionParameters的用量。</p>
+<div class="table-scroll"><table><thead><tr><th>功能</th><th>额外用量</th></tr></thead><tbody>
+<tr><td>左右镜像</td><td>1 bit</td></tr>
+<tr><td>禁用手势</td><td>1 bit</td></tr>
+<tr><td>脚部高度</td><td>8 bit</td></tr>
+<tr><td>地面高度</td><td>8 bit</td></tr>
+<tr><td>呼吸动画</td><td>0 bit</td></tr>
+<tr><td>呼吸（游戏内ON/OFF）</td><td>1 bit</td></tr>
+<tr><td>拍照模式（仅自己的画面）</td><td>0 bit</td></tr>
+<tr><td>拍照模式同步</td><td>16 bit</td></tr>
+<tr><td>拍照期间显示头部</td><td>0 bit</td></tr>
+<tr><td>减轻头部朝向造成的姿势变形</td><td>1 bit（与翻身共用）</td></tr>
+<tr><td>翻身</td><td>10 bit（其中1 bit与姿势变形抑制共用）</td></tr>
+</tbody></table></div>
+<p>除此之外，还要加上姿势选择等的用量。合计请在Inspector中确认。多个姿势工具使用共用功能时，共用部分不会重复计算。服装等其他功能组件的用量不包含在此合计中。</p>
+<h2>姿势的确认与调整</h2>
+<p>通过“姿势”中各姿势的“预览”，可在Scene显示姿势。打开“动画调整”后，可以一边预览一边调整身体朝向和关节，然后保存。</p>
+<p>收录姿势以こよりLab的“あのん（Anon）”为基准制作。请根据体型和服装，调整与对方接触的位置等。</p>
+<p>通过“头像设置”中的“启用头像专属修正”，可以修正与基准虚拟形象在初始关节角度和扭转上的差异。“防止膝盖反折”可抑制膝盖反向弯曲。打开详细设置后，可以调整“最小膝盖弯曲角度（度）”。启用修正后的外观也请通过预览确认。</p>
+<p>搜索姿势名称、添加多个动画、更改顺序，也都在“姿势”中进行。不需要的姿势请禁用或删除。</p>
+<p>简易预览不会执行MA、NDMF的构建处理，因此包含服装和其他功能组件在内的最终状态，也请在虚拟形象构建后确认。</p>
+<h3>姿势图标图片</h3>
+<p>启用“功能”中的“生成姿势图标”后，可为游戏内菜单添加姿势图片。生成图片会增加构建时间。如需降低容量，请启用“减小图标容量”。面向Android时不会生成姿势图标。</p>
+<h3>预设</h3>
+<p>可以在“头像设置”的最下方选择预设。“应用此预设”会替换当前姿势设置，因此切换前请保存已有调整。</p>
+<p>使用动画调整功能创建的调整动画文件，以及指定了这些文件的预设，无需另行取得Unisaki Studio许可，即可分发和销售。欢迎用于分享面向自制虚拟形象的调整数据等。</p>
+<h2>预构建</h2>
+<p>通过“更新预构建”保存菜单和动画的生成结果后，构建虚拟形象时可以复用这些结果，加快处理。即使不使用预构建，普通构建时也会生成所需数据。</p>
+<p>更改姿势或功能后，请查看Inspector中的“检查设置”；如果正在使用预构建，请进行更新。即使隐藏警告，生成结果也不会更新。</p>
+<h2>关于赠送</h2>
+<p>如果自己不使用，可以将男性用或女性用其中一份赠送给自己的伴侣。受赠者只能与赠送者一起使用。</p>
+<h2>使用注意事项</h2>
+<ul>
+<li>本商品以玩笑为目的制作。请勿用于骚扰行为。</li>
+<li>使用时请遵守VRChat的服务条款和礼仪。</li>
+<li>不支持全身跟踪时的姿势固定。</li>
+<li>根据虚拟形象的体型、服装和改造内容，可能需要手动调整。</li>
+<li>与其他改变姿势的功能组件并用时，请确认固定和姿势切换的表现。有时可通过“头像设置 &gt; 与其他工具整合跟踪锁定”进行调整。</li>
+<li>对于因使用本工具而造成的任何损失，制作者概不负责。</li>
+</ul>
+<h2>使用条款</h2>
+<p>请在同意使用VN3许可证模板制定的使用条款后，再使用本商品。</p>
+<p><a href="https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing">Virtual Love使用条款</a></p></main>
+</body></html>

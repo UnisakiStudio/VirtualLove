@@ -145,7 +145,10 @@ namespace jp.unisakistudio.virtualloveeditor
         [MenuItem("Tools/ゆにさきスタジオ/三点だいしゅきツール(男)ライセンス削除", false, 201)]
         public static void UninstallLicenseBoy()
         {
-            UninstallLicense(APPKEY_BOY, "三点だいしゅきツール（男の子用）");
+            UninstallLicense(APPKEY_BOY,
+                "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+                "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+                "三点だいしゅきツール（男の子用）のライセンスを削除しました。");
         }
         
         /// <summary>
@@ -154,24 +157,28 @@ namespace jp.unisakistudio.virtualloveeditor
         [MenuItem("Tools/ゆにさきスタジオ/三点だいしゅきツール(女)ライセンス削除", false, 202)]
         public static void UninstallLicenseGirl()
         {
-            UninstallLicense(APPKEY_GIRL, "三点だいしゅきツール（女の子用）");
+            UninstallLicense(APPKEY_GIRL,
+                "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+                "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+                "三点だいしゅきツール（女の子用）のライセンスを削除しました。");
         }
-        
-        private static void UninstallLicense(string appKey, string productName)
+
+        // 翻訳表は文全体を原文として引くため、商品名を埋め込んだ完成文を呼び出し側から受け取る。
+        private static void UninstallLicense(string appKey, string notInstalledMessage, string confirmMessage, string removedMessage)
         {
             if (!IsLicensed(appKey))
             {
-                EditorUtility.DisplayDialog(
+                PosingSystemLocalization.Dialog(
                     "ライセンスの削除",
-                    $"{productName}のライセンスはインストールされていません。",
+                    notInstalledMessage,
                     "OK"
                 );
                 return;
             }
-            
-            bool shouldUninstall = EditorUtility.DisplayDialog(
+
+            bool shouldUninstall = PosingSystemLocalization.Dialog(
                 "ライセンス削除",
-                $"{productName}のライセンスを削除しますか？\n\n" +
+                confirmMessage + "\n\n" +
                 "削除すると、ツールの機能が制限されます。\n" +
                 "再度ライセンスを有効化するには、ライセンスインストーラーを再インポートする必要があります。",
                 "削除",
@@ -203,12 +210,12 @@ namespace jp.unisakistudio.virtualloveeditor
                     {
                         regKey.Close();
                         Registry.CurrentUser.DeleteSubKey(REGKEY, false);
-                        resultMessage = $"{productName}のライセンスを削除しました。";
+                        resultMessage = removedMessage;
                     }
                     else
                     {
                         regKey.Close();
-                        resultMessage = $"{productName}のライセンスを削除しました。\n（他のゆにさきスタジオ商品のライセンスは保持されます）";
+                        resultMessage = removedMessage + "\n（他のゆにさきスタジオ商品のライセンスは保持されます）";
                     }
                     
                     Debug.Log($"[VirtualLove] {resultMessage}");
@@ -242,11 +249,11 @@ namespace jp.unisakistudio.virtualloveeditor
                         Directory.GetDirectories(directoryPath).Length == 0)
                     {
                         Directory.Delete(directoryPath);
-                        resultMessage = $"{productName}のライセンスを削除しました。";
+                        resultMessage = removedMessage;
                     }
                     else
                     {
-                        resultMessage = $"{productName}のライセンスを削除しました。\n（他のゆにさきスタジオ商品のライセンスは保持されます）";
+                        resultMessage = removedMessage + "\n（他のゆにさきスタジオ商品のライセンスは保持されます）";
                     }
                     
                     Debug.Log($"[VirtualLove] {resultMessage}");
@@ -263,7 +270,7 @@ namespace jp.unisakistudio.virtualloveeditor
             }
 #endif
             
-            EditorUtility.DisplayDialog(
+            PosingSystemLocalization.Dialog(
                 "ライセンス削除",
                 resultMessage,
                 "OK"

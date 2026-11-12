@@ -1,0 +1,5865 @@
+{
+  "product": "jp.unisakistudio.virtuallove",
+  "displayNames": [
+    "A1-正常位前傾",
+    "A2-正常位後傾",
+    "A3-屈折位",
+    "A4-だいしゅきホールド",
+    "B1-対面座位抱きしめ",
+    "B2-対面座位膝立ち",
+    "B3-対面座位M字開脚",
+    "B4-騎乗位",
+    "B5-背面座位(椅子)",
+    "C1-後背位",
+    "C2-後背位のしかかり",
+    "C3-寝バック",
+    "C4-立ちバック",
+    "D1-背面側位閉脚",
+    "D2-背面側位開脚",
+    "D3-座り側位",
+    "D4-対面側位",
+    "Ex-I字チャレンジ",
+    "Ex-JackOチャレンジ",
+    "Ex-M字開脚",
+    "Ex-対面駅弁",
+    "Ex-背面駅弁",
+    "[A]正常位・屈折位",
+    "[B]座位・騎乗位",
+    "[C]後背位",
+    "[D]側位",
+    "[Ex]その他",
+    "三点だいしゅき[女]",
+    "三点だいしゅき[男]"
+  ],
+  "languages": [
+    {
+      "code": "ar",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-التبشيرية (ميل للأمام)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-التبشيرية (ميل للخلف)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-رفع الساقين"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-عناق بتطويق الساقين"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-اللوتس (عناق)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-اللوتس (على الركبتين)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-اللوتس (ساقان بشكل M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-الفارسة"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-جلوس عكسي (كرسي)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-من الخلف (على أربع)"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-من الخلف (اتكاء على الظهر)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-من الخلف (استلقاء على البطن)"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-من الخلف (وقوفًا)"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-الملعقة (ساقان مضمومتان)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-الملعقة (ساقان مفتوحتان)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-جانبية جلوسًا"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-جانبية متقابلة"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-تحدي الانفراج وقوفًا"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-تحدي Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-فتح الساقين بشكل M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-حمل وقوفًا (متقابل)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-حمل وقوفًا (عكسي)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] التبشيرية ورفع الساقين"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] الجلوس والفارسة"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] من الخلف"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] الوضعيات الجانبية"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] أخرى"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "لم يُعثر على ترخيص Virtual Love (أنثى) لمستخدم نظام التشغيل هذا. استورد المثبّت من تنزيل الشراء الرسمي إلى مشروع Unity هذا. ثبّت الترخيص مرة لكل مستخدم نظام تشغيل على كل حاسوب."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "لم يُعثر على ترخيص Virtual Love (ذكر) لمستخدم نظام التشغيل هذا. استورد المثبّت من تنزيل الشراء الرسمي إلى مشروع Unity هذا. ثبّت الترخيص مرة لكل مستخدم نظام تشغيل على كل حاسوب."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [أنثى]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [ذكر]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "تثبيت ترخيص Virtual Love (أنثى)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "إزالة ترخيص Virtual Love (أنثى)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "حالة ترخيص Virtual Love (أنثى)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "إضافة Virtual Love (أنثى)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "تثبيت ترخيص Virtual Love (ذكر)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "إزالة ترخيص Virtual Love (ذكر)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "حالة ترخيص Virtual Love (ذكر)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "إضافة Virtual Love (ذكر)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "إعدادات Virtual Love (أنثى)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "إعدادات Virtual Love (ذكر)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (أنثى) غير مرخص على هذا الحاسوب."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "أُزيل ترخيص Virtual Love (أنثى)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "إزالة ترخيص Virtual Love (أنثى)؟"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (ذكر) غير مرخص على هذا الحاسوب."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "أُزيل ترخيص Virtual Love (ذكر)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "إزالة ترخيص Virtual Love (ذكر)؟"
+        }
+      ]
+    },
+    {
+      "code": "bn",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-মিশনারি (সামনে ঝুঁকে)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-মিশনারি (পিছনে হেলে)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-পা উঁচু করে ভাঁজ"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-পা দিয়ে জড়িয়ে আলিঙ্গন"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-মুখোমুখি বসে (আলিঙ্গন)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-মুখোমুখি বসে (হাঁটু গেড়ে)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-মুখোমুখি বসে (M-পা)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-কাউগার্ল"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-পিঠ ফিরিয়ে বসে (চেয়ার)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-ডগি স্টাইল"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-ডগি (উপর থেকে ঝুঁকে)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-উপুড় হয়ে, পিছন থেকে"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-দাঁড়িয়ে, পিছন থেকে"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-স্পুনিং (পা জোড়া)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-স্পুনিং (পা ফাঁক)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-বসে, পাশ থেকে"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-কাত হয়ে মুখোমুখি"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-দাঁড়িয়ে স্প্লিট চ্যালেঞ্জ"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O চ্যালেঞ্জ"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M-আকারে পা ফাঁক"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-দাঁড়িয়ে কোলে (মুখোমুখি)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-দাঁড়িয়ে কোলে (পিঠ ফিরিয়ে)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] মিশনারি / পা ভাঁজ করে"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] বসে / কাউগার্ল"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] পিছন থেকে"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] কাত হয়ে শুয়ে"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] অন্যান্য"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "এই OS ব্যবহারকারীর Virtual Love (নারী) লাইসেন্স পাওয়া যায়নি। অফিশিয়াল ক্রয়ের ডাউনলোডের ইনস্টলার এই Unity প্রজেক্টে আমদানি করুন। প্রতি কম্পিউটারের প্রতিটি OS ব্যবহারকারীর জন্য একবার লাইসেন্স ইনস্টল করুন।"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "এই OS ব্যবহারকারীর Virtual Love (পুরুষ) লাইসেন্স পাওয়া যায়নি। অফিশিয়াল ক্রয়ের ডাউনলোডের ইনস্টলার এই Unity প্রজেক্টে আমদানি করুন। প্রতি কম্পিউটারের প্রতিটি OS ব্যবহারকারীর জন্য একবার লাইসেন্স ইনস্টল করুন।"
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [নারী]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [পুরুষ]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Virtual Love (নারী) লাইসেন্স ইনস্টল করুন"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Virtual Love (নারী) লাইসেন্স সরান"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love (নারী) লাইসেন্সের অবস্থা"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Virtual Love (নারী) যোগ করুন"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Virtual Love (পুরুষ) লাইসেন্স ইনস্টল করুন"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Virtual Love (পুরুষ) লাইসেন্স সরান"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love (পুরুষ) লাইসেন্সের অবস্থা"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Virtual Love (পুরুষ) যোগ করুন"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love সেটিংস (নারী)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love সেটিংস (পুরুষ)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "এই কম্পিউটারে Virtual Love (নারী)-এর লাইসেন্স নেই।"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (নারী)-এর লাইসেন্স সরানো হয়েছে।"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (নারী)-এর লাইসেন্স সরাবেন?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "এই কম্পিউটারে Virtual Love (পুরুষ)-এর লাইসেন্স নেই।"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (পুরুষ)-এর লাইসেন্স সরানো হয়েছে।"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (পুরুষ)-এর লাইসেন্স সরাবেন?"
+        }
+      ]
+    },
+    {
+      "code": "cs",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Misionářská (v předklonu)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Misionářská (v záklonu)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Nohy nahoře"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Objetí nohama"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotos (objetí)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotos (v kleku)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotos (nohy do M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Na koníčka"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Vsedě zády (židle)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Na pejska"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Na pejska (s nalehnutím)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Vleže zezadu"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Vestoje zezadu"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Lžičky (nohy u sebe)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Lžičky (nohy od sebe)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Na boku vsedě"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Na boku tváří v tvář"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Výzva: provaz vestoje"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Výzva Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Roznožení do M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Vestoje v náručí (čelem)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Vestoje v náručí (zády)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Misionářská"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Vsedě / na koníčka"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Zezadu"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Na boku"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Ostatní"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Pro tohoto uživatele OS nebyla nalezena licence Virtual Love (žena). Importujte do projektu Unity instalátor z oficiálního nákupu. Licenci instalujte jednou pro každého uživatele OS na každém počítači."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Pro tohoto uživatele OS nebyla nalezena licence Virtual Love (muž). Importujte do projektu Unity instalátor z oficiálního nákupu. Licenci instalujte jednou pro každého uživatele OS na každém počítači."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [žena]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [muž]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Nainstalovat licenci Virtual Love (žena)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Odstranit licenci Virtual Love (žena)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Stav licence Virtual Love (žena)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Přidat Virtual Love (žena)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Nainstalovat licenci Virtual Love (muž)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Odstranit licenci Virtual Love (muž)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Stav licence Virtual Love (muž)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Přidat Virtual Love (muž)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Nastavení Virtual Love (žena)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Nastavení Virtual Love (muž)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Tento počítač nemá licenci Virtual Love (žena)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Licence Virtual Love (žena) byla odstraněna."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Odstranit licenci Virtual Love (žena)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Tento počítač nemá licenci Virtual Love (muž)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Licence Virtual Love (muž) byla odstraněna."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Odstranit licenci Virtual Love (muž)?"
+        }
+      ]
+    },
+    {
+      "code": "da",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionær (foroverbøjet)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionær (tilbagelænet)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Benene oppe"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Omfavnelse med benlås"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (omfavnelse)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (knælende)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (ben i M-form)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Ridestilling"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Siddende bagvendt (stol)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Hundestilling"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Hundestilling (lænet over)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Liggende bagfra"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Stående bagfra"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Ske (samlede ben)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Ske (spredte ben)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Siddende sideleje"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Sideleje (mod hinanden)"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Stående spagat (udfordring)"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O-udfordring"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Ben i M-form"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Båret (mod hinanden)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Båret (bagvendt)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionærstilling"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Siddende / Ridestilling"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Bagfra"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Sideleje"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Andet"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen licens til Virtual Love (kvinde) blev fundet til denne systembruger. Importér installationspakken fra din officielle købsdownload til Unity-projektet. Installér licensen én gang pr. systembruger og computer."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen licens til Virtual Love (mand) blev fundet til denne systembruger. Importér installationspakken fra din officielle købsdownload til Unity-projektet. Installér licensen én gang pr. systembruger og computer."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [kvinde]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [mand]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Installér licens til Virtual Love (kvinde)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Fjern licens til Virtual Love (kvinde)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Licensstatus for Virtual Love (kvinde)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Tilføj Virtual Love (kvinde)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Installér licens til Virtual Love (mand)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Fjern licens til Virtual Love (mand)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Licensstatus for Virtual Love (mand)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Tilføj Virtual Love (mand)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love-indstillinger (kvinde)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love-indstillinger (mand)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (kvinde) mangler licens på computeren."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Licensen til Virtual Love (kvinde) blev fjernet."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Fjern licensen til Virtual Love (kvinde)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (mand) mangler licens på computeren."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Licensen til Virtual Love (mand) blev fjernet."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Fjern licensen til Virtual Love (mand)?"
+        }
+      ]
+    },
+    {
+      "code": "de",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionar (vorgebeugt)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionar (zurückgelehnt)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Beine hoch"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Beinklammer-Umarmung"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (Umarmung)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (kniend)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (Beine in M-Form)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Reiterstellung"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Sitzend rückwärts (Stuhl)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Hündchenstellung"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Hündchen (darübergebeugt)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Bauchlage von hinten"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Stehend von hinten"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Löffelchen (Beine zu)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Löffelchen (Beine offen)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Seitlich sitzend"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Seitenlage (zugewandt)"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Standspagat-Challenge"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O-Challenge"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Beine in M-Form"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Getragen (zugewandt)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Getragen (rückwärts)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionarsstellung"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Sitzend / Reiterstellung"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Von hinten"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Seitenlage"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Sonstiges"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Für diesen Betriebssystembenutzer wurde keine Lizenz für Virtual Love (Frau) gefunden. Importiere das Installationspaket aus deinem offiziellen Kaufdownload in dieses Unity-Projekt. Installiere die Lizenz einmal pro Betriebssystembenutzer und Computer."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Für diesen Betriebssystembenutzer wurde keine Lizenz für Virtual Love (Mann) gefunden. Importiere das Installationspaket aus deinem offiziellen Kaufdownload in dieses Unity-Projekt. Installiere die Lizenz einmal pro Betriebssystembenutzer und Computer."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Frau]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Mann]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Lizenz für Virtual Love (Frau) installieren"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Lizenz für Virtual Love (Frau) entfernen"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Lizenzstatus von Virtual Love (Frau)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Virtual Love (Frau) hinzufügen"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Lizenz für Virtual Love (Mann) installieren"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Lizenz für Virtual Love (Mann) entfernen"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Lizenzstatus von Virtual Love (Mann)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Virtual Love (Mann) hinzufügen"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love-Einstellungen (Frau)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love-Einstellungen (Mann)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Frau) ist auf diesem Computer nicht lizenziert."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Die Lizenz für Virtual Love (Frau) wurde entfernt."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Lizenz für Virtual Love (Frau) entfernen?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Mann) ist auf diesem Computer nicht lizenziert."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Die Lizenz für Virtual Love (Mann) wurde entfernt."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Lizenz für Virtual Love (Mann) entfernen?"
+        }
+      ]
+    },
+    {
+      "code": "en",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionary (Leaning In)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionary (Leaning Back)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Legs Up"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Leg-Lock Embrace"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (Embrace)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (Kneeling)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (M-Legs)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Cowgirl"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Reverse Seated (Chair)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Doggy Style"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Doggy (Leaning Over)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Prone From Behind"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Standing From Behind"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Spooning (Legs Closed)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Spooning (Legs Open)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Seated Side"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Face-to-Face Side"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Standing Split Challenge"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O Challenge"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M-Legs Spread"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Standing Carry (Facing)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Standing Carry (Reverse)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionary"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Seated / Cowgirl"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] From Behind"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Side-Lying"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Other"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "No Virtual Love (Female) license was found for this OS user. Import the installer from your official purchase download into this Unity project. Install the license once for each OS user on each computer."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "No Virtual Love (Male) license was found for this OS user. Import the installer from your official purchase download into this Unity project. Install the license once for each OS user on each computer."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Female]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Male]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Install Virtual Love (Female) license"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Remove Virtual Love (Female) license"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love (Female) license status"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Add Virtual Love (Female)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Install Virtual Love (Male) license"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Remove Virtual Love (Male) license"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love (Male) license status"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Add Virtual Love (Male)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love Settings (Female)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love Settings (Male)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Female) is not licensed on this computer."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "The license for Virtual Love (Female) was removed."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Remove the license for Virtual Love (Female)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Male) is not licensed on this computer."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "The license for Virtual Love (Male) was removed."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Remove the license for Virtual Love (Male)?"
+        }
+      ]
+    },
+    {
+      "code": "es",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Misionero (hacia delante)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Misionero (hacia atrás)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Piernas elevadas"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Abrazo con las piernas"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Loto (abrazo)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Loto (de rodillas)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Loto (piernas en M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Vaquera"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Sentados de espaldas (silla)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Perrito"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Perrito (cuerpo inclinado)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Perrito boca abajo"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Perrito de pie"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Cucharita (piernas juntas)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Cucharita (piernas abiertas)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Sentados de lado"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Cara a cara de lado"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Reto del espagat de pie"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Reto Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Piernas abiertas en M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-En brazos (de frente)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-En brazos (de espaldas)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Misionero y variantes"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Sentados / Vaquera"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Por detrás"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] De lado"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Otros"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "No se encontró una licencia Virtual Love (Mujer) para este usuario del sistema. Importa en este proyecto Unity el instalador de la descarga oficial de tu compra. Instala la licencia una vez por usuario del sistema y por ordenador."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "No se encontró una licencia Virtual Love (Hombre) para este usuario del sistema. Importa en este proyecto Unity el instalador de la descarga oficial de tu compra. Instala la licencia una vez por usuario del sistema y por ordenador."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Mujer]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Hombre]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Instalar licencia Virtual Love (Mujer)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Eliminar licencia Virtual Love (Mujer)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Estado de licencia Virtual Love (Mujer)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Añadir Virtual Love (Mujer)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Instalar licencia Virtual Love (Hombre)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Eliminar licencia Virtual Love (Hombre)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Estado de licencia Virtual Love (Hombre)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Añadir Virtual Love (Hombre)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Ajustes de Virtual Love (Mujer)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Ajustes de Virtual Love (Hombre)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Mujer) no tiene licencia en este ordenador."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Se eliminó la licencia Virtual Love (Mujer)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "¿Eliminar la licencia Virtual Love (Mujer)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Hombre) no tiene licencia en este ordenador."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Se eliminó la licencia Virtual Love (Hombre)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "¿Eliminar la licencia Virtual Love (Hombre)?"
+        }
+      ]
+    },
+    {
+      "code": "fi",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Lähetyssaarnaaja (etunoja)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Lähetyssaarnaaja (takanoja)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Jalat ylhäällä"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Halaus jalkalukolla"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lootus (halaus)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lootus (polvillaan)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lootus (M-jalat)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Ratsastusasento"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Istuen selin (tuoli)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Koira-asento"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Koira-asento (päälle nojaten)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Vatsallaan takaapäin"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Seisten takaapäin"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Lusikka (jalat yhdessä)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Lusikka (jalat auki)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Istuva kylkiasento"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Kylkiasento kasvokkain"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Seisova spagaattihaaste"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O-haaste"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M-jalat levällään"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Seisten sylissä (kasvokkain)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Seisten sylissä (selin)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Lähetyssaarnaaja"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Istuen / ratsastus"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Takaapäin"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Kylkiasento"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Muut"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Tälle käyttöjärjestelmän käyttäjälle ei löytynyt Virtual Love (nainen) -lisenssiä. Tuo virallisesta ostoslatauksestasi saatu asennuspaketti tähän Unity-projektiin. Asenna lisenssi kerran kutakin käyttöjärjestelmän käyttäjää ja tietokonetta kohti."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Tälle käyttöjärjestelmän käyttäjälle ei löytynyt Virtual Love (mies) -lisenssiä. Tuo virallisesta ostoslatauksestasi saatu asennuspaketti tähän Unity-projektiin. Asenna lisenssi kerran kutakin käyttöjärjestelmän käyttäjää ja tietokonetta kohti."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [nainen]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [mies]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Asenna Virtual Love (nainen) -lisenssi"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Poista Virtual Love (nainen) -lisenssi"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love (nainen) -lisenssin tila"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Lisää Virtual Love (nainen)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Asenna Virtual Love (mies) -lisenssi"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Poista Virtual Love (mies) -lisenssi"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love (mies) -lisenssin tila"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Lisää Virtual Love (mies)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love -asetukset (nainen)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love -asetukset (mies)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Tällä tietokoneella ei ole Virtual Love (nainen) -lisenssiä."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (nainen) -lisenssi poistettiin."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Poistetaanko Virtual Love (nainen) -lisenssi?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Tällä tietokoneella ei ole Virtual Love (mies) -lisenssiä."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (mies) -lisenssi poistettiin."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Poistetaanko Virtual Love (mies) -lisenssi?"
+        }
+      ]
+    },
+    {
+      "code": "fr",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionnaire (en avant)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionnaire (en arrière)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Jambes relevées"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Étreinte jambes nouées"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (enlacés)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (à genoux)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (jambes en M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Andromaque"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Assis de dos (chaise)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Levrette"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Levrette (corps penché)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Levrette allongée"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Levrette debout"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Cuillère (jambes serrées)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Cuillère (jambes écartées)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Assis sur le côté"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Face à face sur le côté"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Défi grand écart debout"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Défi Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Jambes écartées en M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Porté debout (de face)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Porté debout (de dos)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionnaire et variantes"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Assis / Andromaque"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Par-derrière"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Sur le côté"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Autres"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Aucune licence Virtual Love (Femme) trouvée pour cet utilisateur du système. Importez dans ce projet Unity l'installateur issu de votre téléchargement d'achat officiel. Installez la licence une fois par utilisateur du système et par ordinateur."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Aucune licence Virtual Love (Homme) trouvée pour cet utilisateur du système. Importez dans ce projet Unity l'installateur issu de votre téléchargement d'achat officiel. Installez la licence une fois par utilisateur du système et par ordinateur."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Femme]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Homme]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Installer la licence Virtual Love (Femme)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Retirer la licence Virtual Love (Femme)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "État de la licence Virtual Love (Femme)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Ajouter Virtual Love (Femme)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Installer la licence Virtual Love (Homme)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Retirer la licence Virtual Love (Homme)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "État de la licence Virtual Love (Homme)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Ajouter Virtual Love (Homme)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Réglages de Virtual Love (Femme)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Réglages de Virtual Love (Homme)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Cet ordinateur ne possède pas de licence Virtual Love (Femme)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "La licence Virtual Love (Femme) a été retirée."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Retirer la licence Virtual Love (Femme) ?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Cet ordinateur ne possède pas de licence Virtual Love (Homme)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "La licence Virtual Love (Homme) a été retirée."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Retirer la licence Virtual Love (Homme) ?"
+        }
+      ]
+    },
+    {
+      "code": "he",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-מיסיונרית (נטייה קדימה)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-מיסיונרית (נטייה לאחור)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-רגליים למעלה"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-חיבוק בנעילת רגליים"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-לוטוס (חיבוק)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-לוטוס (על הברכיים)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-לוטוס (רגליים בצורת M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-רכיבה"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-ישיבה הפוכה (כיסא)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-מאחור (על ארבע)"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-מאחור (רכינה על הגב)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-מאחור (שכיבה על הבטן)"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-מאחור (בעמידה)"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-כפיות (רגליים סגורות)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-כפיות (רגליים פתוחות)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-על הצד בישיבה"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-על הצד פנים אל פנים"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-אתגר שפגט בעמידה"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-אתגר Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-פישוק רגליים בצורת M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-נשיאה בעמידה (פנים אל פנים)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-נשיאה בעמידה (הפוך)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] מיסיונרית ורגליים למעלה"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] ישיבה ורכיבה"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] מאחור"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] על הצד"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] אחר"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "לא נמצא רישיון Virtual Love (אישה) למשתמש מערכת ההפעלה הזה. ייבאו לפרויקט Unity את ההתקנה מההורדה הרשמית של הרכישה שלכם. התקינו את הרישיון פעם אחת לכל משתמש מערכת הפעלה ולכל מחשב."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "לא נמצא רישיון Virtual Love (גבר) למשתמש מערכת ההפעלה הזה. ייבאו לפרויקט Unity את ההתקנה מההורדה הרשמית של הרכישה שלכם. התקינו את הרישיון פעם אחת לכל משתמש מערכת הפעלה ולכל מחשב."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [אישה]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [גבר]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "התקנת רישיון Virtual Love (אישה)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "הסרת רישיון Virtual Love (אישה)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "מצב רישיון Virtual Love (אישה)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "הוספת Virtual Love (אישה)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "התקנת רישיון Virtual Love (גבר)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "הסרת רישיון Virtual Love (גבר)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "מצב רישיון Virtual Love (גבר)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "הוספת Virtual Love (גבר)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "הגדרות Virtual Love (אישה)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "הגדרות Virtual Love (גבר)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "למחשב הזה אין רישיון Virtual Love (אישה)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "רישיון Virtual Love (אישה) הוסר."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "להסיר את רישיון Virtual Love (אישה)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "למחשב הזה אין רישיון Virtual Love (גבר)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "רישיון Virtual Love (גבר) הוסר."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "להסיר את רישיון Virtual Love (גבר)?"
+        }
+      ]
+    },
+    {
+      "code": "hi",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-मिशनरी (आगे झुककर)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-मिशनरी (पीछे झुककर)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-पैर ऊपर मोड़कर"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-पैरों से जकड़कर आलिंगन"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-आमने-सामने बैठकर (आलिंगन)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-आमने-सामने बैठकर (घुटनों पर)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-आमने-सामने बैठकर (M-पैर)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-काउगर्ल"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-पीठ करके बैठकर (कुर्सी)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-डॉगी स्टाइल"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-डॉगी (ऊपर झुककर)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-पेट के बल, पीछे से"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-खड़े होकर, पीछे से"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-स्पूनिंग (पैर सटाकर)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-स्पूनिंग (पैर खोलकर)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-बैठकर, बगल से"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-बगल में लेटकर आमने-सामने"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-खड़े होकर स्प्लिट चैलेंज"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O चैलेंज"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M-आकार में पैर फैलाकर"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-खड़े होकर गोद में (आमने-सामने)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-खड़े होकर गोद में (पीठ करके)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] मिशनरी / पैर मोड़कर"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] बैठकर / काउगर्ल"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] पीछे से"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] बगल में लेटकर"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] अन्य"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "इस OS उपयोगकर्ता के लिए Virtual Love (महिला) लाइसेंस नहीं मिला। अपनी आधिकारिक खरीद के डाउनलोड वाला इंस्टॉलर इस Unity प्रोजेक्ट में आयात करें। हर कंप्यूटर के हर OS उपयोगकर्ता के लिए एक बार लाइसेंस स्थापित करें।"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "इस OS उपयोगकर्ता के लिए Virtual Love (पुरुष) लाइसेंस नहीं मिला। अपनी आधिकारिक खरीद के डाउनलोड वाला इंस्टॉलर इस Unity प्रोजेक्ट में आयात करें। हर कंप्यूटर के हर OS उपयोगकर्ता के लिए एक बार लाइसेंस स्थापित करें।"
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [महिला]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [पुरुष]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Virtual Love (महिला) लाइसेंस स्थापित करें"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Virtual Love (महिला) लाइसेंस हटाएँ"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love (महिला) लाइसेंस की स्थिति"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Virtual Love (महिला) जोड़ें"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Virtual Love (पुरुष) लाइसेंस स्थापित करें"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Virtual Love (पुरुष) लाइसेंस हटाएँ"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love (पुरुष) लाइसेंस की स्थिति"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Virtual Love (पुरुष) जोड़ें"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love सेटिंग (महिला)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love सेटिंग (पुरुष)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "इस कंप्यूटर पर Virtual Love (महिला) का लाइसेंस नहीं है।"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (महिला) का लाइसेंस हटा दिया।"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (महिला) का लाइसेंस हटाएँ?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "इस कंप्यूटर पर Virtual Love (पुरुष) का लाइसेंस नहीं है।"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (पुरुष) का लाइसेंस हटा दिया।"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (पुरुष) का लाइसेंस हटाएँ?"
+        }
+      ]
+    },
+    {
+      "code": "id",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Misionaris (condong depan)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Misionaris (condong belakang)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Kaki terangkat"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Pelukan kunci kaki"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (berpelukan)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (berlutut)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (kaki bentuk M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Wanita di atas"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Duduk membelakangi (kursi)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Dari belakang"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Dari belakang (menindih)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Dari belakang (tengkurap)"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Dari belakang (berdiri)"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Sendok (kaki rapat)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Sendok (kaki terbuka)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Duduk menyamping"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Menyamping berhadapan"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Tantangan split berdiri"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Tantangan Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Kaki terbuka bentuk M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Gendong berdiri (berhadapan)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Gendong berdiri (membelakangi)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Misionaris"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Duduk / wanita di atas"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Dari belakang"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Menyamping"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Lainnya"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Tidak ditemukan lisensi Virtual Love (Wanita) untuk pengguna OS ini. Impor penginstal dari unduhan pembelian resmi ke proyek Unity ini. Pasang lisensi sekali untuk setiap pengguna OS pada setiap komputer."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Tidak ditemukan lisensi Virtual Love (Pria) untuk pengguna OS ini. Impor penginstal dari unduhan pembelian resmi ke proyek Unity ini. Pasang lisensi sekali untuk setiap pengguna OS pada setiap komputer."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Wanita]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Pria]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Pasang lisensi Virtual Love (Wanita)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Hapus lisensi Virtual Love (Wanita)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Status lisensi Virtual Love (Wanita)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Tambahkan Virtual Love (Wanita)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Pasang lisensi Virtual Love (Pria)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Hapus lisensi Virtual Love (Pria)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Status lisensi Virtual Love (Pria)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Tambahkan Virtual Love (Pria)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Pengaturan Virtual Love (Wanita)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Pengaturan Virtual Love (Pria)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Komputer ini tidak memiliki lisensi Virtual Love (Wanita)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Lisensi Virtual Love (Wanita) dihapus."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Hapus lisensi Virtual Love (Wanita)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Komputer ini tidak memiliki lisensi Virtual Love (Pria)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Lisensi Virtual Love (Pria) dihapus."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Hapus lisensi Virtual Love (Pria)?"
+        }
+      ]
+    },
+    {
+      "code": "it",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionario (in avanti)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionario (all'indietro)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Gambe sollevate"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Abbraccio con le gambe"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Loto (abbraccio)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Loto (in ginocchio)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Loto (gambe a M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Amazzone"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Seduti di spalle (sedia)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Pecorina"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Pecorina (corpo chinato)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Pecorina distesa"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Pecorina in piedi"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Cucchiaio (gambe chiuse)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Cucchiaio (gambe aperte)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Seduti di fianco"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Faccia a faccia di fianco"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Sfida spaccata in piedi"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Sfida Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Gambe aperte a M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-In braccio (di fronte)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-In braccio (di spalle)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionario e varianti"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Seduti / Amazzone"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Da dietro"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Di fianco"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Altro"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nessuna licenza Virtual Love (Donna) trovata per questo utente del sistema. Importa in questo progetto Unity l'installer dal download ufficiale del tuo acquisto. Installa la licenza una volta per utente del sistema e per computer."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nessuna licenza Virtual Love (Uomo) trovata per questo utente del sistema. Importa in questo progetto Unity l'installer dal download ufficiale del tuo acquisto. Installa la licenza una volta per utente del sistema e per computer."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Donna]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Uomo]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Installa licenza Virtual Love (Donna)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Rimuovi licenza Virtual Love (Donna)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Stato licenza Virtual Love (Donna)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Aggiungi Virtual Love (Donna)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Installa licenza Virtual Love (Uomo)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Rimuovi licenza Virtual Love (Uomo)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Stato licenza Virtual Love (Uomo)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Aggiungi Virtual Love (Uomo)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Impostazioni Virtual Love (Donna)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Impostazioni Virtual Love (Uomo)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Donna) non dispone di licenza su questo computer."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "La licenza Virtual Love (Donna) è stata rimossa."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Rimuovere la licenza Virtual Love (Donna)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Uomo) non dispone di licenza su questo computer."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "La licenza Virtual Love (Uomo) è stata rimossa."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Rimuovere la licenza Virtual Love (Uomo)?"
+        }
+      ]
+    },
+    {
+      "code": "ko",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-정상위(앞으로 숙임)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-정상위(뒤로 젖힘)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-굴곡위"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-다리로 감싸 안기"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-대면좌위(껴안기)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-대면좌위(무릎 서기)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-대면좌위(M자 다리)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-여성상위"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-배면좌위(의자)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-후배위"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-후배위(몸 기대기)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-엎드린 후배위"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-선 자세 후배위"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-배면측위(다리 모음)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-배면측위(다리 벌림)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-앉은 측위"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-대면측위"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-I자 밸런스 챌린지"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O 챌린지"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M자 다리 벌리기"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-들어 안기(대면)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-들어 안기(배면)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A]정상위·굴곡위"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B]좌위·여성상위"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C]후배위"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D]측위"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex]기타"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "이 OS 사용자에 대한 Virtual Love(여성용) 라이선스를 찾지 못했습니다. 공식 구매 다운로드의 설치 파일을 이 Unity 프로젝트에 가져와 주세요. 컴퓨터마다 OS 사용자별로 한 번씩 라이선스를 설치해야 합니다."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "이 OS 사용자에 대한 Virtual Love(남성용) 라이선스를 찾지 못했습니다. 공식 구매 다운로드의 설치 파일을 이 Unity 프로젝트에 가져와 주세요. 컴퓨터마다 OS 사용자별로 한 번씩 라이선스를 설치해야 합니다."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love[여성]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love[남성]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Virtual Love(여성) 라이선스 설치"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Virtual Love(여성) 라이선스 제거"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love(여성) 라이선스 상태"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Virtual Love(여성) 추가"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Virtual Love(남성) 라이선스 설치"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Virtual Love(남성) 라이선스 제거"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love(남성) 라이선스 상태"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Virtual Love(남성) 추가"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love 설정(여성)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love 설정(남성)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "이 컴퓨터에 Virtual Love(여성용) 라이선스가 없습니다."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Virtual Love(여성용) 라이선스를 제거했습니다."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love(여성용) 라이선스를 제거할까요?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "이 컴퓨터에 Virtual Love(남성용) 라이선스가 없습니다."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Virtual Love(남성용) 라이선스를 제거했습니다."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love(남성용) 라이선스를 제거할까요?"
+        }
+      ]
+    },
+    {
+      "code": "nb",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Misjonær (fremoverlent)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Misjonær (bakoverlent)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Bena opp"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Omfavnelse med benlås"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (omfavnelse)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (knestående)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (M-ben)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Ridestilling"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Sittende bakvendt (stol)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Hundestilling"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Hundestilling (lent over)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Liggende bakfra"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Stående bakfra"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Skjestilling (samlede ben)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Skjestilling (åpne ben)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Sittende sideleie"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Sideleie ansikt til ansikt"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Stående spagat-utfordring"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O-utfordring"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Spredte M-ben"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Stående løft (forfra)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Stående løft (bakfra)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Misjonær"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Sittende / ridestilling"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Bakfra"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Sideleie"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Annet"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen lisens for Virtual Love (kvinne) ble funnet for denne OS-brukeren. Importer installasjonsfilen fra den offisielle kjøpsnedlastingen til dette Unity-prosjektet. Installer lisensen én gang per OS-bruker på hver datamaskin."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen lisens for Virtual Love (mann) ble funnet for denne OS-brukeren. Importer installasjonsfilen fra den offisielle kjøpsnedlastingen til dette Unity-prosjektet. Installer lisensen én gang per OS-bruker på hver datamaskin."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [kvinne]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [mann]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Installer lisens for Virtual Love (kvinne)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Fjern lisens for Virtual Love (kvinne)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Lisensstatus for Virtual Love (kvinne)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Legg til Virtual Love (kvinne)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Installer lisens for Virtual Love (mann)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Fjern lisens for Virtual Love (mann)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Lisensstatus for Virtual Love (mann)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Legg til Virtual Love (mann)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Innstillinger for Virtual Love (kvinne)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Innstillinger for Virtual Love (mann)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (kvinne) har ingen lisens på denne datamaskinen."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Lisensen for Virtual Love (kvinne) ble fjernet."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Fjerne lisensen for Virtual Love (kvinne)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (mann) har ingen lisens på denne datamaskinen."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Lisensen for Virtual Love (mann) ble fjernet."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Fjerne lisensen for Virtual Love (mann)?"
+        }
+      ]
+    },
+    {
+      "code": "nl",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionaris (voorover)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionaris (achterover)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Benen omhoog"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Omhelzing met de benen"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (omhelzing)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (geknield)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (benen in M-vorm)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Amazonehouding"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Omgekeerd zittend (stoel)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Hondjeshouding"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Hondjeshouding (leunend)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Van achteren (liggend)"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Van achteren (staand)"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Lepeltje (benen gesloten)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Lepeltje (benen gespreid)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Zijhouding (zittend)"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Zijhouding (naar elkaar)"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Staande spagaat-challenge"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O-challenge"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Benen gespreid in M-vorm"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Staand dragen (naar elkaar)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Staand dragen (omgekeerd)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionaris"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Zittend / Amazone"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Van achteren"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Zijhouding"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Overig"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Geen licentie voor Virtual Love (Vrouw) gevonden voor deze systeemgebruiker. Importeer het installatiepakket uit je officiële aankoopdownload in dit Unity-project. Installeer de licentie eenmaal per systeemgebruiker en computer."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Geen licentie voor Virtual Love (Man) gevonden voor deze systeemgebruiker. Importeer het installatiepakket uit je officiële aankoopdownload in dit Unity-project. Installeer de licentie eenmaal per systeemgebruiker en computer."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Vrouw]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Man]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Licentie Virtual Love (Vrouw) installeren"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Licentie Virtual Love (Vrouw) verwijderen"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Licentiestatus Virtual Love (Vrouw)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Virtual Love (Vrouw) toevoegen"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Licentie Virtual Love (Man) installeren"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Licentie Virtual Love (Man) verwijderen"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Licentiestatus Virtual Love (Man)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Virtual Love (Man) toevoegen"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love-instellingen (Vrouw)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love-instellingen (Man)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Vrouw) heeft geen licentie op deze computer."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "De licentie voor Virtual Love (Vrouw) is verwijderd."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "De licentie voor Virtual Love (Vrouw) verwijderen?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Man) heeft geen licentie op deze computer."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "De licentie voor Virtual Love (Man) is verwijderd."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "De licentie voor Virtual Love (Man) verwijderen?"
+        }
+      ]
+    },
+    {
+      "code": "pl",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Misjonarska (pochylona)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Misjonarska (odchylona)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Nogi w górze"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Objęcie nogami"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotos (w objęciach)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotos (klęcząc)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotos (nogi w M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Na jeźdźca"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Siedząca tyłem (krzesło)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Na pieska"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Na pieska (z nachyleniem)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Od tyłu na leżąco"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Od tyłu na stojąco"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Łyżeczka (nogi złączone)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Łyżeczka (nogi rozchylone)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Boczna na siedząco"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Boczna twarzą w twarz"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Wyzwanie: szpagat na stojąco"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Wyzwanie Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Nogi rozchylone w M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Na rękach (przodem)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Na rękach (tyłem)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Misjonarska, nogi w górze"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Siedząca / na jeźdźca"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Od tyłu"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Na boku"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Inne"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nie znaleziono licencji Virtual Love (kobieta) dla tego użytkownika systemu. Zaimportuj do projektu Unity instalator z oficjalnego zakupu. Licencję instaluje się raz dla każdego użytkownika systemu na każdym komputerze."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nie znaleziono licencji Virtual Love (mężczyzna) dla tego użytkownika systemu. Zaimportuj do projektu Unity instalator z oficjalnego zakupu. Licencję instaluje się raz dla każdego użytkownika systemu na każdym komputerze."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [kobieta]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [mężczyzna]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Zainstaluj licencję Virtual Love (kobieta)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Usuń licencję Virtual Love (kobieta)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Stan licencji Virtual Love (kobieta)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Dodaj Virtual Love (kobieta)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Zainstaluj licencję Virtual Love (mężczyzna)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Usuń licencję Virtual Love (mężczyzna)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Stan licencji Virtual Love (mężczyzna)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Dodaj Virtual Love (mężczyzna)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Ustawienia Virtual Love (kobieta)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Ustawienia Virtual Love (mężczyzna)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (kobieta) nie ma licencji na tym komputerze."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Licencja Virtual Love (kobieta) została usunięta."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Usunąć licencję Virtual Love (kobieta)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (mężczyzna) nie ma licencji na tym komputerze."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Licencja Virtual Love (mężczyzna) została usunięta."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Usunąć licencję Virtual Love (mężczyzna)?"
+        }
+      ]
+    },
+    {
+      "code": "pt",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionário (inclinado)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionário (reclinado)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Pernas ao alto"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Abraço com as pernas"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lótus (abraço)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lótus (de joelhos)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lótus (pernas em M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Amazona"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Sentado de costas (cadeira)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-De quatro"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-De quatro (debruçado)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Por trás (deitado)"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Por trás (de pé)"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Conchinha (pernas fechadas)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Conchinha (pernas abertas)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-De lado (sentado)"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-De lado (frente a frente)"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Desafio da espargata em pé"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Desafio Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Pernas abertas em M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Ao colo de pé (de frente)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Ao colo de pé (de costas)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionário"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Sentado / Amazona"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Por trás"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] De lado"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Outras"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nenhuma licença Virtual Love (Feminino) foi encontrada para este utilizador do sistema. Importe neste projeto Unity o instalador do download oficial da sua compra. Instale a licença uma vez por utilizador do sistema e por computador."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nenhuma licença Virtual Love (Masculino) foi encontrada para este utilizador do sistema. Importe neste projeto Unity o instalador do download oficial da sua compra. Instale a licença uma vez por utilizador do sistema e por computador."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Feminino]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Masculino]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Instalar licença Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Remover licença Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Estado da licença Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Adicionar Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Instalar licença Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Remover licença Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Estado da licença Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Adicionar Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Configurações de Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Configurações de Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Feminino) não tem licença neste computador."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "A licença Virtual Love (Feminino) foi removida."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Remover a licença Virtual Love (Feminino)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Masculino) não tem licença neste computador."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "A licença Virtual Love (Masculino) foi removida."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Remover a licença Virtual Love (Masculino)?"
+        }
+      ]
+    },
+    {
+      "code": "pt-BR",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionário (inclinado)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionário (reclinado)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Pernas para cima"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Abraço com as pernas"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lótus (abraço)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lótus (de joelhos)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lótus (pernas em M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Cavalgada"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Sentado de costas (cadeira)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-De quatro"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-De quatro (debruçado)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Por trás (deitado)"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Por trás (em pé)"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Conchinha (pernas fechadas)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Conchinha (pernas abertas)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-De lado (sentado)"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-De lado (frente a frente)"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Desafio do espacate em pé"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Desafio Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Pernas abertas em M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-No colo em pé (de frente)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-No colo em pé (de costas)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionário"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Sentado / Cavalgada"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Por trás"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] De lado"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Outras"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nenhuma licença Virtual Love (Feminino) foi encontrada para este usuário do sistema. Importe neste projeto Unity o instalador do download oficial da sua compra. Instale a licença uma vez por usuário do sistema e por computador."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nenhuma licença Virtual Love (Masculino) foi encontrada para este usuário do sistema. Importe neste projeto Unity o instalador do download oficial da sua compra. Instale a licença uma vez por usuário do sistema e por computador."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Feminino]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Masculino]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Instalar licença Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Remover licença Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Estado da licença Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Adicionar Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Instalar licença Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Remover licença Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Estado da licença Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Adicionar Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Configurações de Virtual Love (Feminino)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Configurações de Virtual Love (Masculino)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Feminino) não tem licença neste computador."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "A licença Virtual Love (Feminino) foi removida."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Remover a licença Virtual Love (Feminino)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (Masculino) não tem licença neste computador."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "A licença Virtual Love (Masculino) foi removida."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Remover a licença Virtual Love (Masculino)?"
+        }
+      ]
+    },
+    {
+      "code": "ru",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Миссионерская (наклон вперёд)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Миссионерская (наклон назад)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Ноги вверх"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Обхват ногами"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Лотос (объятия)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Лотос (стоя на коленях)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Лотос (ноги буквой M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Наездница"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Сидя спиной (стул)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Догги-стайл"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Догги-стайл (с наклоном)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Сзади лёжа"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Сзади стоя"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Ложки (ноги вместе)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Ложки (ноги врозь)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Боковая сидя"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Боковая лицом к лицу"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Челлендж: шпагат стоя"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Челлендж Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Ноги буквой M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-На весу (лицом к лицу)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-На весу (спиной)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Миссионерская, ноги вверх"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Сидя / наездница"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Сзади"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] На боку"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Прочее"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Для этого пользователя ОС не найдена лицензия Virtual Love (женщина). Импортируйте в проект Unity установщик из официальной покупки. Лицензия устанавливается один раз для каждого пользователя ОС на каждом компьютере."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Для этого пользователя ОС не найдена лицензия Virtual Love (мужчина). Импортируйте в проект Unity установщик из официальной покупки. Лицензия устанавливается один раз для каждого пользователя ОС на каждом компьютере."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [женщина]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [мужчина]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Установить лицензию Virtual Love (женщина)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Удалить лицензию Virtual Love (женщина)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Статус лицензии Virtual Love (женщина)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Добавить Virtual Love (женщина)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Установить лицензию Virtual Love (мужчина)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Удалить лицензию Virtual Love (мужчина)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Статус лицензии Virtual Love (мужчина)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Добавить Virtual Love (мужчина)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Настройки Virtual Love (женщина)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Настройки Virtual Love (мужчина)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "На этом компьютере нет лицензии Virtual Love (женщина)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Лицензия Virtual Love (женщина) удалена."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Удалить лицензию Virtual Love (женщина)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "На этом компьютере нет лицензии Virtual Love (мужчина)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Лицензия Virtual Love (мужчина) удалена."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Удалить лицензию Virtual Love (мужчина)?"
+        }
+      ]
+    },
+    {
+      "code": "sv",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Missionären (framåtlutad)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Missionären (bakåtlutad)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Benen upp"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Omfamning med benlås"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (omfamning)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (på knä)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (ben i M-form)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Ridställning"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Sittande bakvänd (stol)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Hundställning"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Hundställning (lutad över)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Liggande bakifrån"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Stående bakifrån"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Sked (slutna ben)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Sked (öppna ben)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Sittande sidoläge"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Sidoläge (mot varandra)"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Stående spagat (utmaning)"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O-utmaning"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Ben i M-form"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Buren (mot varandra)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Buren (bakvänd)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Missionären"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Sittande / Ridställning"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Bakifrån"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Sidoläge"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Övrigt"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen licens för Virtual Love (kvinna) hittades för den här systemanvändaren. Importera installationspaketet från din officiella köpfil till Unity-projektet. Installera licensen en gång per systemanvändare och dator."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen licens för Virtual Love (man) hittades för den här systemanvändaren. Importera installationspaketet från din officiella köpfil till Unity-projektet. Installera licensen en gång per systemanvändare och dator."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [kvinna]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [man]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Installera licens för Virtual Love (kvinna)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Ta bort licens för Virtual Love (kvinna)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Licensstatus för Virtual Love (kvinna)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Lägg till Virtual Love (kvinna)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Installera licens för Virtual Love (man)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Ta bort licens för Virtual Love (man)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Licensstatus för Virtual Love (man)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Lägg till Virtual Love (man)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love-inställningar (kvinna)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love-inställningar (man)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (kvinna) saknar licens på datorn."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Licensen för Virtual Love (kvinna) har tagits bort."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Ta bort licensen för Virtual Love (kvinna)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Virtual Love (man) saknar licens på datorn."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Licensen för Virtual Love (man) har tagits bort."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Ta bort licensen för Virtual Love (man)?"
+        }
+      ]
+    },
+    {
+      "code": "ta",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-மிஷனரி (முன் சாய்வு)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-மிஷனரி (பின் சாய்வு)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-கால்கள் மேலே"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-கால் பிணைப்பு அணைப்பு"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-எதிரெதிர் அமர்வு (அணைப்பு)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-எதிரெதிர் அமர்வு (முழந்தாள்)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-எதிரெதிர் அமர்வு (M-வடிவம்)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-பெண் மேல் நிலை"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-பின்புற அமர்வு (நாற்காலி)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-பின்புற நிலை"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-பின்புற நிலை (மேல் சாய்ந்து)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-படுத்தபடி பின்புற நிலை"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-நின்றபடி பின்புற நிலை"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-பின்புற பக்கவாட்டு (கால் சேர்த்து)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-பின்புற பக்கவாட்டு (கால் விரித்து)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-அமர்ந்த பக்கவாட்டு"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-எதிரெதிர் பக்கவாட்டு"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-I-வடிவ சமநிலை சவால்"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O சவால்"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M-வடிவ கால் விரிப்பு"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-நின்று தூக்குதல் (எதிரெதிர்)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-நின்று தூக்குதல் (பின்புறம்)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] மிஷனரி / கால்கள் மேலே"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] அமர்வு / பெண் மேல்"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] பின்புற நிலை"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] பக்கவாட்டு நிலை"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] பிற"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "இந்த OS பயனருக்கான Virtual Love (பெண்) உரிமம் இல்லை. அதிகாரப்பூர்வமாக வாங்கிய பதிவிறக்கத்தில் உள்ள நிறுவியை இந்த Unity திட்டத்தில் இறக்குமதி செய்யவும். ஒவ்வொரு கணினியிலும் ஒவ்வொரு OS பயனருக்கும் ஒருமுறை உரிமம் நிறுவவும்."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "இந்த OS பயனருக்கான Virtual Love (ஆண்) உரிமம் இல்லை. அதிகாரப்பூர்வமாக வாங்கிய பதிவிறக்கத்தில் உள்ள நிறுவியை இந்த Unity திட்டத்தில் இறக்குமதி செய்யவும். ஒவ்வொரு கணினியிலும் ஒவ்வொரு OS பயனருக்கும் ஒருமுறை உரிமம் நிறுவவும்."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [பெண்]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [ஆண்]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Virtual Love (பெண்) உரிமத்தை நிறுவு"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Virtual Love (பெண்) உரிமத்தை அகற்று"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love (பெண்) உரிம நிலை"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Virtual Love (பெண்) சேர்"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Virtual Love (ஆண்) உரிமத்தை நிறுவு"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Virtual Love (ஆண்) உரிமத்தை அகற்று"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love (ஆண்) உரிம நிலை"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Virtual Love (ஆண்) சேர்"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love அமைப்புகள் (பெண்)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love அமைப்புகள் (ஆண்)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "இந்தக் கணினியில் Virtual Love (பெண்) உரிமம் இல்லை."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (பெண்) உரிமம் அகற்றப்பட்டது."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (பெண்) உரிமத்தை அகற்றவா?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "இந்தக் கணினியில் Virtual Love (ஆண்) உரிமம் இல்லை."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (ஆண்) உரிமம் அகற்றப்பட்டது."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (ஆண்) உரிமத்தை அகற்றவா?"
+        }
+      ]
+    },
+    {
+      "code": "te",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-మిషనరీ (ముందుకు వంగి)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-మిషనరీ (వెనక్కి వాలి)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-కాళ్లు పైకి"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-కాళ్లతో చుట్టేసిన కౌగిలి"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-ఎదురెదురుగా కూర్చుని (కౌగిలి)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-ఎదురెదురుగా కూర్చుని (మోకాళ్లపై)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-ఎదురెదురుగా కూర్చుని (M-ఆకారం)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-స్త్రీ పైన"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-వెనుక నుంచి కూర్చుని (కుర్చీ)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-వెనుక నుంచి"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-వెనుక నుంచి (పైకి వాలి)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-బోర్లా పడుకుని వెనుక నుంచి"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-నిలబడి వెనుక నుంచి"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-వెనుక నుంచి పక్కగా (కాళ్లు మూసి)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-వెనుక నుంచి పక్కగా (కాళ్లు తెరిచి)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-కూర్చుని పక్కగా"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-ఎదురెదురుగా పక్కగా"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-I-ఆకార బ్యాలెన్స్ సవాలు"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O సవాలు"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M-ఆకారంలో కాళ్లు తెరిచి"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-నిలబడి ఎత్తుకుని (ఎదురెదురుగా)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-నిలబడి ఎత్తుకుని (వెనుక నుంచి)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] మిషనరీ / కాళ్లు పైకి"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] కూర్చుని / స్త్రీ పైన"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] వెనుక నుంచి"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] పక్కగా"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] ఇతరాలు"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "ఈ OS వినియోగదారుకు Virtual Love (స్త్రీ) లైసెన్స్ లేదు. అధికారికంగా కొనుగోలు చేసిన డౌన్‌లోడ్‌లోని ఇన్‌స్టాలర్‌ను ఈ Unity ప్రాజెక్ట్‌లో దిగుమతి చేయండి. ప్రతి కంప్యూటర్‌లో ప్రతి OS వినియోగదారుకు ఒకసారి లైసెన్స్ ఇన్‌స్టాల్ చేయండి."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "ఈ OS వినియోగదారుకు Virtual Love (పురుష) లైసెన్స్ లేదు. అధికారికంగా కొనుగోలు చేసిన డౌన్‌లోడ్‌లోని ఇన్‌స్టాలర్‌ను ఈ Unity ప్రాజెక్ట్‌లో దిగుమతి చేయండి. ప్రతి కంప్యూటర్‌లో ప్రతి OS వినియోగదారుకు ఒకసారి లైసెన్స్ ఇన్‌స్టాల్ చేయండి."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [స్త్రీ]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [పురుష]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Virtual Love (స్త్రీ) లైసెన్స్ ఇన్‌స్టాల్ చేయి"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Virtual Love (స్త్రీ) లైసెన్స్ తొలగించు"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love (స్త్రీ) లైసెన్స్ స్థితి"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Virtual Love (స్త్రీ) జోడించు"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Virtual Love (పురుష) లైసెన్స్ ఇన్‌స్టాల్ చేయి"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Virtual Love (పురుష) లైసెన్స్ తొలగించు"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love (పురుష) లైసెన్స్ స్థితి"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Virtual Love (పురుష) జోడించు"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love సెట్టింగ్‌లు (స్త్రీ)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love సెట్టింగ్‌లు (పురుష)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "ఈ కంప్యూటర్‌లో Virtual Love (స్త్రీ) లైసెన్స్ లేదు."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (స్త్రీ) లైసెన్స్ తొలగించబడింది."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (స్త్రీ) లైసెన్స్ తొలగించాలా?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "ఈ కంప్యూటర్‌లో Virtual Love (పురుష) లైసెన్స్ లేదు."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (పురుష) లైసెన్స్ తొలగించబడింది."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (పురుష) లైసెన్స్ తొలగించాలా?"
+        }
+      ]
+    },
+    {
+      "code": "th",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-มิชชันนารี (โน้มไปข้างหน้า)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-มิชชันนารี (เอนไปข้างหลัง)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-ท่าพับขา"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-กอดโดยใช้ขาเกี่ยวรัด"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-นั่งหันหน้าเข้าหากัน (กอด)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-นั่งหันหน้าเข้าหากัน (คุกเข่า)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-นั่งหันหน้าเข้าหากัน (กางขาตัว M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-คาวเกิร์ล"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-นั่งหันหลัง (เก้าอี้)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-ด็อกกี้"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-ด็อกกี้ (โน้มทับ)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-นอนคว่ำ จากด้านหลัง"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-ยืน จากด้านหลัง"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-ตะแคงซ้อนหลัง (หุบขา)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-ตะแคงซ้อนหลัง (กางขา)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-ท่าด้านข้างแบบนั่ง"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-ตะแคงหันหน้าเข้าหากัน"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-ชาเลนจ์ยืนฉีกขาแนวตั้ง"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-ชาเลนจ์ Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-กางขาตัว M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-ยืนอุ้ม (หันหน้าเข้าหากัน)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-ยืนอุ้ม (หันหลัง)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] มิชชันนารี / พับขา"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] ท่านั่ง / คาวเกิร์ล"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] จากด้านหลัง"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] นอนตะแคง"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] อื่น ๆ"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "ไม่พบสิทธิ์ใช้งาน Virtual Love (หญิง) สำหรับผู้ใช้ระบบปฏิบัติการนี้ ให้นำเข้าโปรแกรมติดตั้งจากไฟล์ที่ซื้ออย่างเป็นทางการสู่โปรเจกต์ Unity นี้ ติดตั้งสิทธิ์ใช้งานหนึ่งครั้งต่อผู้ใช้ระบบปฏิบัติการต่อคอมพิวเตอร์"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "ไม่พบสิทธิ์ใช้งาน Virtual Love (ชาย) สำหรับผู้ใช้ระบบปฏิบัติการนี้ ให้นำเข้าโปรแกรมติดตั้งจากไฟล์ที่ซื้ออย่างเป็นทางการสู่โปรเจกต์ Unity นี้ ติดตั้งสิทธิ์ใช้งานหนึ่งครั้งต่อผู้ใช้ระบบปฏิบัติการต่อคอมพิวเตอร์"
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [หญิง]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [ชาย]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "ติดตั้งสิทธิ์ใช้งาน Virtual Love (หญิง)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "ลบสิทธิ์ใช้งาน Virtual Love (หญิง)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "สถานะสิทธิ์ใช้งาน Virtual Love (หญิง)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "เพิ่ม Virtual Love (หญิง)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "ติดตั้งสิทธิ์ใช้งาน Virtual Love (ชาย)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "ลบสิทธิ์ใช้งาน Virtual Love (ชาย)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "สถานะสิทธิ์ใช้งาน Virtual Love (ชาย)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "เพิ่ม Virtual Love (ชาย)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "การตั้งค่า Virtual Love (หญิง)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "การตั้งค่า Virtual Love (ชาย)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "คอมพิวเตอร์นี้ไม่มีสิทธิ์ใช้งาน Virtual Love (หญิง)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "ลบสิทธิ์ใช้งาน Virtual Love (หญิง) แล้ว"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "ลบสิทธิ์ใช้งาน Virtual Love (หญิง) หรือไม่?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "คอมพิวเตอร์นี้ไม่มีสิทธิ์ใช้งาน Virtual Love (ชาย)"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "ลบสิทธิ์ใช้งาน Virtual Love (ชาย) แล้ว"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "ลบสิทธิ์ใช้งาน Virtual Love (ชาย) หรือไม่?"
+        }
+      ]
+    },
+    {
+      "code": "tr",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Misyoner (öne eğik)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Misyoner (arkaya yaslı)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Bacaklar yukarıda"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Bacak kilidiyle sarılma"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Lotus (sarılarak)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Lotus (diz üstü)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Lotus (M şeklinde bacak)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Kadın üstte"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Ters oturma (sandalye)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Arkadan"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Arkadan (üste eğilerek)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Arkadan (yüzüstü)"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Arkadan (ayakta)"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Kaşık (bacaklar kapalı)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Kaşık (bacaklar açık)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Oturarak yan"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Yüz yüze yan"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Ayakta spagat meydan okuması"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O meydan okuması"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M şeklinde bacak açma"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Ayakta taşıma (yüz yüze)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Ayakta taşıma (ters)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Misyoner"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Oturarak / kadın üstte"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Arkadan"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Yan yatarak"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Diğer"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Bu işletim sistemi kullanıcısı için Virtual Love (Kadın) lisansı bulunamadı. Resmî satın alma indirmenizdeki yükleyiciyi bu Unity projesine aktarın. Her bilgisayarda her işletim sistemi kullanıcısı için lisansı bir kez kurun."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Bu işletim sistemi kullanıcısı için Virtual Love (Erkek) lisansı bulunamadı. Resmî satın alma indirmenizdeki yükleyiciyi bu Unity projesine aktarın. Her bilgisayarda her işletim sistemi kullanıcısı için lisansı bir kez kurun."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Kadın]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Erkek]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Virtual Love (Kadın) lisansını kur"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Virtual Love (Kadın) lisansını kaldır"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love (Kadın) lisans durumu"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Virtual Love (Kadın) ekle"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Virtual Love (Erkek) lisansını kur"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Virtual Love (Erkek) lisansını kaldır"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love (Erkek) lisans durumu"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Virtual Love (Erkek) ekle"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love Ayarları (Kadın)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love Ayarları (Erkek)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Bu bilgisayarda Virtual Love (Kadın) lisansı yok."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (Kadın) lisansı kaldırıldı."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (Kadın) lisansı kaldırılsın mı?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Bu bilgisayarda Virtual Love (Erkek) lisansı yok."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Virtual Love (Erkek) lisansı kaldırıldı."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Virtual Love (Erkek) lisansı kaldırılsın mı?"
+        }
+      ]
+    },
+    {
+      "code": "uk",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Місіонерська (нахил уперед)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Місіонерська (нахил назад)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Ноги вгору"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Обхват ногами"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Лотос (обійми)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Лотос (стоячи на колінах)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Лотос (ноги літерою M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Наїзниця"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Сидячи спиною (стілець)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Догі-стайл"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Догі-стайл (з нахилом)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Ззаду лежачи"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Ззаду стоячи"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Ложки (ноги разом)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Ложки (ноги нарізно)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Бокова сидячи"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Бокова лицем до лиця"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Челендж: шпагат стоячи"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Челендж Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Ноги літерою M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-На руках (лицем до лиця)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-На руках (спиною)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Місіонерська, ноги вгору"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Сидячи / наїзниця"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Ззаду"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] На боці"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Інше"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Для цього користувача ОС не знайдено ліцензію Virtual Love (жінка). Імпортуйте до проєкту Unity інсталятор з офіційної покупки. Ліцензія встановлюється один раз для кожного користувача ОС на кожному комп'ютері."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Для цього користувача ОС не знайдено ліцензію Virtual Love (чоловік). Імпортуйте до проєкту Unity інсталятор з офіційної покупки. Ліцензія встановлюється один раз для кожного користувача ОС на кожному комп'ютері."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [жінка]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [чоловік]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Установити ліцензію Virtual Love (жінка)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Видалити ліцензію Virtual Love (жінка)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Статус ліцензії Virtual Love (жінка)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Додати Virtual Love (жінка)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Установити ліцензію Virtual Love (чоловік)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Видалити ліцензію Virtual Love (чоловік)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Статус ліцензії Virtual Love (чоловік)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Додати Virtual Love (чоловік)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Налаштування Virtual Love (жінка)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Налаштування Virtual Love (чоловік)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "На цьому комп'ютері немає ліцензії Virtual Love (жінка)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Ліцензію Virtual Love (жінка) видалено."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Видалити ліцензію Virtual Love (жінка)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "На цьому комп'ютері немає ліцензії Virtual Love (чоловік)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Ліцензію Virtual Love (чоловік) видалено."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Видалити ліцензію Virtual Love (чоловік)?"
+        }
+      ]
+    },
+    {
+      "code": "vi",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-Truyền thống (ngả trước)"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-Truyền thống (ngả sau)"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-Giơ chân cao"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-Ôm quặp chân"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-Ngồi đối mặt (ôm)"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-Ngồi đối mặt (quỳ)"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-Ngồi đối mặt (chân chữ M)"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-Nữ ở trên"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-Ngồi quay lưng (ghế)"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-Từ phía sau"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-Từ phía sau (đè lên)"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-Từ phía sau (nằm sấp)"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-Từ phía sau (đứng)"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-Úp thìa (khép chân)"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-Úp thìa (mở chân)"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-Ngồi nghiêng"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-Nằm nghiêng đối mặt"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-Thử thách xoạc chân đứng"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Thử thách Jack-O"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-Dạng chân chữ M"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-Bế đứng (đối mặt)"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-Bế đứng (quay lưng)"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A] Truyền thống"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B] Ngồi / nữ ở trên"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C] Từ phía sau"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D] Nằm nghiêng"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex] Khác"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Không tìm thấy giấy phép Virtual Love (Nữ) cho người dùng hệ điều hành này. Nhập trình cài đặt từ bản tải mua chính thức vào dự án Unity này. Cài giấy phép một lần cho mỗi người dùng hệ điều hành trên mỗi máy tính."
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Không tìm thấy giấy phép Virtual Love (Nam) cho người dùng hệ điều hành này. Nhập trình cài đặt từ bản tải mua chính thức vào dự án Unity này. Cài giấy phép một lần cho mỗi người dùng hệ điều hành trên mỗi máy tính."
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love [Nữ]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love [Nam]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "Cài giấy phép Virtual Love (Nữ)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "Gỡ giấy phép Virtual Love (Nữ)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Trạng thái giấy phép Virtual Love (Nữ)"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "Thêm Virtual Love (Nữ)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "Cài giấy phép Virtual Love (Nam)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "Gỡ giấy phép Virtual Love (Nam)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Trạng thái giấy phép Virtual Love (Nam)"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "Thêm Virtual Love (Nam)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Thiết lập Virtual Love (Nữ)"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Thiết lập Virtual Love (Nam)"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love (BOOTH)"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "Máy tính này chưa có giấy phép Virtual Love (Nữ)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "Đã gỡ giấy phép Virtual Love (Nữ)."
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "Gỡ giấy phép Virtual Love (Nữ)?"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "Máy tính này chưa có giấy phép Virtual Love (Nam)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "Đã gỡ giấy phép Virtual Love (Nam)."
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "Gỡ giấy phép Virtual Love (Nam)?"
+        }
+      ]
+    },
+    {
+      "code": "zh-Hans",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-传教士式（前倾）"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-传教士式（后仰）"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-抬腿式"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-双腿环腰抱"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-对面坐式（拥抱）"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-对面坐式（跪立）"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-对面坐式（M字开腿）"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-女上位"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-背面坐式（椅子）"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-后入式"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-后入式（俯压）"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-俯卧后入式"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-站立后入式"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-背后侧入式（并腿）"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-背后侧入式（开腿）"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-坐姿侧入式"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-面对面侧入式"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-站立一字马挑战"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O挑战"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M字开腿"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-火车便当式（面对面）"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-火车便当式（背面）"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A]传教士式·抬腿式"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B]坐式·女上位"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C]后入式"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D]侧入式"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex]其他"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "未找到此操作系统用户的Virtual Love（女性用）许可证。请将从官方购买页面下载的安装程序导入此Unity项目。每台电脑的每个系统用户均需安装一次许可证。"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "未找到此操作系统用户的Virtual Love（男性用）许可证。请将从官方购买页面下载的安装程序导入此Unity项目。每台电脑的每个系统用户均需安装一次许可证。"
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love[女性]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love[男性]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "安装Virtual Love（女性）许可证"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "移除Virtual Love（女性）许可证"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love（女性）许可证状态"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "添加Virtual Love（女性）"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "安装Virtual Love（男性）许可证"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "移除Virtual Love（男性）许可证"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love（男性）许可证状态"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "添加Virtual Love（男性）"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love设置（女性）"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love设置（男性）"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love（BOOTH）"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "此电脑未获授权使用Virtual Love（女性用）。"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "已移除Virtual Love（女性用）的许可证。"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "移除Virtual Love（女性用）的许可证？"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "此电脑未获授权使用Virtual Love（男性用）。"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "已移除Virtual Love（男性用）的许可证。"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "移除Virtual Love（男性用）的许可证？"
+        }
+      ]
+    },
+    {
+      "code": "zh-Hant",
+      "entries": [
+        {
+          "key": "A1-正常位前傾",
+          "value": "A1-正常位（前傾）"
+        },
+        {
+          "key": "A2-正常位後傾",
+          "value": "A2-正常位（後仰）"
+        },
+        {
+          "key": "A3-屈折位",
+          "value": "A3-屈曲位"
+        },
+        {
+          "key": "A4-だいしゅきホールド",
+          "value": "A4-雙腿環腰擁抱"
+        },
+        {
+          "key": "B1-対面座位抱きしめ",
+          "value": "B1-對面座位（擁抱）"
+        },
+        {
+          "key": "B2-対面座位膝立ち",
+          "value": "B2-對面座位（跪姿）"
+        },
+        {
+          "key": "B3-対面座位M字開脚",
+          "value": "B3-對面座位（M字開腿）"
+        },
+        {
+          "key": "B4-騎乗位",
+          "value": "B4-騎乘位"
+        },
+        {
+          "key": "B5-背面座位(椅子)",
+          "value": "B5-背面座位（椅子）"
+        },
+        {
+          "key": "C1-後背位",
+          "value": "C1-後背位"
+        },
+        {
+          "key": "C2-後背位のしかかり",
+          "value": "C2-後背位（壓身）"
+        },
+        {
+          "key": "C3-寝バック",
+          "value": "C3-趴臥後背位"
+        },
+        {
+          "key": "C4-立ちバック",
+          "value": "C4-站立後背位"
+        },
+        {
+          "key": "D1-背面側位閉脚",
+          "value": "D1-背面側位（併腿）"
+        },
+        {
+          "key": "D2-背面側位開脚",
+          "value": "D2-背面側位（開腿）"
+        },
+        {
+          "key": "D3-座り側位",
+          "value": "D3-坐姿側位"
+        },
+        {
+          "key": "D4-対面側位",
+          "value": "D4-對面側位"
+        },
+        {
+          "key": "Ex-I字チャレンジ",
+          "value": "Ex-站立一字馬挑戰"
+        },
+        {
+          "key": "Ex-JackOチャレンジ",
+          "value": "Ex-Jack-O挑戰"
+        },
+        {
+          "key": "Ex-M字開脚",
+          "value": "Ex-M字開腿"
+        },
+        {
+          "key": "Ex-対面駅弁",
+          "value": "Ex-火車便當（對面）"
+        },
+        {
+          "key": "Ex-背面駅弁",
+          "value": "Ex-火車便當（背面）"
+        },
+        {
+          "key": "[A]正常位・屈折位",
+          "value": "[A]正常位·屈曲位"
+        },
+        {
+          "key": "[B]座位・騎乗位",
+          "value": "[B]座位·騎乘位"
+        },
+        {
+          "key": "[C]後背位",
+          "value": "[C]後背位"
+        },
+        {
+          "key": "[D]側位",
+          "value": "[D]側位"
+        },
+        {
+          "key": "[Ex]その他",
+          "value": "[Ex]其他"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "找不到此作業系統使用者的Virtual Love（女性用）授權。請將從官方購買頁面下載的安裝程式匯入此Unity專案。每台電腦的每個系統使用者均需安裝一次授權。"
+        },
+        {
+          "key": "このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "找不到此作業系統使用者的Virtual Love（男性用）授權。請將從官方購買頁面下載的安裝程式匯入此Unity專案。每台電腦的每個系統使用者均需安裝一次授權。"
+        },
+        {
+          "key": "三点だいしゅき[女]",
+          "value": "Virtual Love[女性]"
+        },
+        {
+          "key": "三点だいしゅき[男]",
+          "value": "Virtual Love[男性]"
+        },
+        {
+          "key": "三点だいしゅきツール",
+          "value": "Virtual Love"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンスインストール",
+          "value": "安裝Virtual Love（女性）授權"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス削除",
+          "value": "移除Virtual Love（女性）授權"
+        },
+        {
+          "key": "三点だいしゅきツール(女)ライセンス状態確認",
+          "value": "Virtual Love（女性）授權狀態"
+        },
+        {
+          "key": "三点だいしゅきツール(女)追加",
+          "value": "加入Virtual Love（女性）"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンスインストール",
+          "value": "安裝Virtual Love（男性）授權"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス削除",
+          "value": "移除Virtual Love（男性）授權"
+        },
+        {
+          "key": "三点だいしゅきツール(男)ライセンス状態確認",
+          "value": "Virtual Love（男性）授權狀態"
+        },
+        {
+          "key": "三点だいしゅきツール(男)追加",
+          "value": "加入Virtual Love（男性）"
+        },
+        {
+          "key": "三点だいしゅきツール設定（女）",
+          "value": "Virtual Love設定（女性）"
+        },
+        {
+          "key": "三点だいしゅきツール設定（男）",
+          "value": "Virtual Love設定（男性）"
+        },
+        {
+          "key": "三点だいしゅきツール（BOOTH）",
+          "value": "Virtual Love（BOOTH）"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスはインストールされていません。",
+          "value": "此電腦尚未獲授權使用Virtual Love（女性用）。"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しました。",
+          "value": "已移除Virtual Love（女性用）的授權。"
+        },
+        {
+          "key": "三点だいしゅきツール（女の子用）のライセンスを削除しますか？",
+          "value": "移除Virtual Love（女性用）的授權？"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスはインストールされていません。",
+          "value": "此電腦尚未獲授權使用Virtual Love（男性用）。"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しました。",
+          "value": "已移除Virtual Love（男性用）的授權。"
+        },
+        {
+          "key": "三点だいしゅきツール（男の子用）のライセンスを削除しますか？",
+          "value": "移除Virtual Love（男性用）的授權？"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pl" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Virtual Love</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Polski · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Historia zmian</a></nav>
+<main><h1>Virtual Love</h1>
+<p>Narzędzie do awatarów VRChat, które pozwala przyjmować pozy w parze z drugą osobą przy śledzeniu 3-punktowym lub w trybie desktopowym. Zawiera po 22 pozy dla mężczyzny i dla kobiety, łącznie 44. Są wśród nich także szpagat na stojąco i wyzwanie Jack-O.</p>
+<p>Ten README dotyczy tworzonej wersji v3.2.0. Data oficjalnego wydania nie została ustalona. Zainstalowana wersja jest widoczna u góry Inspectora.</p>
+<ul>
+<li><a href="https://yunisaki.booth.pm/items/3641334">Strona produktu w BOOTH</a></li>
+<li><a href="CHANGELOG.html">Historia zmian</a></li>
+</ul>
+<h2>Język interfejsu i dokumentacja offline</h2>
+<p>Wybierz język w polu „Language / 言語” u góry Inspectora. Jeden wybór obejmuje Inspector i generowane menu VRChat. Aby zmienić język w grze, prześlij awatara ponownie.</p>
+<p>Jeżeli nie wybrano języka, używany jest język komputera, a dla nieobsługiwanego języka — angielski. Obsługiwane są Windows, macOS i Linux. Ostatni wybór jest zapisywany w EditorPrefs i używany także w innych projektach tego samego użytkownika systemu na tym komputerze. Wszystkie narzędzia do pozowania i awatary używają tego samego języka. Zmiana w Inspectorze dowolnego narzędzia aktualizuje wspólne ustawienie; wybory języka poszczególnych awatarów są ignorowane. Nie jest synchronizowany z innymi komputerami. Sposób przechowywania licencji nie zmienia się. Przycisk języka pojawia się tylko przy pierwszym potwierdzeniu instalacji, gdy nie zapisano języka. Późniejszych zmian dokonuje się w Inspectorze.</p>
+<p>README i historię zmian można wybrać z dołączonej <a href="../index.html">listy języków</a>. Przyciski „Instrukcja” i „Pokaż zmiany” w Inspectorze również uwzględniają wybrany język. W wybranym języku wyświetlane są też nazwy dołączonych póz i nazwy kategorii w menu w grze. Warunki użytkowania są, tak jak dotąd, dołączone w wersji japońskiej.</p>
+<h2>Instalacja</h2>
+<ol>
+<li>Zaimportuj do Unity plik „VirtualLove_Boy.unitypackage” lub „VirtualLove_Girl.unitypackage” dołączony do zakupionych plików.</li>
+<li>Po zarejestrowaniu źródła pakietów możesz dodać „Virtual Love” do swojego projektu z VCC lub ALCOM. Wymagany jest Unisaki Posing System 3.2.0.</li>
+<li>W Hierarchy kliknij prawym przyciskiem myszy awatara, na którym chcesz zainstalować narzędzie, i wybierz „Unisaki Studio &gt; Dodaj Virtual Love (mężczyzna)” lub „Unisaki Studio &gt; Dodaj Virtual Love (kobieta)”.</li>
+<li>Wybierz dodany do awatara obiekt „三点だいしゅき(男)” lub „三点だいしゅき(女)” i ustaw w Inspectorze używane funkcje i pozy.</li>
+<li>Sprawdź pozy w podglądzie i prześlij awatara jak zwykle.</li>
+</ol>
+<p>Wymagane są Unity 2022.3, VRChat Avatars SDK 3.10.4 lub nowszy, Modular Avatar 1.x w wersji co najmniej 1.15.1 i NDMF 1.x w wersji co najmniej 1.14.0. Zaktualizuj potrzebne pakiety razem w VCC lub ALCOM.</p>
+<h2>Aktualizacja ze starszej wersji</h2>
+<p>Zaktualizuj ten produkt i Unisaki Posing System razem. Ustawienia już umieszczonych narzędzi zostają zachowane. Sprawdź funkcje i zużycie ExpressionParameters w Inspectorze. Jeśli korzystano z budowania wstępnego, naciśnij Aktualizuj budowanie wstępne przed ponownym przesłaniem.</p>
+<h2>Gdzie zmieniać ustawienia</h2>
+<div class="table-scroll"><table><thead><tr><th>Karta</th><th>Główne ustawienia</th></tr></thead><tbody>
+<tr><td>Funkcje</td><td>Dodawanie pozycji do menu w grze, tryb zdjęć, oddech, obrazy ikon, sprawdzanie zużycia parametrów</td></tr>
+<tr><td>Pozy</td><td>Używane pozy, wyszukiwanie, dodawanie, zmiana kolejności, podgląd, dostosowywanie animacji</td></tr>
+<tr><td>Konfiguracja awatara</td><td>Korekcja ciała, importowanie oryginalnej postawy i własnych ruchów, presety</td></tr>
+</tbody></table></div>
+<p>Przed przesłaniem awatara włącz potrzebne funkcje. Przy pozycjach z przyciskiem „Otwórz ustawienia” można wyświetlić poniżej szczegółowe ustawienia.</p>
+<h2>Podstawowe sterowanie w grze</h2>
+<p>Otwórz menu Expressions i wybierz pozę Virtual Love. Wybierz pozy, które tworzą parę (mężczyzna i kobieta), a następnie dopasuj swoje położenie i kierunek do drugiej osoby.</p>
+<p>Przełączając blokady głowy, ramion i stóp, wybierasz, które części ciała mają podążać za śledzeniem. Po włączeniu „Blokuj stopy” możesz poruszać głową, a dolna część ciała zachowuje pozę. Jeśli chcesz odbijać pozę w poziomie lub zmieniać jej wysokość, włącz wcześniej odpowiednie funkcje w Unity.</p>
+<h3>Tryb zdjęć</h3>
+<p>Możesz przesunąć własnego awatara w miejsce, w którym go widzisz, ustawić jego kierunek i robić zdjęcia.</p>
+<ol>
+<li>W Unity włącz „Funkcje &gt; Funkcje menu &gt; Tryb zdjęć”.</li>
+<li>W VRChat otwórz „Tryb zdjęć” i wybierz pozę w „Wybierz pozę”.</li>
+<li>Suwakiem „Odległość” przesuń awatara do przodu, maksymalnie o 3m. Gdy odległość jest większa od 0, awatar zwraca się w twoją stronę.</li>
+<li>Obróć go suwakiem „Kierunek”, a po ustaleniu pozycji włącz w razie potrzeby „Blokuj stopy”. Na początku stopy nie są blokowane automatycznie, więc przed zablokowaniem można dopasować pozycję.</li>
+<li>Po zakończeniu zdjęć naciśnij „Zakończ zdjęcia”. Odległość i kierunek wracają do wartości początkowych, a blokada stóp zostaje zwolniona.</li>
+</ol>
+<p>Jeśli do menu dodano „Bez gestów”, kształt dłoni można przełączać także w trybie zdjęć.</p>
+<p>Jeśli zmieniasz położenie i kierunek tylko na własnym ekranie, tryb zdjęć nie używa synchronizowanych parametrów. Aby inne osoby widziały to samo położenie i kierunek, włącz w Unity „Funkcje &gt; Udogodnienia &gt; Synchronizuj tryb zdjęć”.</p>
+<p>Jeśli głowa własnego awatara znika z bliska i utrudnia robienie zdjęć, włącz „Pokazuj głowę w trybie zdjęć”. Ustawienie działa na twoim ekranie podczas zdjęć, a po ich zakończeniu wraca zwykły sposób wyświetlania.</p>
+<h3>Wysokość stóp i wysokość ziemi</h3>
+<p>Pozycje włączone w Unity w „Funkcje &gt; Funkcje menu” są dodawane do menu „Ustawienia” w VRChat.</p>
+<ul>
+<li><strong>Wysokość stóp</strong>: zmienia wysokość po stronie stóp, zachowując położenie głowy. Przydaje się, gdy stopy zapadają się w podłogę lub unoszą nad nią albo gdy chcesz dopasować wysokość do drugiej osoby.</li>
+<li><strong>Wysokość ziemi</strong>: przesuwa całe ciało razem z głową w górę i w dół. 50% to pierwotna wysokość, 0% to 3m niżej, a 100% to 3m wyżej. Aby wrócić do stanu wyjściowego, ustaw wartość w pobliżu 50%.</li>
+</ul>
+<p>W połączeniu z trybem zdjęć można regulować wysokość, odległość i kierunek awatara. Przesunięcie i obrót w trybie zdjęć oraz „Wysokość ziemi” korygują także standardowe i własne ruchy używane wtedy, gdy nie wybrano żadnej pozy. Widok w VRChat i zachowanie po zastąpieniu standardowych ruchów sprawdź w samej grze.</p>
+<h3>Odbicie i Bez gestów</h3>
+<ul>
+<li><strong>Odbicie</strong>: włącz „Funkcje &gt; Funkcje menu &gt; Odbicie”, a potem przełączaj strony pozy w menu VRChat.</li>
+<li><strong>Bez gestów</strong>: włącz „Funkcje &gt; Funkcje menu &gt; Bez gestów”. Po włączeniu tej opcji w VRChat ułożenie palców ustawione w pozie jest zachowywane także wtedy, gdy ściskasz kontrolery.</li>
+</ul>
+<h3>Oddech</h3>
+<ol>
+<li>Włącz „Funkcje &gt; Udogodnienia &gt; Animuj oddech”.</li>
+<li>Przez „Otwórz ustawienia” wybierz dla każdej kategorii póz: „Brak”, „Słabe”, „Średnie”, „Silne”, „Szybkie” lub „Własne”. Siłę dopasuj w kategorii odpowiadającej pozom Virtual Love. „Własne” pozwala przypisać przygotowaną przez siebie animację oddechu.</li>
+<li>Jeśli chcesz zatrzymywać i wznawiać oddech także w grze, włącz również „Funkcje &gt; Funkcje menu &gt; Oddech”. W VRChat pozycja „Oddech” przełącza ON/OFF.</li>
+</ol>
+<p>Włączenie „Wyłącz kołysanie w spoczynku VRChat” ogranicza standardowe kołysanie ciała dodawane automatycznie w spoczynku. Oddech ustawiony w narzędziu póz działa nadal.</p>
+<h3>Ograniczanie deformacji pozy przy obrocie głowy</h3>
+<p>Włącz „Funkcje &gt; Udogodnienia &gt; Ogranicz deformację pozy przy obrocie głowy”. Używaj tej opcji, gdy po zwolnieniu blokady głowy postawa ciała się deformuje, ponieważ kierunek głowy różni się od oryginalnej pozy.</p>
+<h3>Obróć się</h3>
+<p>Obracanie się to funkcja, która wymaga przygotowania odpowiedniej pozy leżącej i animacji na boku.</p>
+<ol>
+<li>Włącz „Funkcje &gt; Funkcje menu &gt; Obróć się”.</li>
+<li>Na karcie „Pozy” otwórz „Szczegóły” wybranej pozy i włącz „Włącz obracanie”.</li>
+<li>W polu „Boczna poza obracania” przypisz odpowiednie animacje i w razie potrzeby dopasuj „Siła korekcji podłoża”.</li>
+<li>W VRChat wybierz tę pozę, zwolnij blokadę głowy i włącz „Obróć się”. Przechylenie głowy w lewo lub w prawo powoduje obrót.</li>
+</ol>
+<p>Pozy korzystające z obracania nie mogą używać zwykłego ustawienia MotionTime. Pozy dołączone do Virtual Love nie zawierają bocznych animacji obracania, więc aby korzystać z tej funkcji, przygotuj odpowiednie ruchy.</p>
+<h2>Zużycie parametrów</h2>
+<p>Wyłączenie niepotrzebnych funkcji zmniejsza zużycie ExpressionParameters.</p>
+<div class="table-scroll"><table><thead><tr><th>Funkcja</th><th>Dodatkowe zużycie</th></tr></thead><tbody>
+<tr><td>Odbicie</td><td>1 bit</td></tr>
+<tr><td>Bez gestów</td><td>1 bit</td></tr>
+<tr><td>Wysokość stóp</td><td>8 bit</td></tr>
+<tr><td>Wysokość ziemi</td><td>8 bit</td></tr>
+<tr><td>Ruch oddechu</td><td>0 bit</td></tr>
+<tr><td>ON/OFF oddechu w grze</td><td>1 bit</td></tr>
+<tr><td>Tryb zdjęć (tylko własny ekran)</td><td>0 bit</td></tr>
+<tr><td>Synchronizacja trybu zdjęć</td><td>16 bit</td></tr>
+<tr><td>Widoczność głowy podczas zdjęć</td><td>0 bit</td></tr>
+<tr><td>Ograniczanie deformacji pozy przy obrocie głowy</td><td>1 bit (wspólny z „Obróć się”)</td></tr>
+<tr><td>Obróć się</td><td>10 bit (z czego 1 bit jest wspólny z ograniczaniem deformacji)</td></tr>
+</tbody></table></div>
+<p>Do tego dochodzi zużycie związane między innymi z wyborem pozy. Sumę sprawdź w Inspectorze. Gdy kilka narzędzi póz korzysta ze wspólnych funkcji, część wspólna nie jest liczona podwójnie. Zużycie innych mechanizmów, na przykład strojów, nie jest wliczane do tej sumy.</p>
+<h2>Sprawdzanie i dostosowywanie póz</h2>
+<p>Przycisk „Podgląd” przy każdej pozie na karcie „Pozy” pokazuje postawę w Scene. Po otwarciu „Dostosowywanie animacji” można podczas podglądu dopasować kierunek ciała i stawy, a następnie zapisać wynik.</p>
+<p>Dołączone pozy powstały na podstawie awatara „あのん（Anon）” autorstwa こよりLab. Dopasuj między innymi miejsca styku z drugą osobą do budowy ciała i stroju awatara.</p>
+<p>Opcja „Włącz korekcję awatara” na karcie „Konfiguracja awatara” koryguje różnice początkowych kątów stawów i skrętu względem awatara wzorcowego. „Zapobiegaj wyginaniu kolan do tyłu” ogranicza zginanie kolan w odwrotną stronę. Po otwarciu szczegółowych ustawień można dopasować „Minimalne zgięcie kolana (stopnie)”. Wygląd z włączoną korekcją również sprawdź w podglądzie.</p>
+<p>Na karcie „Pozy” można też wyszukiwać nazwy póz, dodawać wiele animacji naraz i zmieniać kolejność. Niepotrzebne pozy wyłącz lub usuń.</p>
+<p>Szybki podgląd nie uruchamia procesu budowania MA i NDMF, dlatego stan końcowy, razem ze strojami i innymi mechanizmami, sprawdź także po zbudowaniu awatara.</p>
+<h3>Obrazy ikon póz</h3>
+<p>Po włączeniu „Generuj ikony poz” na karcie „Funkcje” pozycje menu w grze otrzymują obrazy póz. Budowanie trwa dłużej o czas potrzebny na wygenerowanie obrazów. Aby ograniczyć rozmiar, włącz „Zmniejsz rozmiar ikon”. Na platformie Android ikony póz nie są generowane.</p>
+<h3>Presety</h3>
+<p>Preset można wybrać na samym dole karty „Konfiguracja awatara”. „Zastosuj ten preset” zastępuje bieżące ustawienia póz, dlatego przed przełączeniem zapisz wprowadzone zmiany.</p>
+<p>Pliki animacji dostosowujących utworzone funkcją dostosowywania animacji oraz presety, w których je ustawiono, można rozpowszechniać i sprzedawać bez osobnej zgody Unisaki Studio. Możesz w ten sposób na przykład udostępniać dane dostosowujące dla awatarów własnego autorstwa.</p>
+<h2>Budowanie wstępne</h2>
+<p>„Aktualizuj budowanie wstępne” zapisuje wygenerowane menu i animacje, dzięki czemu podczas budowania awatara można je wykorzystać ponownie i przyspieszyć cały proces. Bez budowania wstępnego potrzebne dane są generowane podczas zwykłego budowania.</p>
+<p>Po zmianie póz lub funkcji zajrzyj do sekcji „Sprawdź ustawienia” w Inspectorze i, jeśli korzystasz z budowania wstępnego, zaktualizuj je. Ukrycie ostrzeżenia nie aktualizuje wygenerowanych danych.</p>
+<h2>Prezenty</h2>
+<p>Jeśli nie używasz jej samodzielnie, jedną z wersji — dla mężczyzny albo dla kobiety — możesz podarować swojej partnerce lub swojemu partnerowi. Obdarowana osoba może jej używać wyłącznie z osobą, od której ją dostała.</p>
+<h2>Uwagi dotyczące używania</h2>
+<ul>
+<li>Ten produkt powstał w celach żartobliwych. Prosimy nie używać go do nękania innych.</li>
+<li>Używaj go zgodnie z warunkami korzystania z VRChat i zasadami dobrego wychowania.</li>
+<li>Blokowanie pozy podczas śledzenia całego ciała nie jest obsługiwane.</li>
+<li>W zależności od budowy ciała awatara, stroju i wprowadzonych modyfikacji może być potrzebne ręczne dopasowanie.</li>
+<li>Jeśli używasz jednocześnie innych mechanizmów zmieniających postawę, sprawdź działanie blokad i przełączania póz. Czasem pomaga ustawienie „Konfiguracja awatara &gt; Połącz blokady śledzenia z innymi narzędziami”.</li>
+<li>Twórca nie ponosi odpowiedzialności za szkody wynikłe z używania tego narzędzia.</li>
+</ul>
+<h2>Warunki użytkowania</h2>
+<p>Z produktu można korzystać po zaakceptowaniu warunków użytkowania przygotowanych na podstawie licencji VN3.</p>
+<p><a href="https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing">Warunki użytkowania Virtual Love</a></p></main>
+</body></html>

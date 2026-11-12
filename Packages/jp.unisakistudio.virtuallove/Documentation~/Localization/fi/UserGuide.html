@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fi" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Virtual Love</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Suomi · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Muutosloki</a></nav>
+<main><h1>Virtual Love</h1>
+<p>VRChat-avatareille tarkoitettu työkalu, jolla voit ottaa kumppanin kanssa pariasentoja kolmen pisteen seurannalla tai työpöytätilassa. Mukana on 22 asentoa miehelle ja 22 naiselle, yhteensä 44. Mukana ovat myös seisova spagaatti ja Jack-O-haaste.</p>
+<p>Tämä README koskee kehitteillä olevaa versiota v3.2.0. Virallista julkaisupäivää ei ole päätetty. Asennetun version näet Inspectorin yläosasta.</p>
+<ul>
+<li><a href="https://yunisaki.booth.pm/items/3641334">BOOTH-tuotesivu</a></li>
+<li><a href="CHANGELOG.html">Muutosloki</a></li>
+</ul>
+<h2>Näyttökieli ja offline-ohjeet</h2>
+<p>Valitse näyttökieli Inspectorin yläosasta kohdasta ”Language / 言語”. Sama valinta koskee Inspectoria ja luotavaa VRChat-valikkoa. Lataa avatar uudelleen palveluun, jotta pelissä näkyvä kieli vaihtuu.</p>
+<p>Jos kieltä ei ole valittu, käytetään tietokoneen kieltä tai englantia, jos kieltä ei tueta. Windows, macOS ja Linux ovat tuettuja. Viimeksi valittu kieli tallennetaan EditorPrefsiin, ja sitä käytetään myös tämän tietokoneen saman käyttöjärjestelmäkäyttäjän muissa projekteissa. Kaikki poseeraustyökalut ja avatarit käyttävät samaa kieltä. Kielen vaihtaminen minkä tahansa työkalun Inspectorissa päivittää yhteisen asetuksen; avatarikohtaisia kielivalintoja ei käytetä. Valintaa ei synkronoida muihin tietokoneisiin. Lisenssin tallennustapa ei muutu. Kielipainike näkyy vain ensimmäisessä asennusvahvistuksessa, jos kieltä ei ole tallennettu. Myöhemmät kielenvaihdot tehdään Inspectorissa.</p>
+<p>Voit valita README:n tai muutoslokin mukana toimitetusta <a href="../index.html">kieliluettelosta</a>. Myös Inspectorin ”Käyttöohje” ja ”Näytä muutokset” noudattavat valittua kieltä. Mukana olevien asentojen nimet ja pelinsisäisen valikon luokkien nimet näytetään niin ikään valitulla kielellä. Käyttöehdot toimitetaan entiseen tapaan japaniksi.</p>
+<h2>Asennus</h2>
+<ol>
+<li>Tuo ostamiesi tiedostojen mukana toimitettu ”VirtualLove_Boy.unitypackage” tai ”VirtualLove_Girl.unitypackage” Unityyn.</li>
+<li>Kun paketin jakelulähde on rekisteröity, voit lisätä Virtual Loven projektiisi VCC:llä tai ALCOMilla. Unisaki Posing System 3.2.0 vaaditaan.</li>
+<li>Napsauta Hierarchyssa avataria hiiren kakkospainikkeella ja valitse ”Unisaki Studio &gt; Lisää Virtual Love (mies)” tai ”Unisaki Studio &gt; Lisää Virtual Love (nainen)”.</li>
+<li>Valitse avatarin sisään lisätty ”三点だいしゅき(男)” tai ”三点だいしゅき(女)” ja määritä käytettävät toiminnot ja asennot Inspectorissa.</li>
+<li>Tarkista asennot esikatselulla ja lataa avatar palveluun tavalliseen tapaan.</li>
+</ol>
+<p>Vaatimukset ovat Unity 2022.3, VRChat Avatars SDK 3.10.4 tai uudempi, Modular Avatar 1.x vähintään 1.15.1 ja NDMF 1.x vähintään 1.14.0. Päivitä tarvittavat paketit yhdessä VCC:llä tai ALCOMilla.</p>
+<h2>Päivittäminen vanhemmasta versiosta</h2>
+<p>Päivitä tämä tuote ja Unisaki Posing System yhdessä. Kohtaukseen sijoitettujen työkalujen asetukset säilyvät. Tarkista käytössä olevat toiminnot ja ExpressionParameters-kulutus Inspectorista. Jos käytit esikoontia, paina ”Päivitä esikoonti” ennen uudelleenlatausta.</p>
+<h2>Asetusten sijainti</h2>
+<div class="table-scroll"><table><thead><tr><th>Välilehti</th><th>Tärkeimmät asetukset</th></tr></thead><tbody>
+<tr><td>Toiminnot</td><td>Pelinsisäisen valikon lisäykset, Kuvatila, hengitys, kuvakkeet ja parametrien käytön tarkistus</td></tr>
+<tr><td>Asennot</td><td>Käytettävät asennot, haku, lisääminen, järjestäminen, esikatselu ja animaatiosäätö</td></tr>
+<tr><td>Avatarin asetukset</td><td>Kehon korjaus, alkuperäisen asennon ja omien liikkeiden tuonti, esiasetukset</td></tr>
+</tbody></table></div>
+<p>Ota tarvitsemasi toiminnot käyttöön ennen kuin lataat avatarin palveluun. Kohdissa, joissa on ”Avaa asetukset”, voit näyttää tarkemmat asetukset kohdan alla.</p>
+<h2>Pelin perusohjaimet</h2>
+<p>Avaa Expressions-valikko ja valitse Virtual Loven asento. Valitse miehelle ja naiselle toisiaan vastaavat asennot ja sovita sijaintisi ja suuntasi kumppanin kanssa.</p>
+<p>Vaihtamalla pään, käsivarsien ja jalkojen lukituksia voit säätää, mitkä kehonosat seuraavat liikkeitäsi. Kun ”Lukitse jalat” on käytössä, voit liikuttaa päätä alavartalon pysyessä asennossaan. Jos haluat peilata asennon tai säätää sen korkeutta, ota vastaavat toiminnot käyttöön Unityssa etukäteen.</p>
+<h3>Kuvatila</h3>
+<p>Voit siirtää oman avatarisi paikkaan, jossa näet sen, säätää sen suuntaa ja ottaa kuvia.</p>
+<ol>
+<li>Ota Unityssa käyttöön ”Toiminnot &gt; Valikkotoiminnot &gt; Kuvatila”.</li>
+<li>Avaa VRChatissa ”Kuvatila” ja valitse haluamasi asento kohdasta ”Valitse asento”.</li>
+<li>Siirrä avataria kohdasta ”Etäisyys” enintään 3m eteenpäin. Kun etäisyys on suurempi kuin 0, avatar kääntyy sinua kohti.</li>
+<li>Kierrä avataria kohdasta ”Suunta” ja ota tarvittaessa ”Lukitse jalat” käyttöön, kun paikka on kohdallaan. Jalkoja ei lukita automaattisesti alussa, joten voit säätää paikkaa ennen lukitusta.</li>
+<li>Kun olet valmis, paina ”Lopeta kuvaus”. Etäisyys ja suunta palautuvat ja jalkojen lukitus vapautuu.</li>
+</ol>
+<p>Jos olet lisännyt valikkoon kohdan ”Eleet pois”, voit vaihtaa käden asentoa myös Kuvatilassa.</p>
+<p>Kun muutat sijaintia ja suuntaa vain omalla näytölläsi, Kuvatilan synkronoituja parametreja ei käytetä. Jos haluat muidenkin näkevän saman sijainnin ja suunnan, ota Unityssa käyttöön ”Toiminnot &gt; Lisätoiminnot &gt; Synkronoi Kuvatila”.</p>
+<p>Jos oma pääsi katoaa näkyvistä lähelle tullessaan ja kuvaaminen on vaikeaa, ota käyttöön ”Pidä pää näkyvissä Kuvatilassa”. Asetus vaikuttaa omaan näkymääsi kuvauksen aikana, ja sen jälkeen näkymä palaa tavalliseksi.</p>
+<h3>Jalkojen korkeus ja lattian korkeus</h3>
+<p>Kun otat haluamasi kohdat käyttöön Unityn kohdassa ”Toiminnot &gt; Valikkotoiminnot”, ne lisätään VRChatin ”Asetukset”-valikkoon.</p>
+<ul>
+<li><strong>Jalkojen kork.</strong>: säätää jalkojen puolen korkeutta pitäen pään paikallaan. Käytä sitä, kun jalat uppoavat lattiaan tai leijuvat sen yläpuolella tai kun haluat sovittaa korkeuden kumppanin kanssa.</li>
+<li><strong>Lattian kork.</strong>: siirtää koko kehoa pää mukaan lukien ylös ja alas. 50% on alkuperäinen korkeus, 0% on 3m alempana ja 100% on 3m ylempänä. Palauta arvo lähelle 50%, kun haluat palata alkuperäiseen korkeuteen.</li>
+</ul>
+<p>Yhdessä Kuvatilan kanssa voit säätää avatarin korkeutta, etäisyyttä ja suuntaa. Kuvatilan siirto ja kierto sekä lattian korkeus korjaavat myös oletusliikkeet ja omat liikkeet, joita käytetään, kun asentoa ei ole valittu. Tarkista näkymä ja toiminta oletusliikkeiden korvaamisen jälkeen itse VRChatissa.</p>
+<h3>Peilaa ja Eleet pois</h3>
+<ul>
+<li><strong>Peilaa</strong>: ota käyttöön ”Toiminnot &gt; Valikkotoiminnot &gt; Peilaa” ja vaihda asennon vasen ja oikea puoli VRChatin valikosta.</li>
+<li><strong>Eleet pois</strong>: ota käyttöön ”Toiminnot &gt; Valikkotoiminnot &gt; Eleet pois”. Kun toiminto on käytössä VRChatissa, asentoon määritetty sormien asento säilyy, vaikka puristaisit ohjaimia.</li>
+</ul>
+<h3>Hengitys</h3>
+<ol>
+<li>Ota käyttöön ”Toiminnot &gt; Lisätoiminnot &gt; Animoi hengitys”.</li>
+<li>Valitse kohdasta ”Avaa asetukset” kullekin asentoluokalle ”Ei mitään”, ”Heikko”, ”Keskivahva”, ”Vahva”, ”Nopea” tai ”Oma”. Säädä voimakkuutta siinä luokassa, johon Virtual Loven asennot kuuluvat. Vaihtoehdolla ”Oma” voit määrittää itse tekemäsi hengitysanimaation.</li>
+<li>Jos haluat pysäyttää ja jatkaa hengitystä myös pelissä, ota käyttöön myös ”Toiminnot &gt; Valikkotoiminnot &gt; Hengitys”. VRChatissa hengitys kytketään ON/OFF kohdasta ”Hengitys”.</li>
+</ol>
+<p>Kun otat käyttöön asetuksen ”Poista VRChatin oletushuojunta”, paikallaan ollessa automaattisesti lisättävä kehon oletushuojunta vaimenee. Asentotyökalussa määritetty hengitys toimii edelleen.</p>
+<h3>Pään suunnasta johtuvan asennon vääristymän vähentäminen</h3>
+<p>Ota käyttöön ”Toiminnot &gt; Lisätoiminnot &gt; Vähennä pään kierrosta aiheutuvaa asennon vääristymää”. Käytä sitä, kun kehon asento vääristyy pään lukituksen vapauttamisen jälkeen, koska pään suunta poikkeaa alkuperäisestä asennosta.</p>
+<h3>Käänny</h3>
+<p>Käänny on toiminto, jonka käyttöä varten valmistellaan sopiva makuuasento ja kylkiasennon animaatiot.</p>
+<ol>
+<li>Ota käyttöön ”Toiminnot &gt; Valikkotoiminnot &gt; Käänny”.</li>
+<li>Avaa ”Asennot”-välilehdellä haluamasi asennon ”Lisätiedot” ja valitse ”Ota Käänny käyttöön”.</li>
+<li>Määritä vastaavat animaatiot kohtaan ”Käänny-toiminnon sivuasento” ja säädä tarvittaessa asetusta ”Kosketuskorjauksen voimakkuus”.</li>
+<li>Valitse VRChatissa kyseinen asento, vapauta pään lukitus ja ota ”Käänny” käyttöön. Kun kallistat päätä vasemmalle tai oikealle, avatar kääntyy kyljelleen.</li>
+</ol>
+<p>Käänny-toimintoa käyttävissä asennoissa tavallista MotionTime-asetusta ei voi käyttää. Virtual Loven mukana tulevissa asennoissa ei ole Käänny-toiminnon sivuasentoanimaatioita, joten valmistele sopivat liikkeet, jos haluat käyttää toimintoa.</p>
+<h2>Parametrien käyttö</h2>
+<p>Kun poistat tarpeettomat toiminnot käytöstä, ExpressionParameters-kulutus pienenee.</p>
+<div class="table-scroll"><table><thead><tr><th>Toiminto</th><th>Lisäkulutus</th></tr></thead><tbody>
+<tr><td>Peilaa</td><td>1 bit</td></tr>
+<tr><td>Eleet pois</td><td>1 bit</td></tr>
+<tr><td>Jalkojen kork.</td><td>8 bit</td></tr>
+<tr><td>Lattian kork.</td><td>8 bit</td></tr>
+<tr><td>Hengitysliike</td><td>0 bit</td></tr>
+<tr><td>Hengityksen ON/OFF pelissä</td><td>1 bit</td></tr>
+<tr><td>Kuvatila (vain oma näyttö)</td><td>0 bit</td></tr>
+<tr><td>Kuvatilan synkronointi</td><td>16 bit</td></tr>
+<tr><td>Pään näkyminen kuvauksen aikana</td><td>0 bit</td></tr>
+<tr><td>Pään suunnasta johtuvan asennon vääristymän vähentäminen</td><td>1 bit (yhteinen Käänny-toiminnon kanssa)</td></tr>
+<tr><td>Käänny</td><td>10 bit (josta 1 bit on yhteinen vääristymän vähentämisen kanssa)</td></tr>
+</tbody></table></div>
+<p>Näiden lisäksi kulutukseen lasketaan muun muassa asennon valinta. Tarkista kokonaismäärä Inspectorista. Jos useat asentotyökalut käyttävät yhteisiä toimintoja, yhteistä osuutta ei lasketa kahdesti. Muiden toimintojen, kuten asujen, kulutus ei sisälly tähän kokonaismäärään.</p>
+<h2>Asentojen tarkistaminen ja säätäminen</h2>
+<p>”Asennot”-välilehdellä kunkin asennon kohdalla oleva ”Esikatselu” näyttää asennon Scenessä. Kun avaat kohdan ”Animaatiosäätö”, voit säätää kehon suuntaa ja niveliä esikatselun aikana ja tallentaa tuloksen.</p>
+<p>Mukana olevat asennot on tehty こよりLabin avatarin ”あのん（Anon）” pohjalta. Säädä esimerkiksi kumppaniin koskettavia kohtia vartalon mittasuhteiden ja asun mukaan.</p>
+<p>”Avatarin asetukset” -välilehden asetuksella ”Ota avatarikorjaus käyttöön” voit korjata nivelten alkukulmien ja kiertymän erot vertailuavatariin nähden. ”Estä polvien taittuminen taakse” hillitsee polvien taipumista väärään suuntaan. Kun avaat tarkemmat asetukset, voit säätää arvoa ”Polven vähimmäistaivutus (asteina)”. Tarkista esikatselulla myös, miltä asento näyttää korjauksen ollessa käytössä.</p>
+<p>Myös asentojen nimien haku, useiden animaatioiden lisääminen ja järjestyksen muuttaminen tehdään ”Asennot”-välilehdellä. Poista tarpeettomat asennot käytöstä tai poista ne kokonaan.</p>
+<p>Kevyt esikatselu ei suorita MA:n ja NDMF:n koontikäsittelyä, joten tarkista lopputulos asuineen ja muine toimintoineen myös avatarin koonnin jälkeen.</p>
+<h3>Asentojen kuvakkeet</h3>
+<p>Kun otat ”Toiminnot”-välilehdellä käyttöön asetuksen ”Luo asentokuvakkeet”, pelinsisäiseen valikkoon lisätään asentojen kuvat. Koonti kestää kuvien luomisen verran pidempään. Jos haluat säästää tilaa, ota käyttöön ”Pienennä kuvakkeita”. Androidille asentokuvakkeita ei luoda.</p>
+<h3>Esiasetukset</h3>
+<p>Voit valita esiasetuksen ”Avatarin asetukset” -välilehden alaosasta. ”Käytä tätä esiasetusta” korvaa nykyiset asentoasetukset, joten tallenna tekemäsi säädöt ennen vaihtamista.</p>
+<p>Animaatiosäädöllä luotuja säätöanimaatiotiedostoja ja niitä käyttäviä esiasetuksia saa jakaa ja myydä ilman erillistä lupaa Unisaki Studiolta. Voit käyttää tätä esimerkiksi itse tekemiesi avatarien säätötietojen jakamiseen.</p>
+<h2>Esikoonti</h2>
+<p>Kun tallennat valikoiden ja animaatioiden luontitulokset valitsemalla ”Päivitä esikoonti”, niitä voidaan käyttää uudelleen avatarin koonnissa ja käsittely nopeutuu. Ilman esikoontiakin tarvittavat tiedot luodaan tavallisen koonnin aikana.</p>
+<p>Kun olet muuttanut asentoja tai toimintoja, katso Inspectorin kohta ”Tarkista asetukset” ja päivitä esikoonti, jos käytät sitä. Varoituksen piilottaminen ei päivitä luotuja tietoja.</p>
+<h2>Lahjoittaminen</h2>
+<p>Jos et käytä sitä itse, voit antaa joko miehen tai naisen version lahjaksi kumppanillesi. Lahjan saanut saa käyttää sitä vain lahjan antajan kanssa.</p>
+<h2>Huomioita käytöstä</h2>
+<ul>
+<li>Tämä tuote on tehty vitsimielessä. Älä käytä sitä häirintään.</li>
+<li>Noudata käytössä VRChatin käyttöehtoja ja hyviä tapoja.</li>
+<li>Asennon lukitsemista koko kehon seurannan aikana ei tueta.</li>
+<li>Avatarin mittasuhteet, asu ja muokkaukset voivat edellyttää manuaalista säätöä.</li>
+<li>Jos käytät tuotetta yhdessä muiden asentoa muuttavien toimintojen kanssa, tarkista lukitusten ja asennon vaihdon toiminta. Joissakin tapauksissa sitä voi säätää kohdasta ”Avatarin asetukset &gt; Yhdistä seurantalukitukset muihin työkaluihin”.</li>
+<li>Tekijä ei vastaa tämän työkalun käytöstä aiheutuvista haitoista.</li>
+</ul>
+<h2>Käyttöehdot</h2>
+<p>Käytä tätä tuotetta vasta hyväksyttyäsi sen käyttöehdot, jotka on laadittu VN3-lisenssin pohjalta.</p>
+<p><a href="https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing">Virtual Loven käyttöehdot</a></p></main>
+</body></html>

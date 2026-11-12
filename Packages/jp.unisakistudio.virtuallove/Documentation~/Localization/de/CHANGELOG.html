@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="de" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Änderungsverlauf</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Deutsch · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Änderungsverlauf</a></nav>
+<main><h1>Änderungsverlauf</h1>
+<h2>[3.2.0] - Unveröffentlicht</h2>
+<h3>Hinzugefügt</h3>
+<ul>
+<li>Inspector, Hinzufügen-Menüs, Lizenzhinweise, Namen der enthaltenen Posen und die erzeugten VRChat-Menüs lassen sich jetzt in 30 Sprachen anzeigen.</li>
+<li>Die Sprachauswahl für Inspector und Spielmenüs wurde vereinheitlicht. Der Ausgangswert ist die Computersprache; die letzte Auswahl gilt auch in anderen Projekten desselben Betriebssystembenutzers.</li>
+<li>README und Änderungsverlauf lassen sich jetzt in der gewählten Sprache öffnen.</li>
+<li>Anzeigenamen für die 22 enthaltenen Posen und Namen für die 5 Kategoriemenüs wurden in jeder Sprache bereitgestellt.</li>
+<li>Unterstützung für Unisaki Posing System 3.2.0.</li>
+</ul>
+<h3>Kompatibilität</h3>
+<ul>
+<li>Vorhandene Avatareinstellungen, eigene Namen, Assetreferenzen, Parameterkennungen und Lizenzspeicherung bleiben erhalten.</li>
+</ul>
+<h2>[3.1.0] - 2026-11-07</h2>
+<ul>
+<li>Fotomodus hinzugefügt. Du kannst den Avatar nach vorn bewegen und drehen, um ihn gut fotografieren zu können. Wählbar sind außerdem die Synchronisierung von Position und Richtung für andere sowie die Anzeige des eigenen Kopfes beim Fotografieren.</li>
+<li>„Bodenhöhe“ hinzugefügt. Sie verschiebt den ganzen Körper einschließlich des Kopfes nach oben oder unten und ergänzt die „Fußhöhe“, die bei gleichbleibender Kopfposition die Fußseite bewegt.</li>
+<li>Atembewegung hinzugefügt. Die Stärke lässt sich je Posenkategorie wählen, und ein Menü zum Anhalten und Fortsetzen der Atmung im Spiel kann hinzugefügt werden. Auch eine Einstellung zum Unterdrücken des VRChat-Standardschwankens im Leerlauf ist verfügbar.</li>
+<li>Einstellung hinzugefügt, die Haltungsverformungen durch eine abweichende Kopfrichtung beim Lösen der Kopffixierung verringert.</li>
+<li>Unterstützung für die avatarspezifische Korrektur und das Verhindern rückwärts knickender Knie. Sie gleichen Gelenkunterschiede zum Referenzavatar Anon aus und passen die Posen an deinen Avatar an.</li>
+<li>Die benötigten Funktionen lassen sich jetzt im Inspector auswählen, und der Parameterverbrauch kann geprüft werden.</li>
+<li>In der Posenliste stehen Suche, gesammeltes Hinzufügen, Sortieren und eine Schnellvorschau in der Scene zur Verfügung.</li>
+<li>Die Installation erfolgt über das Rechtsklickmenü des Avatars mit „Unisaki Studio &gt; Virtual Love (Mann) hinzufügen / (Frau) hinzufügen“. Die Funktionen wählst du danach im Inspector.</li>
+<li>Unisaki Posing System 3.1.0 wird benötigt.</li>
+</ul>
+<h2>[3.0.3] - 2026-08-29</h2>
+<ul>
+<li>Auf PosingSystem 3.0.10 aktualisiert; das Laden von Voreinstellungen und die Prüfung der Hierarchy-Icons belasten das System weniger.</li>
+<li>Fehler bei der Vorberechnung behoben, der auftrat, wenn ein Avatar mehrere Posensysteme enthält.</li>
+</ul>
+<h2>[3.0.2] - 2026-01-11</h2>
+<ul>
+<li>Funktionen zum Installieren und Entfernen der Lizenz verbessert.</li>
+</ul>
+<h2>[3.0.1] - 2026-01-04</h2>
+<ul>
+<li>Fehler in der Lizenzverarbeitung unter Mac und Linux behoben.</li>
+</ul>
+<h2>[3.0.0] - 2026-01-02</h2>
+<ul>
+<li>Unterstützung für Unisaki Posing System Ver3.0.0.</li>
+<li>Vorberechnung hinzugefügt.</li>
+<li>Animationsanpassung hinzugefügt.</li>
+<li>Voreinstellungen hinzugefügt.</li>
+<li>Kann jetzt per unitypackage zum Projekt hinzugefügt werden.</li>
+</ul>
+<h2>[2.1.4] - 2025-05-08</h2>
+<ul>
+<li>Kompatibilitätsprobleme mit einigen Gimmicks behoben.</li>
+</ul>
+<h2>[2.1.3] - 2025-04-04</h2>
+<ul>
+<li>Fehler behoben, durch den sich die Pose bei einigen Avataren und ModularAvatar-Versionen nicht mehr änderte.</li>
+</ul>
+<h2>[2.1.2] - 2025-03-13</h2>
+<ul>
+<li>Fehlerhafte Bewegungen bei einigen Avataren behoben, etwa beim Springen mit 森羅.</li>
+<li>Fehler behoben, durch den der Ausgangswert von „Gesten aus“ manchmal falsch war.</li>
+<li>Fehlende Handformdaten bei einigen Posen ergänzt.</li>
+</ul>
+<h2>[2.1.1] - 2025-03-06</h2>
+<ul>
+<li>Fehler behoben, der in einigen Umgebungen auftrat.</li>
+</ul>
+<h2>[2.1.0] - 2025-02-05</h2>
+<ul>
+<li>Absturz von Unity behoben.</li>
+<li>Version zum Werkzeugnamen in der NDMF Console hinzugefügt.</li>
+<li>Einstellung hinzugefügt, die Gesten deaktiviert und die Handformen der Animationen verwendet.</li>
+<li>Handformdaten zu allen Posen hinzugefügt.</li>
+</ul>
+<h2>[2.0.1] - 2025-02-02</h2>
+<ul>
+<li>Fehler behoben, durch den Posen bei gleichzeitiger Nutzung mit einigen Werkzeugen zerstört wurden.</li>
+<li>Fehler behoben, der je nach Einstellungen auftrat.</li>
+</ul>
+<h2>[2.0.0] - 2024/12/08</h2>
+<ul>
+<li>VCC-Version auf Basis von Unisaki Posing System veröffentlicht.</li>
+</ul>
+<h2>[1.3] - 2022/11/10</h2>
+<ul>
+<li>Base-Controller auf Grundlage eines eigenen, mit den VRChat-Bedingungen konformen AnimatorController neu erstellt.</li>
+<li>Ersteinrichtung in einen Dialog umgewandelt.</li>
+</ul>
+<h2>[1.2.1] - 2022/3/22</h2>
+<ul>
+<li>Fehlende Animationsdateien in der Ausgabe für die Frau ergänzt.</li>
+</ul>
+<h2>[1.2] - 2022/3/8</h2>
+<ul>
+<li>Fehler behoben, durch den sich bei einigen Animationen die Blickrichtung bewegte.</li>
+</ul>
+<h2>[1.1] - 2022/2/27</h2>
+<ul>
+<li>Funktion zum Ändern der Fußhöhe hinzugefügt.</li>
+<li>Fehler behoben, durch den einige Einstellungen beim erneuten Öffnen von Unity verloren gingen.</li>
+</ul>
+<h2>[1.0] - 2022/2/8</h2>
+<ul>
+<li>Erstveröffentlichung.</li>
+</ul></main>
+</body></html>

@@ -1,0 +1,1212 @@
+{
+  "schema": 1,
+  "locales": [
+    "ja",
+    "en",
+    "fr",
+    "it",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "th",
+    "de",
+    "es",
+    "pt",
+    "pt-BR",
+    "ru",
+    "uk",
+    "pl",
+    "nl",
+    "sv",
+    "da",
+    "fi",
+    "nb",
+    "cs",
+    "tr",
+    "id",
+    "vi",
+    "hi",
+    "bn",
+    "ta",
+    "te",
+    "ar",
+    "he"
+  ],
+  "documents": {
+    "VirtualLove/repository": {
+      "product": "VirtualLove",
+      "kind": "repository",
+      "source": "VirtualLove/README.md",
+      "source_sha256": "b732c1ca7f129aed25aa50f89187f89b07b78366526f70fade353269d4e77df3",
+      "blocks": [
+        "0a35c89cbd964ac0",
+        "40ed13349f84f017",
+        "8d1a87061e3c580f",
+        "d78e534ee68c9be3",
+        "c040aee682c09a53",
+        "5deb981a6d80df41",
+        "dfbbaf3c67bb3855",
+        "f37aa322740fb95a"
+      ]
+    },
+    "VirtualLove/readme": {
+      "product": "VirtualLove",
+      "kind": "readme",
+      "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/README.md",
+      "source_sha256": "0b858a05bda5fd40b3e46171bec282f09727ca2161809efcf924af7b0933be7a",
+      "blocks": [
+        "0a35c89cbd964ac0",
+        "512a6b7e3620010b",
+        "359f541ee33a4bb9",
+        "60b92cf9c9fe5881",
+        "dddcc5e2fa2e62d6",
+        "f057ec94623ab83e",
+        "e949435434fc5e4d",
+        "7cb8ea25803baf26",
+        "e365c0379b008026",
+        "2acb95327d7629b0",
+        "76cf9e2237b960ba",
+        "014aae827a3bded4",
+        "c91b6d99606092e8",
+        "19e6f9b458d1faeb",
+        "8176da5ccac9f96c",
+        "6fc7e76cda2d6ed6",
+        "db02fc0d045f480f",
+        "6265d4d8a90de51d",
+        "8211f65260b7fc30",
+        "2579d2e4e1d5ded1",
+        "a3cca84311a1c800",
+        "7d50ae060c8194cb",
+        "c7293f95e715d87e",
+        "c3e5bdceb34c87d9",
+        "a8ce19a8de685817",
+        "0fd37a1adb661223",
+        "9245005a72fdbcf0",
+        "407ff4f073800d88",
+        "b8e22c28a021b341",
+        "2637a7e8783c259c",
+        "b6e2f855404146c6",
+        "1bbe2ffc335c4037",
+        "9a0a75d53fdc9a31",
+        "87e72a66b554a9f6",
+        "b9ea89be242c1a97",
+        "a18fffca7e3c245a",
+        "3bf87336a1832ccd",
+        "f967fb77c887ac5d",
+        "ba989fa45d41649e",
+        "f52a071327c6ef99",
+        "c42c322d6d8286f0",
+        "8d6c5102f760553a",
+        "6f6e7d09308a70d4",
+        "148556d78b7fb19f",
+        "0bfd376864825871",
+        "68cce40a8942c60c",
+        "9b9160fcfe164489",
+        "4759d851352578fa",
+        "20ff9f6776424c0a",
+        "787ae122a10f9b43",
+        "2977d03887fb0e45",
+        "53f2aa9f9d3170b4",
+        "67bd25d8cb011e3b",
+        "cdd6ff167f0f30fa",
+        "3a44094c01faa821",
+        "81de3fc702dd772c",
+        "7933f870a80d0594",
+        "dc748ec76ec881ef",
+        "eca2169656fa94ef",
+        "19bb486193de6b6e",
+        "25f02b6adf903f3e",
+        "16db15c05e494dad",
+        "d348b83f3263a191",
+        "b84d4589ddb0d9eb",
+        "e6cf39db24d7f783"
+      ]
+    },
+    "VirtualLove/changelog": {
+      "product": "VirtualLove",
+      "kind": "changelog",
+      "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/CHANGELOG.md",
+      "source_sha256": "a8fc327f05bccaab9640125fe6677671b5ca88fd76fc640f33518ec7d6502de2",
+      "blocks": [
+        "3e9e4ae5e303de21",
+        "1fea13aed5680b51",
+        "545755f8035c08c9",
+        "b3f80d97ed0caa7f",
+        "25b732bdda1bb358",
+        "25d84bc9d3caff87",
+        "0d3bc8247be4c5a3",
+        "8e52d52f601d695a",
+        "8b5b538fc461aff3",
+        "c2ef2b03084b1cf6",
+        "b05a0401fb97de36",
+        "ba74d6fae3512d64",
+        "2888796e64f1c265",
+        "8deedaf756fdb861",
+        "7d429d6c5b81b68e",
+        "b6b2c4179fcf009a",
+        "b229ebca25b7a47f",
+        "3aa872cd7c92acb3",
+        "40686392cba848a8",
+        "94cbb40e83156dfe",
+        "3cc124886ba35fcf",
+        "f4edbb0b8ff4a936",
+        "9c050db995965145",
+        "0cc6aa8f9c18c48d",
+        "8e825ccfb6b055ea",
+        "398ccbc9121da335",
+        "5adb5650b7e5b894",
+        "0517c666361fc21f",
+        "7d72e60441df033f",
+        "d944deda5974ab21",
+        "bcac288cd09d4d13",
+        "1d8d94d019d37502",
+        "abe5e7c5494ea47c",
+        "0a658848c3ad9249",
+        "0830629aed0c4254",
+        "477178ccfa150f36",
+        "35f12baec13d4949",
+        "f7c96a2573c4c515",
+        "e99dd1f850f76872",
+        "a3e2778a13dba26f"
+      ]
+    },
+    "VirtualLove/guide": {
+      "product": "VirtualLove",
+      "kind": "guide",
+      "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/README.md",
+      "source_sha256": "0b858a05bda5fd40b3e46171bec282f09727ca2161809efcf924af7b0933be7a",
+      "blocks": [
+        "0a35c89cbd964ac0",
+        "512a6b7e3620010b",
+        "359f541ee33a4bb9",
+        "60b92cf9c9fe5881",
+        "dddcc5e2fa2e62d6",
+        "f057ec94623ab83e",
+        "e949435434fc5e4d",
+        "7cb8ea25803baf26",
+        "e365c0379b008026",
+        "2acb95327d7629b0",
+        "76cf9e2237b960ba",
+        "014aae827a3bded4",
+        "c91b6d99606092e8",
+        "19e6f9b458d1faeb",
+        "8176da5ccac9f96c",
+        "6fc7e76cda2d6ed6",
+        "db02fc0d045f480f",
+        "6265d4d8a90de51d",
+        "8211f65260b7fc30",
+        "2579d2e4e1d5ded1",
+        "a3cca84311a1c800",
+        "7d50ae060c8194cb",
+        "c7293f95e715d87e",
+        "c3e5bdceb34c87d9",
+        "a8ce19a8de685817",
+        "0fd37a1adb661223",
+        "9245005a72fdbcf0",
+        "407ff4f073800d88",
+        "b8e22c28a021b341",
+        "2637a7e8783c259c",
+        "b6e2f855404146c6",
+        "1bbe2ffc335c4037",
+        "9a0a75d53fdc9a31",
+        "87e72a66b554a9f6",
+        "b9ea89be242c1a97",
+        "a18fffca7e3c245a",
+        "3bf87336a1832ccd",
+        "f967fb77c887ac5d",
+        "ba989fa45d41649e",
+        "f52a071327c6ef99",
+        "c42c322d6d8286f0",
+        "8d6c5102f760553a",
+        "6f6e7d09308a70d4",
+        "148556d78b7fb19f",
+        "0bfd376864825871",
+        "68cce40a8942c60c",
+        "9b9160fcfe164489",
+        "4759d851352578fa",
+        "20ff9f6776424c0a",
+        "787ae122a10f9b43",
+        "2977d03887fb0e45",
+        "53f2aa9f9d3170b4",
+        "67bd25d8cb011e3b",
+        "cdd6ff167f0f30fa",
+        "3a44094c01faa821",
+        "81de3fc702dd772c",
+        "7933f870a80d0594",
+        "dc748ec76ec881ef",
+        "eca2169656fa94ef",
+        "19bb486193de6b6e",
+        "25f02b6adf903f3e",
+        "16db15c05e494dad",
+        "d348b83f3263a191",
+        "b84d4589ddb0d9eb",
+        "e6cf39db24d7f783"
+      ]
+    }
+  },
+  "blocks": {
+    "0a35c89cbd964ac0": {
+      "language": "ja",
+      "text": "# 三点だいしゅきツール",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/repository",
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "40ed13349f84f017": {
+      "language": "ja",
+      "text": "BOOTHで販売している「三点だいしゅきツール」のソースコードとリソースです。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/repository"
+      ]
+    },
+    "8d1a87061e3c580f": {
+      "language": "ja",
+      "text": "## 使い方・変更履歴",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/repository"
+      ]
+    },
+    "d78e534ee68c9be3": {
+      "language": "ja",
+      "text": "- [README：導入・更新・設定方法](Packages/jp.unisakistudio.virtuallove/README.md)\n- [変更履歴](Packages/jp.unisakistudio.virtuallove/CHANGELOG.md)\n- [BOOTH商品ページ](https://yunisaki.booth.pm/items/3641334)",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/repository"
+      ]
+    },
+    "c040aee682c09a53": {
+      "language": "ja",
+      "text": "導入済みのバージョンは、Unityでポーズツールを選んだときのInspector上部で確認できます。使い方はパッケージ内のREADMEにまとめています。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/repository"
+      ]
+    },
+    "5deb981a6d80df41": {
+      "language": "ja",
+      "text": "## このリポジトリと利用規約",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/repository"
+      ]
+    },
+    "dfbbaf3c67bb3855": {
+      "language": "ja",
+      "text": "ご利用にはBOOTHでの商品購入と、利用規約への同意が必要です。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/repository"
+      ]
+    },
+    "f37aa322740fb95a": {
+      "language": "ja",
+      "text": "[利用規約](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/repository"
+      ]
+    },
+    "512a6b7e3620010b": {
+      "language": "ja",
+      "text": "3点トラッキングやデスクトップで、相手とペアになる姿勢を楽しめるVRChatアバター向けツールです。男女それぞれ22種類、合計44種類のポーズを収録しています。I字バランスやJackOチャレンジもできます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "359f541ee33a4bb9": {
+      "language": "ja",
+      "text": "このREADMEは開発中のv3.2.0向けです。正式リリース日は未定です。導入済みのバージョンはInspector上部で確認できます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "60b92cf9c9fe5881": {
+      "language": "ja",
+      "text": "- [BOOTH商品ページ](https://yunisaki.booth.pm/items/3641334)\n- [変更履歴](CHANGELOG.md)",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "dddcc5e2fa2e62d6": {
+      "language": "ja",
+      "text": "## 表示言語とオフライン文書",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "f057ec94623ab83e": {
+      "language": "ja",
+      "text": "Inspector最上部の「Language / 言語」で表示言語を選びます。一つの選択がInspectorと生成するVRChatメニューの両方に適用されます。ゲーム内の表示を変更するにはアバターを再アップロードしてください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "e949435434fc5e4d": {
+      "language": "ja",
+      "text": "未選択の場合はパソコンの言語を使い、対応していない言語では英語を使います。Windows・macOS・Linuxに対応します。最後に選んだ言語はEditorPrefsに保存し、このパソコンの同じOSユーザーの別プロジェクトでも使用します。すべてのポーズツールとアバターで同じ言語を使用します。どのツールのInspectorで変更しても共通で反映され、アバターごとの言語指定は使用しません。他のパソコンには同期しません。ライセンスの保存方法は変更しません。 言語ボタンは言語が未選択の場合の最初の導入確認だけに表示されます。以後の言語変更はInspectorで行います。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "7cb8ea25803baf26": {
+      "language": "ja",
+      "text": "READMEと変更履歴は同梱の[言語一覧](Documentation~/Localization/index.html)から選べます。Inspectorの「使い方」と「変更履歴」も選択言語に従います。収録ポーズの名前とゲーム内メニューの分類名も選択言語で表示します。利用規約は従来どおり日本語版を同梱しています。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "e365c0379b008026": {
+      "language": "ja",
+      "text": "## 導入方法",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "2acb95327d7629b0": {
+      "language": "ja",
+      "text": "1. 購入ファイルに同梱された「VirtualLove_Boy.unitypackage」または「VirtualLove_Girl.unitypackage」をUnityへインポートします。\n2. パッケージ配布元の登録後は、VCCやALCOMから使用するプロジェクトに「三点だいしゅきツール」を追加できます。ゆにさきポーズシステム 3.2.0 が必要です。\n3. Hierarchyで導入したいアバターを右クリックし、「ゆにさきスタジオ > 三点だいしゅきツール(男)追加」または「ゆにさきスタジオ > 三点だいしゅきツール(女)追加」を選びます。\n4. アバター内に追加された「三点だいしゅき(男)」または「三点だいしゅき(女)」を選び、Inspectorで使う機能とポーズを設定します。\n5. プレビューで姿勢を確認し、通常どおりアバターをアップロードします。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "76cf9e2237b960ba": {
+      "language": "ja",
+      "text": "必要環境はUnity 2022.3、VRChat Avatars SDK 3.10.4以上、Modular Avatar 1.15.1以上の1.x系、NDMF 1.14.0以上の1.x系です。VCCやALCOMで必要なパッケージを併せて更新してください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "014aae827a3bded4": {
+      "language": "ja",
+      "text": "## 以前のバージョンから更新する場合",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "c91b6d99606092e8": {
+      "language": "ja",
+      "text": "本商品と「ゆにさきポーズシステム」を併せて更新します。配置済みのツールの設定は引き継がれます。Inspectorで使用する機能とExpressionParametersの使用量を確認し、プレビルドを使っていた場合は「プレビルドを更新」を押してから再アップロードしてください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "19e6f9b458d1faeb": {
+      "language": "ja",
+      "text": "## 設定する場所",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "8176da5ccac9f96c": {
+      "language": "ja",
+      "text": "| タブ | 主な設定 |\n| --- | --- |\n| 機能 | ゲーム内メニューの追加、撮影モード、呼吸、アイコン画像、パラメーター使用量の確認 |\n| ポーズ一覧 | 使用するポーズ、検索、追加、並べ替え、プレビュー、アニメーション調整 |\n| アバター調整 | 身体の補正、元の姿勢や自作モーションの取り込み、プリセット |",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "6fc7e76cda2d6ed6": {
+      "language": "ja",
+      "text": "必要な機能をオンにしてからアップロードしてください。「設定を開く」がある項目は、その下に詳しい設定を表示できます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "db02fc0d045f480f": {
+      "language": "ja",
+      "text": "## ゲーム内での基本操作",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "6265d4d8a90de51d": {
+      "language": "ja",
+      "text": "Expressionsメニューを開き、三点だいしゅきツールのポーズを選びます。男女でペアになるポーズを選び、相手との位置や向きを合わせてください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "8211f65260b7fc30": {
+      "language": "ja",
+      "text": "首・腕・足の固定を切り替えて、追従させたい部分を調整できます。足固定を使うと、足側の姿勢を保ちながら頭を動かせます。ポーズの左右や高さを調整したい場合は、Unityで対応する機能を有効にしておきます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "2579d2e4e1d5ded1": {
+      "language": "ja",
+      "text": "### 撮影モード",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "a3cca84311a1c800": {
+      "language": "ja",
+      "text": "自分のアバターを見える位置へ動かし、向きを調整して撮影できます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "7d50ae060c8194cb": {
+      "language": "ja",
+      "text": "1. Unityの「機能 > メニュー追加 > 撮影モード」をオンにします。\n2. VRChatで「撮影モード」を開き、「姿勢選択」で使いたいポーズを選びます。\n3. 「距離」でアバターを前方へ最大3m移動させます。距離を0より大きくすると、アバターはこちらを向きます。\n4. 「向き」で回転させ、位置が決まったら必要に応じて「足固定」をオンにします。開始時には自動で足固定されないので、固定前に位置を調整できます。\n5. 撮影が終わったら「撮影モードを終了」を押します。距離と向きが戻り、足固定が解除されます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "c7293f95e715d87e": {
+      "language": "ja",
+      "text": "「ジェスチャー無効」をメニューに追加している場合は、撮影モード内でも手の形を切り替えられます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "c3e5bdceb34c87d9": {
+      "language": "ja",
+      "text": "自分の画面だけで位置と向きを変える場合、撮影モードの同期パラメーターは使いません。他の人にも同じ位置と向きを見せたい場合は、Unityの「機能 > 便利機能 > 撮影モードを同期する」をオンにします。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "a8ce19a8de685817": {
+      "language": "ja",
+      "text": "自分の頭が近づくと非表示になって撮影しづらい場合は、「撮影モード中は頭を非表示にしない」をオンにしてください。撮影中の自分の画面に適用され、終了後は通常の表示に戻ります。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "0fd37a1adb661223": {
+      "language": "ja",
+      "text": "### 足の高さ・床の高さ",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "9245005a72fdbcf0": {
+      "language": "ja",
+      "text": "Unityの「機能 > メニュー追加」で使いたい項目をオンにすると、VRChatの「設定」メニューに追加されます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "407ff4f073800d88": {
+      "language": "ja",
+      "text": "- **足の高さ**：頭の位置を保ちながら、足側の高さを調整します。足が床に埋まる・浮くときや、相手と高さを合わせたいときに使います。\n- **床の高さ**：頭を含む身体全体を上下に移動します。50%が元の高さ、0%が3m下、100%が3m上です。元に戻すときは50%付近へ戻してください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "b8e22c28a021b341": {
+      "language": "ja",
+      "text": "撮影モードと組み合わせて、アバターの高さ・距離・向きを調整できます。撮影モードの移動・回転と床の高さは、ポーズを選んでいないときの標準・独自モーションも補正対象です。VRChat内の視点や標準モーション置換後の挙動は、実機で確認してください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "2637a7e8783c259c": {
+      "language": "ja",
+      "text": "### 左右反転・ジェスチャー無効",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "b6e2f855404146c6": {
+      "language": "ja",
+      "text": "- **左右反転**：「機能 > メニュー追加 > 左右反転」をオンにし、VRChatのメニューでポーズの左右を切り替えます。\n- **ジェスチャー無効**：「機能 > メニュー追加 > ジェスチャー無効」をオンにします。VRChatで有効にすると、コントローラーを握ったときもポーズに設定された指の形を保てます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "1bbe2ffc335c4037": {
+      "language": "ja",
+      "text": "### 呼吸",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "9a0a75d53fdc9a31": {
+      "language": "ja",
+      "text": "1. 「機能 > 便利機能 > 呼吸の動きをつける」をオンにします。\n2. 「設定を開く」から、姿勢の分類ごとに「なし・弱・中・強・急・カスタム」を選びます。三点だいしゅきの姿勢に対応する分類で強さを調整してください。「カスタム」では自分で用意した呼吸アニメーションを指定できます。\n3. ゲーム内でも呼吸を止めたり再開したりしたい場合は、「機能 > メニュー追加 > 呼吸」もオンにします。VRChatでは「呼吸」でON/OFFを切り替えます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "87e72a66b554a9f6": {
+      "language": "ja",
+      "text": "「VRChat標準の揺れを止める」をオンにすると、待機中に自動で入る標準の身体の揺れを抑えられます。ポーズツールで設定した呼吸はそのまま使用できます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "b9ea89be242c1a97": {
+      "language": "ja",
+      "text": "### 首の向きによる姿勢崩れを抑える",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "a18fffca7e3c245a": {
+      "language": "ja",
+      "text": "「機能 > 便利機能 > 首の向きの違いによる姿勢崩れを抑制」をオンにします。首固定を解除したときに、元のポーズと首の向きが違うことで身体の姿勢が崩れる場合に使います。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "3bf87336a1832ccd": {
+      "language": "ja",
+      "text": "### 寝返り",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "f967fb77c887ac5d": {
+      "language": "ja",
+      "text": "寝返りは、対応する寝姿勢と横向きのアニメーションを用意して使う機能です。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "ba989fa45d41649e": {
+      "language": "ja",
+      "text": "1. 「機能 > メニュー追加 > 寝返り」をオンにします。\n2. 「ポーズ一覧」で使いたい姿勢の「詳細」を開き、「寝返りを使う」をオンにします。\n3. 「寝返り時の横向き」に対応するアニメーションを指定し、必要に応じて「接地補正の強さ」を調整します。\n4. VRChatで対応する姿勢を選び、首固定を解除して「寝返り」をオンにします。頭を左右に傾けると寝返りします。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "f52a071327c6ef99": {
+      "language": "ja",
+      "text": "寝返りを使う姿勢では、通常のMotionTime設定は使用できません。三点だいしゅきの収録ポーズには寝返り用の横向きアニメーションを同梱していないため、利用する場合は対応するモーションを用意してください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "c42c322d6d8286f0": {
+      "language": "ja",
+      "text": "## パラメーター使用量",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "8d6c5102f760553a": {
+      "language": "ja",
+      "text": "不要な機能をオフにすると、ExpressionParametersの使用量を抑えられます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "6f6e7d09308a70d4": {
+      "language": "ja",
+      "text": "| 機能 | 追加の使用量 |\n| --- | --- |\n| 左右反転 | 1 bit |\n| ジェスチャー無効 | 1 bit |\n| 足の高さ | 8 bit |\n| 床の高さ | 8 bit |\n| 呼吸の動き | 0 bit |\n| 呼吸のゲーム内ON/OFF | 1 bit |\n| 撮影モード（自分の画面だけ） | 0 bit |\n| 撮影モードの同期 | 16 bit |\n| 撮影中の頭の表示 | 0 bit |\n| 首の向きによる姿勢崩れの抑制 | 1 bit（寝返りと共用） |\n| 寝返り | 10 bit（うち1 bitを姿勢崩れの抑制と共用） |",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "148556d78b7fb19f": {
+      "language": "ja",
+      "text": "これらに姿勢選択などの使用量が加わります。合計はInspectorで確認してください。複数のポーズツールで共通機能を使う場合、共用分は重複して数えません。衣装など、ほかのギミックの使用量はこの合計に含まれません。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "0bfd376864825871": {
+      "language": "ja",
+      "text": "## ポーズの確認と調整",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "68cce40a8942c60c": {
+      "language": "ja",
+      "text": "「ポーズ一覧」の各ポーズにある「プレビュー」で、Sceneに姿勢を表示できます。「アニメーション調整」を開くと、プレビューしながら身体の向きや関節を調整して保存できます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "9b9160fcfe164489": {
+      "language": "ja",
+      "text": "収録ポーズはこよりLab様の「あのん（Anon）」を基準に作成しています。体格や衣装に合わせて、相手と接する位置などを調整してください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "4759d851352578fa": {
+      "language": "ja",
+      "text": "「アバター調整」の「アバター固有補正を使う」で、基準アバターとの初期関節角度やひねりの違いを補正できます。「膝が逆向きに曲がるのを防ぐ」では、膝の逆曲がりを抑えられます。詳しい設定を開くと「最低膝曲げ角度（°）」を調整できます。補正を有効にした状態の見た目もプレビューで確認してください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "20ff9f6776424c0a": {
+      "language": "ja",
+      "text": "ポーズ名の検索、複数アニメーションの追加、順番の変更も「ポーズ一覧」で行えます。不要なポーズは無効にするか削除してください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "787ae122a10f9b43": {
+      "language": "ja",
+      "text": "簡易プレビューはMA・NDMFのビルド処理を実行しないため、衣装やほかのギミックを含めた最終状態はアバタービルド後にも確認してください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "2977d03887fb0e45": {
+      "language": "ja",
+      "text": "### ポーズのアイコン画像",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "53f2aa9f9d3170b4": {
+      "language": "ja",
+      "text": "「機能」の「ポーズアイコン生成」をオンにすると、ゲーム内メニューに姿勢の画像を付けられます。画像生成の分だけビルドに時間がかかります。容量を抑えたい場合は「アイコン画像の容量を減らす」をオンにしてください。Android向けではポーズアイコンを生成しません。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "67bd25d8cb011e3b": {
+      "language": "ja",
+      "text": "### プリセット",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "cdd6ff167f0f30fa": {
+      "language": "ja",
+      "text": "「アバター調整」の一番下でプリセットを選べます。「このプリセットに変更する」は現在のポーズ設定を置き換えるので、調整済みの内容を保存してから切り替えてください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "3a44094c01faa821": {
+      "language": "ja",
+      "text": "アニメーション調整機能で作成した調整アニメーションファイルと、それを設定したプリセットは、ゆにさきスタジオへの個別の許諾なしで配布・販売できます。自作アバター向けの調整データの共有などにご利用ください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "81de3fc702dd772c": {
+      "language": "ja",
+      "text": "## プレビルド",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "7933f870a80d0594": {
+      "language": "ja",
+      "text": "「プレビルドを更新」でメニューやアニメーションの生成結果を保存すると、アバタービルド時に再利用して処理を速くできます。プレビルドなしでも、通常のビルド時に必要なデータを生成します。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "dc748ec76ec881ef": {
+      "language": "ja",
+      "text": "ポーズや機能を変更したら、Inspectorの「設定の確認」を確認し、プレビルドを使用している場合は更新してください。警告の表示を消しても、生成結果は更新されません。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "eca2169656fa94ef": {
+      "language": "ja",
+      "text": "## プレゼントについて",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "19bb486193de6b6e": {
+      "language": "ja",
+      "text": "ご自身で使用しない場合、男女用どちらかをお砂糖さんにプレゼントできます。プレゼントされた方は、プレゼントしてくれた方とだけ使用できます。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "25f02b6adf903f3e": {
+      "language": "ja",
+      "text": "## 使用上の注意",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "16db15c05e494dad": {
+      "language": "ja",
+      "text": "- 本商品はジョーク目的で作られています。ハラスメント行為への使用はご遠慮ください。\n- VRChatの利用規約やマナーを守って使用してください。\n- フルボディトラッキング中の姿勢固定には対応していません。\n- アバターの体格・衣装・改変内容によっては手動調整が必要です。\n- ほかの姿勢変更ギミックを併用する場合は、固定や姿勢切り替えの動作を確認してください。「アバター調整 > 各固定機能の他ギミックとの統合」で調整できる場合があります。\n- このツールを使用して発生した不利益について、制作者は責任を負いません。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "d348b83f3263a191": {
+      "language": "ja",
+      "text": "## 利用規約",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "b84d4589ddb0d9eb": {
+      "language": "ja",
+      "text": "本商品はVN3ライセンスで作成された利用規約に同意のうえご利用ください。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "e6cf39db24d7f783": {
+      "language": "ja",
+      "text": "[三点だいしゅきツールの利用規約](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/readme",
+        "VirtualLove/guide"
+      ]
+    },
+    "3e9e4ae5e303de21": {
+      "language": "ja",
+      "text": "# 変更履歴",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "1fea13aed5680b51": {
+      "language": "ja",
+      "text": "## [3.2.0] - 未リリース",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "545755f8035c08c9": {
+      "language": "ja",
+      "text": "### 追加",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "b3f80d97ed0caa7f": {
+      "language": "ja",
+      "text": "- Inspector、導入メニュー、ライセンスの案内、収録ポーズ名、生成するVRChatメニューを30言語で表示できるようにしました。\n- Inspectorとゲーム内メニューの言語選択を統一しました。初期値はパソコンの言語を使い、最後の選択を同じOSユーザーの別プロジェクトでも使用します。\n- READMEと変更履歴を選択言語で開けるようにしました。\n- 収録ポーズ22種類の表示名と、5つの分類メニューの名前を各言語で用意しました。\n- ゆにさきポーズシステム 3.2.0 に対応しました。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "25b732bdda1bb358": {
+      "language": "ja",
+      "text": "### 互換性",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "25d84bc9d3caff87": {
+      "language": "ja",
+      "text": "- アバターの既存設定、独自の名前、アセット参照、パラメーター識別子、ライセンスの保存方法を維持します。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "0d3bc8247be4c5a3": {
+      "language": "ja",
+      "text": "## [3.1.0] - 2026-11-07",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "8e52d52f601d695a": {
+      "language": "ja",
+      "text": "- 撮影モードを追加。アバターを前方へ動かしたり回転させたりして、撮影しやすい位置に調整できます。他の人への位置・向きの同期や、撮影中に自分の頭を表示する設定も選べます。\n- 「床の高さ」を追加。頭を含む身体全体を上下に移動でき、頭の位置を保って足側を動かす「足の高さ」と使い分けられます。\n- 呼吸の動きを追加。姿勢の分類ごとに強さを選べるほか、ゲーム内で呼吸を止めたり再開したりするメニューを追加できます。VRChat標準の待機中の揺れを抑える設定も使えます。\n- 首固定を解除したときに、首の向きの違いによって姿勢が崩れるのを抑える設定を追加。\n- アバター固有補正と膝の逆曲がり防止に対応。制作基準のAnonとの関節の違いを補正し、アバターに合わせて姿勢を調整できます。\n- 必要な機能をInspectorで選び、パラメーター使用量を確認できるようになりました。\n- ポーズ一覧での検索、一括追加、並べ替え、Sceneでの簡易プレビューを利用できます。\n- アバターの右クリックメニューから「ゆにさきスタジオ > 三点だいしゅきツール(男)追加／(女)追加」で導入できます。追加後の機能はInspectorで選びます。\n- ゆにさきポーズシステム 3.1.0 が必要です。",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "8b5b538fc461aff3": {
+      "language": "ja",
+      "text": "## [3.0.3] - 2026-08-29",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "c2ef2b03084b1cf6": {
+      "language": "ja",
+      "text": "- PosingSystem 3.0.10に更新し、プリセット読込とHierarchyアイコン判定の負荷を軽減\n- 同一アバターに複数のポーズシステムがある場合のプレビルドエラーを修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "b05a0401fb97de36": {
+      "language": "ja",
+      "text": "## [3.0.2] - 2026-01-11",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "ba74d6fae3512d64": {
+      "language": "ja",
+      "text": "- ライセンスのインストール・削除関連の機能を改善",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "2888796e64f1c265": {
+      "language": "ja",
+      "text": "## [3.0.1] - 2026-01-04",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "8deedaf756fdb861": {
+      "language": "ja",
+      "text": "- Mac, Linux版のライセンス処理の不具合の修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "7d429d6c5b81b68e": {
+      "language": "ja",
+      "text": "## [3.0.0] - 2026-01-02",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "b6b2c4179fcf009a": {
+      "language": "ja",
+      "text": "- ゆにさきポーズシステム Ver3.0.0 に対応\n- プレビルド機能を追加\n- アニメーション調整機能を追加\n- プリセット機能を追加\n- unitypackageでプロジェクトに追加できるよう変更",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "b229ebca25b7a47f": {
+      "language": "ja",
+      "text": "## [2.1.4] - 2025-05-08",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "3aa872cd7c92acb3": {
+      "language": "ja",
+      "text": "- 一部のギミックとの相性問題を解消",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "40686392cba848a8": {
+      "language": "ja",
+      "text": "## [2.1.3] - 2025-04-04",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "94cbb40e83156dfe": {
+      "language": "ja",
+      "text": "- 一部のアバターとModularAvatarのバージョンで姿勢が変わらなくなる不具合を修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "3cc124886ba35fcf": {
+      "language": "ja",
+      "text": "## [2.1.2] - 2025-03-13",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "f4edbb0b8ff4a936": {
+      "language": "ja",
+      "text": "- 森羅のジャンプなど一部のアバターでモーションがおかしくなる不具合を修正\n- ジェスチャー無効の初期値がおかしいことがある不具合を修正\n- 一部の姿勢に手の形のデータが入っていなかったのを修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "9c050db995965145": {
+      "language": "ja",
+      "text": "## [2.1.1] - 2025-03-06",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "0cc6aa8f9c18c48d": {
+      "language": "ja",
+      "text": "- 一部の環境でエラーが発生する不具合を修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "8e825ccfb6b055ea": {
+      "language": "ja",
+      "text": "## [2.1.0] - 2025-02-05",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "398ccbc9121da335": {
+      "language": "ja",
+      "text": "- Unityがクラッシュする不具合を修正\n- NDMF Consoleに表示するツール名にバージョンを追加\n- ジェスチャー無効にしてアニメーションの手の形を使う設定を追加\n- 全姿勢に手の形のデータを追加",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "5adb5650b7e5b894": {
+      "language": "ja",
+      "text": "## [2.0.1] - 2025-02-02",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "0517c666361fc21f": {
+      "language": "ja",
+      "text": "- 一部のツールと併用した際に姿勢が壊れる不具合を修正\n- 設定によってエラーが発生する不具合を修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "7d72e60441df033f": {
+      "language": "ja",
+      "text": "## [2.0.0] - 2024/12/08",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "d944deda5974ab21": {
+      "language": "ja",
+      "text": "- ゆにさきポーズシステムを使用したVCC版をリリース",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "bcac288cd09d4d13": {
+      "language": "ja",
+      "text": "## [1.3] - 2022/11/10",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "1d8d94d019d37502": {
+      "language": "ja",
+      "text": "- VRChat規約遵守のオリジナルAnimatorControllerを基礎にBaseコントローラーを作り直し\n- 初期設定画面をダイアログ化",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "abe5e7c5494ea47c": {
+      "language": "ja",
+      "text": "## [1.2.1] - 2022/3/22",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "0a658848c3ad9249": {
+      "language": "ja",
+      "text": "- 女の子用の商品にアニメーションファイルが足りなかったのを修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "0830629aed0c4254": {
+      "language": "ja",
+      "text": "## [1.2] - 2022/3/8",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "477178ccfa150f36": {
+      "language": "ja",
+      "text": "- 一部のアニメーションで目の向きが動いてしまう不具合を修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "35f12baec13d4949": {
+      "language": "ja",
+      "text": "## [1.1] - 2022/2/27",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "f7c96a2573c4c515": {
+      "language": "ja",
+      "text": "- 足の高さ変更機能を追加\n- Unityを開き直すと一部の設定が消える不具合を修正",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "e99dd1f850f76872": {
+      "language": "ja",
+      "text": "## [1.0] - 2022/2/8",
+      "invariant": true,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    },
+    "a3e2778a13dba26f": {
+      "language": "ja",
+      "text": "- 初版リリース",
+      "invariant": false,
+      "contexts": [
+        "VirtualLove/changelog"
+      ]
+    }
+  },
+  "source_sha256": "6bec41c14b7fd9cc70938e6c32faa3efdc2481d90e1c65f4e98a3bd6bd4cdc48"
+}

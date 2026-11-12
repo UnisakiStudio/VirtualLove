@@ -24,6 +24,7 @@ namespace jp.unisakistudio.virtualloveeditor
         public override void OnInspectorGUI()
         {
             VirtualLove virtualLove = target as VirtualLove;
+            using var language = UseInspectorLanguage(virtualLove);
 
             /*
              * このコメント分を含むここから先の処理は三点だいしゅきツールをゆにさきスタジオから購入した場合に変更することを許可します。
@@ -114,10 +115,13 @@ namespace jp.unisakistudio.virtualloveeditor
              */
 
             var header1Label = new GUIStyle(EditorStyles.label) { fontStyle = FontStyle.Bold, fontSize = 20, };
-            EditorGUILayout.LabelField("三点だいしゅきツール", header1Label, GUILayout.Height(30));
+            // 表示文言はこのパッケージの翻訳表（Tools/Localization）が持つ。男女で別のライセンスなので文言も分ける。
+            EditorGUILayout.LabelField(posingsystemeditor.PosingSystemLocalization.Text("三点だいしゅきツール"), header1Label, GUILayout.Height(30));
 
-            EditorGUILayout.HelpBox("このコンピュータには三点だいしゅきツールの使用が許諾されていません。Boothのショップから三点だいしゅきツールを購入して、コンピュータにライセンスをインストールしてください。三点だいしゅきツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「VirtualLove_Boy.unitypackage」または「VirtualLove_Girl.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）", MessageType.Error);
-            if (EditorGUILayout.LinkButton("三点だいしゅきツール(Booth)"))
+            EditorGUILayout.HelpBox(virtualLove.isBoy
+                ? posingsystemeditor.PosingSystemLocalization.Text("このユーザーの三点だいしゅきツール（男の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。")
+                : posingsystemeditor.PosingSystemLocalization.Text("このユーザーの三点だいしゅきツール（女の子用）ライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。"), MessageType.Error);
+            if (EditorGUILayout.LinkButton(posingsystemeditor.PosingSystemLocalization.Text("三点だいしゅきツール（BOOTH）")))
             {
                 Application.OpenURL("https://yunisaki.booth.pm/items/3641334");
             }

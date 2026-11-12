@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="nl" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Virtual Love</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Nederlands · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Wijzigingsgeschiedenis</a></nav>
+<main><h1>Virtual Love</h1>
+<p>Een tool voor VRChat-avatars waarmee je met 3-puntstracking of op desktop samen met een partner bij elkaar horende poses kunt aannemen. Er zijn 22 poses voor de man en 22 voor de vrouw, 44 in totaal. Ook een staande spagaat en de Jack-O-challenge zijn mogelijk.</p>
+<p>Deze README is voor v3.2.0 in ontwikkeling; de officiële datum staat niet vast. De geïnstalleerde versie staat boven in de Inspector.</p>
+<ul>
+<li><a href="https://yunisaki.booth.pm/items/3641334">BOOTH-productpagina</a></li>
+<li><a href="CHANGELOG.html">Wijzigingsgeschiedenis</a></li>
+</ul>
+<h2>Weergavetaal en offline documentatie</h2>
+<p>Kies de taal bij Language / 言語 boven in de Inspector. Eén keuze geldt voor de Inspector en de gegenereerde VRChat-menu’s. Upload de avatar opnieuw om de taal in het spel te veranderen.</p>
+<p>Zonder expliciete keuze wordt de computertaal gebruikt; niet-ondersteunde talen gebruiken Engels. Windows, macOS en Linux worden ondersteund. De laatste keuze wordt in EditorPrefs bewaard voor andere projecten van dezelfde systeemgebruiker op deze computer. Alle posehulpmiddelen en avatars gebruiken dezelfde taal. Een wijziging in de Inspector van een hulpmiddel werkt de gedeelde voorkeur bij; taalkeuzes per avatar worden genegeerd. Er is geen synchronisatie met andere computers. Licenties blijven op dezelfde manier opgeslagen. De taalknop verschijnt alleen bij de eerste installatiebevestiging als er nog geen taal is opgeslagen. Latere taalwijzigingen gebeuren in de Inspector.</p>
+<p>Kies een README of wijzigingsgeschiedenis in het meegeleverde <a href="../index.html">taaloverzicht</a>. Ook Handleiding en Wijzigingen bekijken in de Inspector volgen de gekozen taal. De namen van de meegeleverde poses en van de categorieën in het menu in het spel worden eveneens in de gekozen taal getoond. De gebruiksvoorwaarden worden zoals voorheen in het Japans meegeleverd.</p>
+<h2>Installatie</h2>
+<ol>
+<li>Importeer VirtualLove_Boy.unitypackage of VirtualLove_Girl.unitypackage uit je aankoopbestanden in Unity.</li>
+<li>Nadat de pakketbron is geregistreerd, kun je Virtual Love met VCC of ALCOM aan je project toevoegen. Unisaki Posing System 3.2.0 is vereist.</li>
+<li>Klik in de Hierarchy met de rechtermuisknop op de avatar en kies Unisaki Studio &gt; Virtual Love (Man) toevoegen of Unisaki Studio &gt; Virtual Love (Vrouw) toevoegen.</li>
+<li>Selecteer 三点だいしゅき(男) of 三点だいしゅき(女), dat in de avatar is toegevoegd, en stel in de Inspector de functies en poses in die je wilt gebruiken.</li>
+<li>Controleer de poses in het voorbeeld en upload de avatar zoals gewoonlijk.</li>
+</ol>
+<p>Vereist: Unity 2022.3, VRChat Avatars SDK 3.10.4+, Modular Avatar 1.x vanaf 1.15.1 en NDMF 1.x vanaf 1.14.0. Werk benodigde pakketten samen bij met VCC/ALCOM.</p>
+<h2>Bijwerken vanaf oudere versies</h2>
+<p>Werk product en Unisaki Posing System samen bij. Bestaande opties blijven behouden. Controleer functies/ExpressionParameters en vernieuw gebruikte voorberekening voor opnieuw uploaden.</p>
+<h2>Waar instellen</h2>
+<div class="table-scroll"><table><thead><tr><th>Tabblad</th><th>Belangrijkste instellingen</th></tr></thead><tbody>
+<tr><td>Functies</td><td>Menufuncties voor in het spel, Fotomodus, ademhaling, pictogramafbeeldingen en controle van het parameterverbruik</td></tr>
+<tr><td>Poses</td><td>Te gebruiken poses, zoeken, toevoegen, volgorde wijzigen, voorbeeld en animatieaanpassing</td></tr>
+<tr><td>Avatarinstellingen</td><td>Lichaamscorrectie, overnemen van de oorspronkelijke houding en eigen bewegingen, voorinstellingen</td></tr>
+</tbody></table></div>
+<p>Schakel de functies die je nodig hebt in voordat je uploadt. Bij onderdelen met Instellingen openen kun je daaronder gedetailleerde instellingen tonen.</p>
+<h2>Basisbediening in het spel</h2>
+<p>Open het Expressions-menu en kies een pose van Virtual Love. Kies de poses van de man en de vrouw die bij elkaar horen en stem je positie en richting af op je partner.</p>
+<p>Schakel de vergrendeling van hoofd, armen en voeten om en bepaal zo welke lichaamsdelen je tracking volgen. Met Voeten vast kun je je hoofd bewegen terwijl de voetkant de pose behoudt. Wil je een pose spiegelen of de hoogte ervan aanpassen, schakel dan vooraf de bijbehorende functies in Unity in.</p>
+<h3>Fotomodus</h3>
+<p>Verplaats je avatar naar een plek waar je hem kunt zien, pas de richting aan en maak foto’s.</p>
+<ol>
+<li>Zet in Unity Functies &gt; Menufuncties &gt; Fotomodus aan.</li>
+<li>Open in VRChat Fotomodus en kies bij Pose kiezen de gewenste pose.</li>
+<li>Verplaats de avatar met Afstand tot maximaal 3m naar voren. Is de afstand groter dan 0, dan kijkt de avatar naar je toe.</li>
+<li>Draai de avatar met Richting en zet, zodra de positie goed is, indien nodig Voeten vast aan. De voeten worden bij de start niet automatisch vastgezet, zodat je eerst de positie kunt aanpassen.</li>
+<li>Druk op Foto afsluiten als je klaar bent met fotograferen. Afstand en richting worden hersteld en de voeten worden weer losgelaten.</li>
+</ol>
+<p>Als je Gebaren uit aan het menu hebt toegevoegd, kun je ook in Fotomodus van handvorm wisselen.</p>
+<p>Als je positie en richting alleen op je eigen scherm wijzigt, worden er geen gesynchroniseerde parameters voor Fotomodus gebruikt. Wil je dat anderen dezelfde positie en richting zien, zet dan in Unity Functies &gt; Gemaksfuncties &gt; Fotomodus synchroniseren aan.</p>
+<p>Verdwijnt je eigen hoofd wanneer het dichtbij komt en maakt dat fotograferen lastig, zet dan Hoofd zichtbaar houden in Fotomodus aan. Dit geldt voor je eigen scherm tijdens het fotograferen; daarna keert de normale weergave terug.</p>
+<h3>Voethoogte en Vloerhoogte</h3>
+<p>Zet in Unity onder Functies &gt; Menufuncties de gewenste onderdelen aan om ze aan het menu Instellingen in VRChat toe te voegen.</p>
+<ul>
+<li><strong>Voethoogte</strong>: past de hoogte van de voetkant aan met behoud van de hoofdpositie. Gebruik dit als de voeten in de vloer zakken of erboven zweven, of om de hoogte op je partner af te stemmen.</li>
+<li><strong>Vloerhoogte</strong>: verplaatst het hele lichaam, inclusief het hoofd, omhoog en omlaag. 50% is de oorspronkelijke hoogte, 0% is 3m lager en 100% is 3m hoger. Zet de waarde terug rond 50% om de oorspronkelijke hoogte te herstellen.</li>
+</ul>
+<p>In combinatie met Fotomodus kun je de hoogte, afstand en richting van de avatar aanpassen. Verplaatsen en draaien in Fotomodus en Vloerhoogte corrigeren ook de standaardbewegingen en eigen bewegingen die worden gebruikt wanneer er geen pose is gekozen. Controleer het gezichtspunt en het gedrag na het vervangen van standaardbewegingen in VRChat zelf.</p>
+<h3>Spiegelen en Gebaren uit</h3>
+<ul>
+<li><strong>Spiegelen</strong>: zet Functies &gt; Menufuncties &gt; Spiegelen aan en wissel in het VRChat-menu links en rechts van de pose om.</li>
+<li><strong>Gebaren uit</strong>: zet Functies &gt; Menufuncties &gt; Gebaren uit aan. Als je dit in VRChat inschakelt, blijven de vingerstanden van de pose behouden, ook wanneer je de controllers vastpakt.</li>
+</ul>
+<h3>Ademhaling</h3>
+<ol>
+<li>Zet Functies &gt; Gemaksfuncties &gt; Ademhaling animeren aan.</li>
+<li>Kies via Instellingen openen per houdingscategorie Geen, Zwak, Gemiddeld, Sterk, Snel of Aangepast. Pas de sterkte aan in de categorie die bij de poses van Virtual Love hoort. Met Aangepast kun je een zelfgemaakte ademhalingsanimatie opgeven.</li>
+<li>Wil je de ademhaling ook in het spel kunnen stoppen en hervatten, zet dan ook Functies &gt; Menufuncties &gt; Ademhaling aan. In VRChat schakel je met Ademhaling tussen ON/OFF.</li>
+</ol>
+<p>Met Standaardwiegen van VRChat uitschakelen onderdruk je de standaardlichaamsbeweging die in rust automatisch wordt toegevoegd. De ademhaling die in de posetool is ingesteld, blijft gewoon werken.</p>
+<h3>Vervorming van de pose door hoofdrotatie beperken</h3>
+<p>Zet Functies &gt; Gemaksfuncties &gt; Vervorming door hoofdrotatie verminderen aan. Gebruik dit wanneer de lichaamshouding bij het uitschakelen van Hoofd vast vervormt doordat de nekrichting afwijkt van de oorspronkelijke pose.</p>
+<h3>Omdraaien</h3>
+<p>Omdraaien is een functie waarvoor je zelf een passende lighouding en zijwaartse animaties voorbereidt.</p>
+<ol>
+<li>Zet Functies &gt; Menufuncties &gt; Omdraaien aan.</li>
+<li>Open in Poses de Details van de gewenste pose en zet Omdraaien inschakelen aan.</li>
+<li>Wijs bij Zijpose voor omdraaien de bijbehorende animaties toe en pas indien nodig Sterkte van grondcorrectie aan.</li>
+<li>Kies in VRChat de bijbehorende pose, zet Hoofd vast uit en zet Omdraaien aan. Kantel je hoofd naar links of rechts om je om te draaien.</li>
+</ol>
+<p>Poses die Omdraaien gebruiken, kunnen de gewone MotionTime-instelling niet gebruiken. De meegeleverde poses van Virtual Love bevatten geen zijwaartse animaties voor Omdraaien; bereid zelf passende bewegingen voor als je de functie wilt gebruiken.</p>
+<h2>Parameterverbruik</h2>
+<p>Door functies die je niet nodig hebt uit te schakelen, beperk je het verbruik van ExpressionParameters.</p>
+<div class="table-scroll"><table><thead><tr><th>Functie</th><th>Extra verbruik</th></tr></thead><tbody>
+<tr><td>Spiegelen</td><td>1 bit</td></tr>
+<tr><td>Gebaren uit</td><td>1 bit</td></tr>
+<tr><td>Voethoogte</td><td>8 bit</td></tr>
+<tr><td>Vloerhoogte</td><td>8 bit</td></tr>
+<tr><td>Ademhalingsbeweging</td><td>0 bit</td></tr>
+<tr><td>Ademhaling ON/OFF in het spel</td><td>1 bit</td></tr>
+<tr><td>Fotomodus (alleen je eigen scherm)</td><td>0 bit</td></tr>
+<tr><td>Fotomodus synchroniseren</td><td>16 bit</td></tr>
+<tr><td>Hoofd zichtbaar tijdens het fotograferen</td><td>0 bit</td></tr>
+<tr><td>Vervorming door hoofdrotatie verminderen</td><td>1 bit (gedeeld met Omdraaien)</td></tr>
+<tr><td>Omdraaien</td><td>10 bit (waarvan 1 bit gedeeld met de vervormingscorrectie)</td></tr>
+</tbody></table></div>
+<p>Hier komt het verbruik van onder meer de posekeuze nog bij. Controleer het totaal in de Inspector. Wanneer meerdere posetools de gedeelde functies gebruiken, telt het gedeelde deel niet dubbel. Het verbruik van andere systemen, zoals kleding, zit niet in dit totaal.</p>
+<h2>Poses controleren en aanpassen</h2>
+<p>Met Voorbeeld bij elke pose in Poses toon je de houding in de Scene. Open Animatieaanpassing om tijdens het voorbeeld de lichaamsrichting en de gewrichten aan te passen en het resultaat op te slaan.</p>
+<p>De meegeleverde poses zijn gemaakt met あのん（Anon） van こよりLab als referentie. Pas onder meer de contactpunten met je partner aan op lichaamsbouw en kleding.</p>
+<p>Met Avatarspecifieke correctie inschakelen onder Avatarinstellingen corrigeer je verschillen in de beginhoeken en torsie van gewrichten ten opzichte van de referentieavatar. Achterwaartse kniebuiging voorkomen gaat het achterwaarts doorbuigen van de knieën tegen. Open de gedetailleerde instellingen om Minimale kniebuiging (graden) aan te passen. Controleer ook in het voorbeeld hoe de avatar eruitziet met de correcties ingeschakeld.</p>
+<p>Zoeken op posenaam, meerdere animaties toevoegen en de volgorde wijzigen doe je ook in Poses. Schakel poses die je niet nodig hebt uit of verwijder ze.</p>
+<p>Het snelle voorbeeld voert de build van MA en NDMF niet uit; controleer het eindresultaat, inclusief kleding en andere systemen, daarom ook na de avatarbuild.</p>
+<h3>Pictogramafbeeldingen van poses</h3>
+<p>Zet Posepictogrammen genereren onder Functies aan om afbeeldingen van de poses aan het menu in het spel toe te voegen. De build duurt langer door het genereren van de afbeeldingen. Zet Pictogramgrootte verminderen aan om ruimte te besparen. Voor Android worden geen posepictogrammen gegenereerd.</p>
+<h3>Voorinstellingen</h3>
+<p>Onderaan Avatarinstellingen kun je een voorinstelling kiezen. Deze voorinstelling toepassen vervangt de huidige pose-instellingen; sla je aanpassingen dus op voordat je wisselt.</p>
+<p>Aanpassingsanimatiebestanden die je met Animatieaanpassing hebt gemaakt, en voorinstellingen waarin ze zijn ingesteld, mag je zonder afzonderlijke toestemming van Unisaki Studio verspreiden en verkopen. Gebruik dit bijvoorbeeld om aanpassingsgegevens voor zelfgemaakte avatars te delen.</p>
+<h2>Voorberekening</h2>
+<p>Met Voorberekening bijwerken sla je de gegenereerde menu’s en animaties op, zodat de avatarbuild ze kan hergebruiken en sneller klaar is. Ook zonder voorberekening worden de benodigde gegevens tijdens de gewone build gegenereerd.</p>
+<p>Bekijk na het wijzigen van poses of functies Instellingen controleren in de Inspector en werk de voorberekening bij als je die gebruikt. Een waarschuwing verbergen werkt het gegenereerde resultaat niet bij.</p>
+<h2>Cadeau geven</h2>
+<p>Als je het niet zelf gebruikt, mag je de versie voor de man of die voor de vrouw aan je partner cadeau geven. Wie het cadeau krijgt, mag het alleen gebruiken met degene die het heeft gegeven.</p>
+<h2>Gebruiksnotities</h2>
+<ul>
+<li>Dit product is als grap bedoeld. Gebruik het niet voor intimidatie.</li>
+<li>Houd je bij het gebruik aan de gebruiksvoorwaarden en omgangsregels van VRChat.</li>
+<li>Posevergrendeling tijdens volledige lichaamstracking wordt niet ondersteund.</li>
+<li>Afhankelijk van de lichaamsbouw, kleding en aanpassingen van de avatar kan handmatige afstelling nodig zijn.</li>
+<li>Controleer bij gebruik samen met andere systemen die de houding wijzigen hoe de vergrendelingen en het wisselen van pose werken. Soms kun je dit afstellen met Avatarinstellingen &gt; Trackingvergrendelingen met andere gereedschappen integreren.</li>
+<li>De maker is niet aansprakelijk voor nadeel dat voortvloeit uit het gebruik van deze tool.</li>
+</ul>
+<h2>Gebruiksvoorwaarden</h2>
+<p>Gebruik dit product alleen als je akkoord gaat met de gebruiksvoorwaarden, die met de VN3-licentie zijn opgesteld.</p>
+<p><a href="https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing">Gebruiksvoorwaarden van Virtual Love</a></p></main>
+</body></html>

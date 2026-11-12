@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>更新记录</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">简体中文 · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">更新记录</a></nav>
+<main><h1>更新记录</h1>
+<h2>[3.2.0] - 尚未发布</h2>
+<h3>新增</h3>
+<ul>
+<li>Inspector、安装菜单、许可证提示、收录姿势名和生成的VRChat菜单现支持30种显示语言。</li>
+<li>统一了Inspector和游戏内菜单的语言选择。初始使用计算机语言，同一OS用户的其他项目也会使用最后的选择。</li>
+<li>支持以所选语言打开README和更新记录。</li>
+<li>为22种收录姿势的显示名和5个分类菜单的名称准备了各语言版本。</li>
+<li>支持Unisaki Posing System 3.2.0。</li>
+</ul>
+<h3>兼容性</h3>
+<ul>
+<li>保留虚拟形象的现有设置、自定义名称、资源引用、参数标识符和许可证保存方式。</li>
+</ul>
+<h2>[3.1.0] - 2026-11-07</h2>
+<ul>
+<li>新增拍照模式。可以将虚拟形象向前移动或旋转，调整到便于拍照的位置。还可以选择将位置和朝向同步给其他人，以及在拍照期间显示自己的头部。</li>
+<li>新增“地面高度”。可上下移动包含头部在内的整个身体，与保持头部位置、移动脚部一侧的“脚部高度”区分使用。</li>
+<li>新增呼吸动画。可按姿势分类选择强度，还可以添加在游戏内暂停或恢复呼吸的菜单。也可以使用抑制VRChat默认待机摇摆的设置。</li>
+<li>新增一项设置，用于减轻解除头部固定后因头部朝向不同而造成的姿势变形。</li>
+<li>支持虚拟形象专属修正和防止膝盖反折。可修正与制作基准Anon之间的关节差异，并根据虚拟形象调整姿势。</li>
+<li>现在可以在Inspector中选择所需功能，并确认参数用量。</li>
+<li>可在姿势列表中使用搜索、批量添加、顺序调整，以及Scene中的简易预览。</li>
+<li>可从虚拟形象的右键菜单通过“Unisaki Studio &gt; 添加Virtual Love（男性）／添加Virtual Love（女性）”安装。添加后的功能在Inspector中选择。</li>
+<li>需要Unisaki Posing System 3.1.0。</li>
+</ul>
+<h2>[3.0.3] - 2026-08-29</h2>
+<ul>
+<li>更新为PosingSystem 3.0.10，减轻预设加载和Hierarchy图标判断的负担</li>
+<li>修复了同一虚拟形象存在多个姿势系统时的预构建错误</li>
+</ul>
+<h2>[3.0.2] - 2026-01-11</h2>
+<ul>
+<li>改善许可证安装和删除相关功能</li>
+</ul>
+<h2>[3.0.1] - 2026-01-04</h2>
+<ul>
+<li>修复Mac、Linux版本的许可证处理问题</li>
+</ul>
+<h2>[3.0.0] - 2026-01-02</h2>
+<ul>
+<li>支持Unisaki Posing System Ver3.0.0</li>
+<li>新增预构建功能</li>
+<li>新增动画调整功能</li>
+<li>新增预设功能</li>
+<li>支持通过unitypackage添加到项目</li>
+</ul>
+<h2>[2.1.4] - 2025-05-08</h2>
+<ul>
+<li>解决了与某些功能组件的兼容性问题</li>
+</ul>
+<h2>[2.1.3] - 2025-04-04</h2>
+<ul>
+<li>修复了某些虚拟形象与ModularAvatar版本组合下无法切换姿势的问题</li>
+</ul>
+<h2>[2.1.2] - 2025-03-13</h2>
+<ul>
+<li>修复了森羅的跳跃等部分虚拟形象动作异常的问题</li>
+<li>修复了“禁用手势”的初始值有时不正确的问题</li>
+<li>修复了部分姿势缺少手型数据的问题</li>
+</ul>
+<h2>[2.1.1] - 2025-03-06</h2>
+<ul>
+<li>修复了某些环境下会报错的问题</li>
+</ul>
+<h2>[2.1.0] - 2025-02-05</h2>
+<ul>
+<li>修复了Unity崩溃的问题</li>
+<li>在NDMF Console显示的工具名中加入了版本号</li>
+<li>新增禁用手势、使用动画手型的设置</li>
+<li>为所有姿势添加手型数据</li>
+</ul>
+<h2>[2.0.1] - 2025-02-02</h2>
+<ul>
+<li>修复了与某些工具并用时姿势损坏的问题</li>
+<li>修复了某些设置下会报错的问题</li>
+</ul>
+<h2>[2.0.0] - 2024/12/08</h2>
+<ul>
+<li>发布了使用Unisaki Posing System的VCC版</li>
+</ul>
+<h2>[1.3] - 2022/11/10</h2>
+<ul>
+<li>以符合VRChat条款的原创AnimatorController为基础，重新制作了Base控制器</li>
+<li>将初始设置界面改为对话框</li>
+</ul>
+<h2>[1.2.1] - 2022/3/22</h2>
+<ul>
+<li>修复了女性用商品缺少动画文件的问题</li>
+</ul>
+<h2>[1.2] - 2022/3/8</h2>
+<ul>
+<li>修复了部分动画中视线方向会移动的问题</li>
+</ul>
+<h2>[1.1] - 2022/2/27</h2>
+<ul>
+<li>新增脚部高度调整功能</li>
+<li>修复了重新打开Unity后部分设置丢失的问题</li>
+</ul>
+<h2>[1.0] - 2022/2/8</h2>
+<ul>
+<li>首次发布</li>
+</ul></main>
+</body></html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="da" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Virtual Love</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Dansk · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Ændringshistorik</a></nav>
+<main><h1>Virtual Love</h1>
+<p>Et værktøj til VRChat-avatarer, hvor du kan indtage parpositurer sammen med en partner med 3-punktssporing eller i desktoptilstand. Det indeholder 22 positurer til hver af mand og kvinde, 44 i alt. Stående spagat og Jack-O-udfordringen er også med.</p>
+<p>Denne README gælder v3.2.0 under udvikling. Endelig udgivelsesdato er ikke fastsat. Installeret version vises øverst i Inspector.</p>
+<ul>
+<li><a href="https://yunisaki.booth.pm/items/3641334">Produktside på BOOTH</a></li>
+<li><a href="CHANGELOG.html">Ændringshistorik</a></li>
+</ul>
+<h2>Visningssprog og offlinedokumentation</h2>
+<p>Vælg visningssprog med ”Language / 言語” øverst i Inspector. Ét valg gælder både Inspector og den genererede VRChat-menu. Upload avataren igen for at ændre sproget i spillet.</p>
+<p>Uden et valg bruges computerens sprog, eller engelsk hvis sproget ikke understøttes. Windows, macOS og Linux understøttes. Det seneste valg gemmes i EditorPrefs og bruges i andre projekter for samme OS-bruger på denne computer. Alle positurværktøjer og avatarer bruger samme sprog. En ændring i et hvilket som helst værktøjs Inspector opdaterer den fælles indstilling; sprogvalg for enkelte avatarer ignoreres. Valget synkroniseres ikke til andre computere. Licenslagringen ændres ikke. Sprogknappen vises kun ved den første installationsbekræftelse, hvis der ikke er gemt et sprog. Senere sprogændringer foretages i Inspector.</p>
+<p>README og ændringshistorik kan vælges i den medfølgende <a href="../index.html">sprogoversigt</a>. ”Vejledning” og ”Vis ændringer” i Inspector følger også det valgte sprog. Navnene på de medfølgende positurer og på kategorierne i spilmenuen vises ligeledes på det valgte sprog. Brugsbetingelserne medfølger som hidtil på japansk.</p>
+<h2>Installation</h2>
+<ol>
+<li>Importér ”VirtualLove_Boy.unitypackage” eller ”VirtualLove_Girl.unitypackage” fra de købte filer til Unity.</li>
+<li>Når pakkekilden er registreret, kan du føje Virtual Love til dit projekt fra VCC eller ALCOM. Unisaki Posing System 3.2.0 er påkrævet.</li>
+<li>Højreklik på avataren i Hierarchy, og vælg ”Unisaki Studio &gt; Tilføj Virtual Love (mand)” eller ”Unisaki Studio &gt; Tilføj Virtual Love (kvinde)”.</li>
+<li>Vælg ”三点だいしゅき(男)” eller ”三点だいしゅき(女)”, som er blevet tilføjet i avataren, og indstil funktioner og positurer i Inspector.</li>
+<li>Kontrollér positurerne i forhåndsvisningen, og upload derefter avataren som normalt.</li>
+</ol>
+<p>Kræver Unity 2022.3, VRChat Avatars SDK 3.10.4 eller nyere, Modular Avatar 1.x fra 1.15.1 og NDMF 1.x fra 1.14.0. Opdatér nødvendige pakker sammen i VCC eller ALCOM.</p>
+<h2>Opdatering fra tidligere versioner</h2>
+<p>Opdatér produktet sammen med Unisaki Posing System. Eksisterende værktøjsindstillinger bevares. Kontrollér funktioner og ExpressionParameters-forbrug i Inspector, og tryk ”Opdatér forberegning” før ny upload, hvis den bruges.</p>
+<h2>Hvor indstillingerne findes</h2>
+<div class="table-scroll"><table><thead><tr><th>Fane</th><th>Vigtigste indstillinger</th></tr></thead><tbody>
+<tr><td>Funktioner</td><td>Menufunktioner i spillet, Fototilstand, vejrtrækning, ikonbilleder og kontrol af parameterforbrug</td></tr>
+<tr><td>Positurer</td><td>Anvendte positurer, søgning, tilføjelse, omrokering, forhåndsvisning og animationsjustering</td></tr>
+<tr><td>Avataropsætning</td><td>Kropskorrektion, import af den oprindelige holdning og egne bevægelser samt forudindstillinger</td></tr>
+</tbody></table></div>
+<p>Slå de funktioner til, du har brug for, før du uploader. Punkter med ”Åbn indstillinger” kan vise detaljerede indstillinger nedenunder.</p>
+<h2>Grundlæggende spilbetjening</h2>
+<p>Åbn Expressions-menuen, og vælg en positur fra Virtual Love. Vælg de positurer, der danner par for mand og kvinde, og tilpas position og retning efter din partner.</p>
+<p>Med låsene til hoved, arme og fødder vælger du, hvilke dele der følger din sporing. Med ”Lås fødder” kan du bevæge hovedet, mens underkroppen beholder sin positur. Hvis du vil spejlvende en positur eller justere dens højde, skal du aktivere de tilsvarende funktioner i Unity på forhånd.</p>
+<h3>Fototilstand</h3>
+<p>Du kan flytte din avatar til et sted, hvor du kan se den, justere dens retning og tage billeder.</p>
+<ol>
+<li>Slå ”Funktioner &gt; Menufunktioner &gt; Fototilstand” til i Unity.</li>
+<li>Åbn ”Fototilstand” i VRChat, og vælg den ønskede positur under ”Vælg positur”.</li>
+<li>Med ”Afstand” flytter du avataren op til 3m fremad. Når afstanden er større end 0, vender avataren sig mod dig.</li>
+<li>Drej den med ”Retning”, og slå om nødvendigt ”Lås fødder” til, når positionen er på plads. Fødderne låses ikke automatisk fra start, så du kan justere positionen først.</li>
+<li>Tryk på ”Afslut foto”, når du er færdig. Afstand og retning nulstilles, og fodlåsen ophæves.</li>
+</ol>
+<p>Hvis du har føjet ”Gestus fra” til menuen, kan du også skifte håndform i Fototilstand.</p>
+<p>Hvis du kun ændrer position og retning på din egen skærm, bruges der ingen synkroniserede parametre til Fototilstand. Hvis andre også skal se samme position og retning, skal du slå ”Funktioner &gt; Praktiske funktioner &gt; Synkronisér Fototilstand” til i Unity.</p>
+<p>Hvis dit eget hoved skjules, når det kommer tæt på, og gør det svært at fotografere, skal du slå ”Hold hovedet synligt i Fototilstand” til. Det gælder din egen visning, mens du fotograferer, og bagefter vender visningen tilbage til det normale.</p>
+<h3>Fodhøjde og Gulvhøjde</h3>
+<p>Slå de ønskede punkter til under ”Funktioner &gt; Menufunktioner” i Unity, så føjes de til menuen ”Indstillinger” i VRChat.</p>
+<ul>
+<li><strong>Fodhøjde</strong>: justerer højden i fodenden, mens hovedets position bevares. Brug den, når fødderne synker ned i gulvet eller svæver, eller når du vil tilpasse højden efter din partner.</li>
+<li><strong>Gulvhøjde</strong>: flytter hele kroppen, inklusive hovedet, op og ned. 50% er den oprindelige højde, 0% er 3m lavere, og 100% er 3m højere. Sæt værdien tilbage til omkring 50% for at vende tilbage.</li>
+</ul>
+<p>Sammen med Fototilstand kan du justere avatarens højde, afstand og retning. Flytning og rotation i Fototilstand samt Gulvhøjde korrigerer også standardbevægelser og egne bevægelser, når ingen positur er valgt. Kontrollér synsvinklen og opførslen efter udskiftning af standardbevægelser direkte i VRChat.</p>
+<h3>Spejlvend og Gestus fra</h3>
+<ul>
+<li><strong>Spejlvend</strong>: slå ”Funktioner &gt; Menufunktioner &gt; Spejlvend” til, og skift mellem positurens venstre- og højreudgave i VRChat-menuen.</li>
+<li><strong>Gestus fra</strong>: slå ”Funktioner &gt; Menufunktioner &gt; Gestus fra” til. Når det er aktiveret i VRChat, bevares de fingerstillinger, der er indstillet i posituren, også når du griber om controllerne.</li>
+</ul>
+<h3>Vejrtrækning</h3>
+<ol>
+<li>Slå ”Funktioner &gt; Praktiske funktioner &gt; Animér vejrtrækning” til.</li>
+<li>Vælg ”Ingen”, ”Svag”, ”Middel”, ”Stærk”, ”Hurtig” eller ”Egen” for hver positurkategori via ”Åbn indstillinger”. Justér styrken i den kategori, der svarer til positurerne i Virtual Love. Med ”Egen” kan du angive din egen vejrtrækningsanimation.</li>
+<li>Hvis du også vil kunne stoppe og genoptage vejrtrækningen i spillet, skal du desuden slå ”Funktioner &gt; Menufunktioner &gt; Vejrtrækning” til. I VRChat skifter du ON/OFF med ”Vejrtrækning”.</li>
+</ol>
+<p>Med ”Slå VRChats svajen i stilstand fra” dæmper du den standardsvajen i kroppen, som automatisk tilføjes, når du står stille. Den vejrtrækning, der er indstillet i positurværktøjet, virker fortsat.</p>
+<h3>Reducér forvrængning fra hovedrotation</h3>
+<p>Slå ”Funktioner &gt; Praktiske funktioner &gt; Reducér forvrængning fra hovedrotation” til. Brug det, når kropsholdningen forvrænges, efter at hovedlåsen er ophævet, fordi hovedets retning afviger fra den oprindelige positur.</p>
+<h3>Vend dig</h3>
+<p>”Vend dig” er en funktion, du bruger ved at klargøre en passende liggende positur og sideanimationer.</p>
+<ol>
+<li>Slå ”Funktioner &gt; Menufunktioner &gt; Vend dig” til.</li>
+<li>Åbn ”Detaljer” for den ønskede positur under ”Positurer”, og slå ”Aktivér Vend dig” til.</li>
+<li>Angiv de tilsvarende animationer under ”Sidepositur til vending”, og justér om nødvendigt ”Styrke af gulvkorrektion”.</li>
+<li>Vælg den tilsvarende positur i VRChat, ophæv hovedlåsen, og slå ”Vend dig” til. Læn hovedet til venstre eller højre for at vende dig.</li>
+</ol>
+<p>Positurer, der bruger Vend dig, kan ikke bruge den almindelige MotionTime-indstilling. De positurer, der følger med Virtual Love, indeholder ingen sideanimationer til vending, så klargør passende bevægelser, hvis du vil bruge funktionen.</p>
+<h2>Parameterforbrug</h2>
+<p>Når du slår funktioner fra, som du ikke har brug for, falder forbruget af ExpressionParameters.</p>
+<div class="table-scroll"><table><thead><tr><th>Funktion</th><th>Ekstra forbrug</th></tr></thead><tbody>
+<tr><td>Spejlvend</td><td>1 bit</td></tr>
+<tr><td>Gestus fra</td><td>1 bit</td></tr>
+<tr><td>Fodhøjde</td><td>8 bit</td></tr>
+<tr><td>Gulvhøjde</td><td>8 bit</td></tr>
+<tr><td>Vejrtrækningsbevægelse</td><td>0 bit</td></tr>
+<tr><td>Vejrtrækning ON/OFF i spillet</td><td>1 bit</td></tr>
+<tr><td>Fototilstand (kun din egen skærm)</td><td>0 bit</td></tr>
+<tr><td>Synkronisering af Fototilstand</td><td>16 bit</td></tr>
+<tr><td>Visning af hovedet under fotografering</td><td>0 bit</td></tr>
+<tr><td>Reduktion af forvrængning fra hovedrotation</td><td>1 bit (deles med Vend dig)</td></tr>
+<tr><td>Vend dig</td><td>10 bit (heraf deles 1 bit med reduktionen af forvrængning)</td></tr>
+</tbody></table></div>
+<p>Hertil kommer forbruget til valg af positur med mere. Kontrollér det samlede forbrug i Inspector. Når flere positurværktøjer bruger de fælles funktioner, tælles den delte del ikke dobbelt. Forbrug fra andre systemer, for eksempel tøj, er ikke med i denne sum.</p>
+<h2>Kontrol og justering af positurer</h2>
+<p>Med ”Forhåndsvisning” ved hver positur under ”Positurer” vises holdningen i Scene. Åbn ”Animationsjustering” for at justere kroppens retning og led, mens du forhåndsviser, og gem derefter resultatet.</p>
+<p>De medfølgende positurer er lavet med ”あのん（Anon）” fra こよりLab som udgangspunkt. Justér for eksempel kontaktpunkterne med din partner efter kropsbygning og tøj.</p>
+<p>Med ”Aktivér avatarspecifik korrektion” under ”Avataropsætning” korrigeres forskelle i leddenes udgangsvinkler og vrid i forhold til referenceavataren. ”Forhindr bagudbøjning af knæ” modvirker, at knæene bøjer den forkerte vej. Åbn de detaljerede indstillinger for at justere ”Mindste knæbøjning (grader)”. Kontrollér også udseendet med korrektionen aktiveret i forhåndsvisningen.</p>
+<p>Søgning efter positurnavne, tilføjelse af flere animationer og ændring af rækkefølgen foregår også under ”Positurer”. Deaktivér eller slet de positurer, du ikke har brug for.</p>
+<p>Den hurtige forhåndsvisning kører ikke byggeprocessen for MA og NDMF, så kontrollér også det endelige resultat, inklusive tøj og andre systemer, efter at avataren er bygget.</p>
+<h3>Ikonbilleder til positurer</h3>
+<p>Slå ”Generér positurikoner” til under ”Funktioner” for at føje billeder af positurerne til spilmenuen. Buildet tager længere tid, fordi billederne skal genereres. Slå ”Reducér ikonstørrelse” til, hvis du vil spare plads. Der genereres ikke positurikoner til Android.</p>
+<h3>Forudindstillinger</h3>
+<p>Nederst i ”Avataropsætning” kan du vælge en forudindstilling. ”Anvend denne forudindstilling” erstatter de aktuelle positurindstillinger, så gem dine justeringer, før du skifter.</p>
+<p>Justeringsanimationsfiler, der er lavet med Animationsjustering, og forudindstillinger, der bruger dem, må distribueres og sælges uden særskilt tilladelse fra Unisaki Studio. Brug det for eksempel til at dele justeringsdata til egne avatarer.</p>
+<h2>Forberegning</h2>
+<p>Med ”Opdatér forberegning” gemmes de genererede menuer og animationer, så de kan genbruges, når avataren bygges, og buildet går hurtigere. Også uden forberegning genereres de nødvendige data under det almindelige build.</p>
+<p>Når du har ændret positurer eller funktioner, skal du se under ”Kontrollér indstillinger” i Inspector og opdatere forberegningen, hvis du bruger den. At skjule en advarsel opdaterer ikke det genererede resultat.</p>
+<h2>Om gaver</h2>
+<p>Hvis du ikke selv bruger den, må du give enten udgaven til mand eller udgaven til kvinde som gave til din partner. Den, der modtager gaven, må kun bruge den sammen med den, der gav den.</p>
+<h2>Bemærkninger om brug</h2>
+<ul>
+<li>Produktet er lavet for sjov. Brug det ikke til chikane.</li>
+<li>Overhold VRChats vilkår og god opførsel, når du bruger det.</li>
+<li>Positurlåsning under fuldkropssporing understøttes ikke.</li>
+<li>Afhængigt af avatarens kropsbygning, tøj og ændringer kan manuel justering være nødvendig.</li>
+<li>Hvis du samtidig bruger andre systemer, der ændrer holdningen, bør du kontrollere, hvordan låsene og positurskiftene opfører sig. Det kan muligvis justeres med ”Avataropsætning &gt; Integrér sporingslåsninger med andre værktøjer”.</li>
+<li>Skaberen påtager sig intet ansvar for ulemper, der opstår ved brug af værktøjet.</li>
+</ul>
+<h2>Brugsbetingelser</h2>
+<p>Brug først produktet, når du har accepteret brugsbetingelserne, som er udarbejdet med VN3-licensen.</p>
+<p><a href="https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing">Brugsbetingelser for Virtual Love</a></p></main>
+</body></html>
