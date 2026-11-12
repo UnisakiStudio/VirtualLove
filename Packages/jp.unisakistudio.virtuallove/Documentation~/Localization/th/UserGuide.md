@@ -17,7 +17,7 @@ README นี้สำหรับ v3.2.0 ที่อยู่ระหว่�
 
 ## วิธีติดตั้ง
 
-1. นำเข้า «VirtualLove_Boy.unitypackage» หรือ «VirtualLove_Girl.unitypackage» ที่อยู่ในไฟล์ที่ซื้อมาสู่ Unity
+1. นำเข้า «VirtualLove_Boy.unitypackage» หรือ «VirtualLove_Girl.unitypackage» ที่อยู่ในไฟล์ที่ซื้อมาสู่ Unity ในฉบับภาษาอังกฤษ ไฟล์ทั้งสองชื่อ «VirtualLove_Male_Installer.unitypackage» และ «VirtualLove_Female_Installer.unitypackage»
 2. เมื่อลงทะเบียนแหล่งแจกจ่ายแพ็กเกจแล้ว จะเพิ่ม Virtual Love ในโปรเจกต์ที่ใช้ได้จาก VCC หรือ ALCOM ต้องใช้ Unisaki Posing System 3.2.0
 3. คลิกขวาที่อวาตาร์ที่ต้องการติดตั้งใน Hierarchy แล้วเลือก «Unisaki Studio > เพิ่ม Virtual Love (ชาย)» หรือ «Unisaki Studio > เพิ่ม Virtual Love (หญิง)»
 4. เลือก «三点だいしゅき(男)» หรือ «三点だいしゅき(女)» ที่เพิ่มเข้ามาในอวาตาร์ แล้วตั้งค่าฟังก์ชันและท่าที่จะใช้ใน Inspector

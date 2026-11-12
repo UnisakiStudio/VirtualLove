@@ -17,7 +17,7 @@ README, మార్పుల చరిత్రను చేర్చిన [�
 
 ## ఇన్‌స్టాల్ చేసే విధానం
 
-1. కొనుగోలు చేసిన ఫైళ్లలోని «VirtualLove_Boy.unitypackage» లేదా «VirtualLove_Girl.unitypackage» ఫైల్‌ను Unityలో దిగుమతి చేయండి.
+1. కొనుగోలు చేసిన ఫైళ్లలోని «VirtualLove_Boy.unitypackage» లేదా «VirtualLove_Girl.unitypackage» ఫైల్‌ను Unityలో దిగుమతి చేయండి. ఆంగ్ల ఎడిషన్‌లో ఈ ఫైళ్ల పేర్లు «VirtualLove_Male_Installer.unitypackage» మరియు «VirtualLove_Female_Installer.unitypackage».
 2. ప్యాకేజీ మూలాన్ని నమోదు చేశాక, VCC లేదా ALCOM ద్వారా మీ ప్రాజెక్ట్‌కు Virtual Love జోడించవచ్చు. Unisaki Posing System 3.2.0 అవసరం.
 3. Hierarchyలో సాధనాన్ని జోడించాలనుకున్న అవతార్‌పై కుడి క్లిక్ చేసి, «Unisaki Studio > Virtual Love (పురుష) జోడించు» లేదా «Unisaki Studio > Virtual Love (స్త్రీ) జోడించు» ఎంచుకోండి.
 4. అవతార్‌లో జోడించబడిన «三点だいしゅき(男)» లేదా «三点だいしゅき(女)» ఆబ్జెక్ట్‌ను ఎంచుకుని, వాడే ఫీచర్లు, భంగిమలను Inspectorలో సెట్ చేయండి.

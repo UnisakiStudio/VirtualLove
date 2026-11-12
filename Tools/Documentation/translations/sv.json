@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "6bec41c14b7fd9cc70938e6c32faa3efdc2481d90e1c65f4e98a3bd6bd4cdc48",
+  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -19,7 +19,7 @@
     "e949435434fc5e4d": "Utan uttryckligt val används datorns språk, annars engelska om språket saknas. Windows, macOS och Linux stöds. Senaste val sparas i EditorPrefs för andra projekt med samma systemanvändare på denna dator. Alla posverktyg och avatarer använder samma språk. En ändring i något verktygs Inspector uppdaterar den gemensamma inställningen; språkval för enskilda avatarer ignoreras. Ingen synkronisering till andra datorer. Licenslagring ändras inte. Språkknappen visas bara vid den första installationsbekräftelsen om inget språk har sparats. Senare språkändringar görs i Inspector.",
     "7cb8ea25803baf26": "README och ändringshistorik kan väljas i den medföljande [språklistan](Documentation~/Localization/index.html). Även ”Handbok” och ”Visa ändringar” i Inspector följer det valda språket. Namnen på de medföljande poserna och på kategorierna i spelmenyn visas också på det valda språket. Användarvillkoren medföljer liksom tidigare på japanska.",
     "e365c0379b008026": "## Installation",
-    "2acb95327d7629b0": "1. Importera ”VirtualLove_Boy.unitypackage” eller ”VirtualLove_Girl.unitypackage” från de köpta filerna till Unity.\n2. När paketkällan har registrerats kan du lägga till Virtual Love i ditt projekt från VCC eller ALCOM. Unisaki Posing System 3.2.0 krävs.\n3. Högerklicka på avataren i Hierarchy och välj ”Unisaki Studio > Lägg till Virtual Love (man)” eller ”Unisaki Studio > Lägg till Virtual Love (kvinna)”.\n4. Markera ”三点だいしゅき(男)” eller ”三点だいしゅき(女)”, som har lagts till i avataren, och ställ in funktioner och poser i Inspector.\n5. Kontrollera poserna i förhandsvisningen och ladda sedan upp avataren som vanligt.",
+    "6ac6a8c736db81c9": "1. Importera ”VirtualLove_Boy.unitypackage” eller ”VirtualLove_Girl.unitypackage” från de köpta filerna till Unity. I den engelska utgåvan heter filerna ”VirtualLove_Male_Installer.unitypackage” och ”VirtualLove_Female_Installer.unitypackage”.\n2. När paketkällan har registrerats kan du lägga till Virtual Love i ditt projekt från VCC eller ALCOM. Unisaki Posing System 3.2.0 krävs.\n3. Högerklicka på avataren i Hierarchy och välj ”Unisaki Studio > Lägg till Virtual Love (man)” eller ”Unisaki Studio > Lägg till Virtual Love (kvinna)”.\n4. Markera ”三点だいしゅき(男)” eller ”三点だいしゅき(女)”, som har lagts till i avataren, och ställ in funktioner och poser i Inspector.\n5. Kontrollera poserna i förhandsvisningen och ladda sedan upp avataren som vanligt.",
     "76cf9e2237b960ba": "Kräver Unity 2022.3, VRChat Avatars SDK 3.10.4 eller senare, Modular Avatar 1.x från 1.15.1 och NDMF 1.x från 1.14.0. Uppdatera nödvändiga paket tillsammans i VCC eller ALCOM.",
     "014aae827a3bded4": "## Uppdatering från tidigare versioner",
     "c91b6d99606092e8": "Uppdatera produkten och Unisaki Posing System tillsammans. Inställningar i redan placerade verktyg bevaras. Kontrollera aktiva funktioner och ExpressionParameters-användning i Inspector. Om du använde förberäkning trycker du på ”Uppdatera förberäkning” före ny uppladdning.",

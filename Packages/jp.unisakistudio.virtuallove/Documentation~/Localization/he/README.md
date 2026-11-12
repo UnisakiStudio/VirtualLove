@@ -17,7 +17,7 @@ README זה מיועד לגרסה v3.2.0 הנמצאת בפיתוח. טרם נק�
 
 ## התקנה
 
-1. ייבאו ל-Unity את הקובץ VirtualLove_Boy.unitypackage או VirtualLove_Girl.unitypackage הכלול בקובצי הרכישה.
+1. ייבאו ל-Unity את הקובץ VirtualLove_Boy.unitypackage או VirtualLove_Girl.unitypackage הכלול בקובצי הרכישה. במהדורה האנגלית שמות הקבצים הם VirtualLove_Male_Installer.unitypackage ו-VirtualLove_Female_Installer.unitypackage.
 2. לאחר רישום מקור החבילות אפשר להוסיף את Virtual Love לפרויקט שבשימוש דרך VCC או ALCOM. נדרש Unisaki Posing System 3.2.0.
 3. לחצו לחיצה ימנית ב-Hierarchy על האווטאר הרצוי ובחרו Unisaki Studio > הוספת Virtual Love (גבר) או Unisaki Studio > הוספת Virtual Love (אישה).
 4. בחרו את האובייקט 三点だいしゅき(男) או 三点だいしゅき(女) שנוסף לאווטאר, והגדירו ב-Inspector את התכונות והתנוחות הרצויות.

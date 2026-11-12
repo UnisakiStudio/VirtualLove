@@ -17,7 +17,7 @@
 
 ## 安装方法
 
-1. 将购买文件中随附的“VirtualLove_Boy.unitypackage”或“VirtualLove_Girl.unitypackage”导入Unity。
+1. 将购买文件中随附的“VirtualLove_Boy.unitypackage”或“VirtualLove_Girl.unitypackage”导入Unity。英文版中的文件名为“VirtualLove_Male_Installer.unitypackage”和“VirtualLove_Female_Installer.unitypackage”。
 2. 注册软件包来源后，可通过VCC或ALCOM将Virtual Love添加到所用项目。需要Unisaki Posing System 3.2.0。
 3. 在Hierarchy中右键点击要安装的虚拟形象，选择“Unisaki Studio > 添加Virtual Love（男性）”或“Unisaki Studio > 添加Virtual Love（女性）”。
 4. 选中添加到虚拟形象内的“三点だいしゅき(男)”或“三点だいしゅき(女)”，在Inspector中设置要使用的功能和姿势。

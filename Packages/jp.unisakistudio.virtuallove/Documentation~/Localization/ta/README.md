@@ -17,7 +17,7 @@ Inspector-இன் உச்சியிலுள்ள «Language / 言語» �
 
 ## நிறுவும் முறை
 
-1. வாங்கிய கோப்புகளில் உள்ள «VirtualLove_Boy.unitypackage» அல்லது «VirtualLove_Girl.unitypackage» கோப்பை Unity-இல் இறக்குமதி செய்யவும்.
+1. வாங்கிய கோப்புகளில் உள்ள «VirtualLove_Boy.unitypackage» அல்லது «VirtualLove_Girl.unitypackage» கோப்பை Unity-இல் இறக்குமதி செய்யவும். ஆங்கிலப் பதிப்பில் இக்கோப்புகளின் பெயர்கள் «VirtualLove_Male_Installer.unitypackage» மற்றும் «VirtualLove_Female_Installer.unitypackage» ஆகும்.
 2. தொகுப்பு மூலத்தைப் பதிவு செய்தபின், VCC அல்லது ALCOM மூலம் உங்கள் திட்டத்தில் Virtual Love-ஐச் சேர்க்கலாம். Unisaki Posing System 3.2.0 தேவை.
 3. Hierarchy-இல் கருவியைச் சேர்க்க விரும்பும் அவதாரை வலது சொடுக்கி, «Unisaki Studio > Virtual Love (ஆண்) சேர்» அல்லது «Unisaki Studio > Virtual Love (பெண்) சேர்» என்பதைத் தேர்ந்தெடுக்கவும்.
 4. அவதாருக்குள் சேர்க்கப்பட்ட «三点だいしゅき(男)» அல்லது «三点だいしゅき(女)» பொருளைத் தேர்ந்தெடுத்து, பயன்படுத்தும் வசதிகளையும் போஸ்களையும் Inspector-இல் அமைக்கவும்.

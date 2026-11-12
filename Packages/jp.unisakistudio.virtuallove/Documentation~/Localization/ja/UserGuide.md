@@ -17,7 +17,7 @@ READMEと変更履歴は同梱の[言語一覧](../index.html)から選べます
 
 ## 導入方法
 
-1. 購入ファイルに同梱された「VirtualLove_Boy.unitypackage」または「VirtualLove_Girl.unitypackage」をUnityへインポートします。
+1. 購入ファイルに同梱された「VirtualLove_Boy.unitypackage」または「VirtualLove_Girl.unitypackage」をUnityへインポートします。英語版の同梱ファイル名は「VirtualLove_Male_Installer.unitypackage」「VirtualLove_Female_Installer.unitypackage」です。
 2. パッケージ配布元の登録後は、VCCやALCOMから使用するプロジェクトに「三点だいしゅきツール」を追加できます。ゆにさきポーズシステム 3.2.0 が必要です。
 3. Hierarchyで導入したいアバターを右クリックし、「ゆにさきスタジオ > 三点だいしゅきツール(男)追加」または「ゆにさきスタジオ > 三点だいしゅきツール(女)追加」を選びます。
 4. アバター内に追加された「三点だいしゅき(男)」または「三点だいしゅき(女)」を選び、Inspectorで使う機能とポーズを設定します。

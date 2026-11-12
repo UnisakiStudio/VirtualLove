@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "6bec41c14b7fd9cc70938e6c32faa3efdc2481d90e1c65f4e98a3bd6bd4cdc48",
+  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -19,7 +19,7 @@
     "e949435434fc5e4d": "선택한 언어가 없으면 컴퓨터의 언어를 사용하고, 지원하지 않는 언어이면 영어를 사용합니다. Windows·macOS·Linux를 지원합니다. 마지막으로 선택한 언어를 EditorPrefs에 저장하여 이 컴퓨터의 같은 OS 사용자에 속한 다른 프로젝트에서도 사용합니다. 모든 포즈 도구와 아바타는 같은 언어를 사용합니다. 어느 도구의 Inspector에서 변경하든 공통 설정에 반영되며, 아바타별 언어 선택은 사용하지 않습니다. 다른 컴퓨터에는 동기화하지 않습니다. 라이선스 저장 방식은 변경하지 않습니다. 저장된 언어가 없을 때 최초 설치 확인에만 언어 버튼을 표시합니다. 이후에는 Inspector에서 언어를 변경합니다.",
     "7cb8ea25803baf26": "README와 변경 내역은 동봉된 [언어 목록](Documentation~/Localization/index.html)에서 선택할 수 있습니다. Inspector의 사용 설명서와 변경 내역도 선택한 언어를 따릅니다. 수록 포즈의 이름과 게임 내 메뉴의 분류 이름도 선택한 언어로 표시합니다. 이용 약관은 기존처럼 일본어판을 동봉합니다.",
     "e365c0379b008026": "## 설치 방법",
-    "2acb95327d7629b0": "1. 구매 파일에 동봉된 VirtualLove_Boy.unitypackage 또는 VirtualLove_Girl.unitypackage를 Unity로 가져옵니다.\n2. 패키지 배포처를 등록한 뒤에는 VCC나 ALCOM에서 사용할 프로젝트에 Virtual Love를 추가할 수 있습니다. Unisaki Posing System 3.2.0이 필요합니다.\n3. Hierarchy에서 적용할 아바타를 우클릭하고 Unisaki Studio > Virtual Love(남성) 추가 또는 Unisaki Studio > Virtual Love(여성) 추가를 선택합니다.\n4. 아바타 내부에 추가된 三点だいしゅき(男) 또는 三点だいしゅき(女)를 선택하고 Inspector에서 사용할 기능과 포즈를 설정합니다.\n5. 미리보기로 자세를 확인한 뒤 일반적인 방법으로 아바타를 업로드합니다.",
+    "6ac6a8c736db81c9": "1. 구매 파일에 동봉된 VirtualLove_Boy.unitypackage 또는 VirtualLove_Girl.unitypackage를 Unity로 가져옵니다. 영어판에서는 파일 이름이 VirtualLove_Male_Installer.unitypackage 및 VirtualLove_Female_Installer.unitypackage입니다.\n2. 패키지 배포처를 등록한 뒤에는 VCC나 ALCOM에서 사용할 프로젝트에 Virtual Love를 추가할 수 있습니다. Unisaki Posing System 3.2.0이 필요합니다.\n3. Hierarchy에서 적용할 아바타를 우클릭하고 Unisaki Studio > Virtual Love(남성) 추가 또는 Unisaki Studio > Virtual Love(여성) 추가를 선택합니다.\n4. 아바타 내부에 추가된 三点だいしゅき(男) 또는 三点だいしゅき(女)를 선택하고 Inspector에서 사용할 기능과 포즈를 설정합니다.\n5. 미리보기로 자세를 확인한 뒤 일반적인 방법으로 아바타를 업로드합니다.",
     "76cf9e2237b960ba": "필요 환경은 Unity 2022.3, VRChat Avatars SDK 3.10.4 이상, Modular Avatar 1.x의 1.15.1 이상, NDMF 1.x의 1.14.0 이상입니다. VCC·ALCOM에서 필요한 패키지도 함께 업데이트하세요.",
     "014aae827a3bded4": "## 이전 버전에서 업데이트할 때",
     "c91b6d99606092e8": "이 상품과 Unisaki Posing System을 함께 업데이트합니다. 이미 배치된 도구 설정은 유지됩니다. Inspector에서 사용할 기능과 ExpressionParameters 사용량을 확인하고, 프리빌드를 썼다면 프리빌드 업데이트를 누른 뒤 다시 업로드하세요.",

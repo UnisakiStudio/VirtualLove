@@ -17,7 +17,7 @@ README und Änderungsverlauf kannst du in der mitgelieferten [Sprachübersicht](
 
 ## Installation
 
-1. Importiere „VirtualLove_Boy.unitypackage“ oder „VirtualLove_Girl.unitypackage“ aus den gekauften Dateien in Unity.
+1. Importiere „VirtualLove_Boy.unitypackage“ oder „VirtualLove_Girl.unitypackage“ aus den gekauften Dateien in Unity. In der englischen Ausgabe heißen die Dateien „VirtualLove_Male_Installer.unitypackage“ und „VirtualLove_Female_Installer.unitypackage“.
 2. Sobald die Paketquelle registriert ist, kannst du Virtual Love über VCC oder ALCOM zu deinem Projekt hinzufügen. Unisaki Posing System 3.2.0 wird benötigt.
 3. Klicke in der Hierarchy mit der rechten Maustaste auf den gewünschten Avatar und wähle „Unisaki Studio > Virtual Love (Mann) hinzufügen“ oder „Unisaki Studio > Virtual Love (Frau) hinzufügen“.
 4. Wähle das im Avatar hinzugefügte Objekt „三点だいしゅき(男)“ oder „三点だいしゅき(女)“ aus und lege im Inspector die Funktionen und Posen fest.

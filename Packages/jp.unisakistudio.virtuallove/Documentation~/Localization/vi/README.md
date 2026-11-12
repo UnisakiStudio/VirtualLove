@@ -17,7 +17,7 @@ Bạn có thể chọn README và lịch sử thay đổi từ [danh sách ngôn
 
 ## Cách cài đặt
 
-1. Nhập “VirtualLove_Boy.unitypackage” hoặc “VirtualLove_Girl.unitypackage” đi kèm trong tệp đã mua vào Unity.
+1. Nhập “VirtualLove_Boy.unitypackage” hoặc “VirtualLove_Girl.unitypackage” đi kèm trong tệp đã mua vào Unity. Trong bản tiếng Anh, các tệp có tên “VirtualLove_Male_Installer.unitypackage” và “VirtualLove_Female_Installer.unitypackage”.
 2. Sau khi đăng ký nguồn phát hành gói, bạn có thể thêm Virtual Love vào dự án cần dùng từ VCC hoặc ALCOM. Cần có Unisaki Posing System 3.2.0.
 3. Trong Hierarchy, nhấp chuột phải vào avatar muốn cài rồi chọn “Unisaki Studio > Thêm Virtual Love (Nam)” hoặc “Unisaki Studio > Thêm Virtual Love (Nữ)”.
 4. Chọn “三点だいしゅき(男)” hoặc “三点だいしゅき(女)” vừa được thêm vào trong avatar, rồi thiết lập tính năng và tư thế sẽ dùng trong Inspector.

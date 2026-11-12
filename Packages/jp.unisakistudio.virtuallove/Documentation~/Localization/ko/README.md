@@ -17,7 +17,7 @@ README와 변경 내역은 동봉된 [언어 목록](../index.html)에서 선택
 
 ## 설치 방법
 
-1. 구매 파일에 동봉된 VirtualLove_Boy.unitypackage 또는 VirtualLove_Girl.unitypackage를 Unity로 가져옵니다.
+1. 구매 파일에 동봉된 VirtualLove_Boy.unitypackage 또는 VirtualLove_Girl.unitypackage를 Unity로 가져옵니다. 영어판에서는 파일 이름이 VirtualLove_Male_Installer.unitypackage 및 VirtualLove_Female_Installer.unitypackage입니다.
 2. 패키지 배포처를 등록한 뒤에는 VCC나 ALCOM에서 사용할 프로젝트에 Virtual Love를 추가할 수 있습니다. Unisaki Posing System 3.2.0이 필요합니다.
 3. Hierarchy에서 적용할 아바타를 우클릭하고 Unisaki Studio > Virtual Love(남성) 추가 또는 Unisaki Studio > Virtual Love(여성) 추가를 선택합니다.
 4. 아바타 내부에 추가된 三点だいしゅき(男) 또는 三点だいしゅき(女)를 선택하고 Inspector에서 사용할 기능과 포즈를 설정합니다.

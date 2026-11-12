@@ -17,7 +17,7 @@ README ve değişiklik geçmişi, paketteki [dil listesinden](../index.html) se�
 
 ## Kurulum
 
-1. Satın aldığınız dosyalardaki “VirtualLove_Boy.unitypackage” veya “VirtualLove_Girl.unitypackage” dosyasını Unity’ye aktarın.
+1. Satın aldığınız dosyalardaki “VirtualLove_Boy.unitypackage” veya “VirtualLove_Girl.unitypackage” dosyasını Unity’ye aktarın. İngilizce sürümde dosyaların adları “VirtualLove_Male_Installer.unitypackage” ve “VirtualLove_Female_Installer.unitypackage” şeklindedir.
 2. Paket kaynağını kaydettikten sonra Virtual Love’ı VCC veya ALCOM üzerinden kullanacağınız projeye ekleyebilirsiniz. Unisaki Posing System 3.2.0 gerekir.
 3. Hierarchy’de aracı eklemek istediğiniz avatara sağ tıklayıp “Unisaki Studio > Virtual Love (Erkek) ekle” veya “Unisaki Studio > Virtual Love (Kadın) ekle”yi seçin.
 4. Avatarın içine eklenen “三点だいしゅき(男)” veya “三点だいしゅき(女)” nesnesini seçip Inspector’da kullanılacak özellikleri ve pozları ayarlayın.

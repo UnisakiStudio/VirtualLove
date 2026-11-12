@@ -17,7 +17,7 @@ README和更新紀錄可從隨附的[語言清單](../index.html)選擇。Inspec
 
 ## 安裝方法
 
-1. 將購買檔案中隨附的“VirtualLove_Boy.unitypackage”或“VirtualLove_Girl.unitypackage”匯入Unity。
+1. 將購買檔案中隨附的“VirtualLove_Boy.unitypackage”或“VirtualLove_Girl.unitypackage”匯入Unity。英文版中的檔案名稱為“VirtualLove_Male_Installer.unitypackage”和“VirtualLove_Female_Installer.unitypackage”。
 2. 註冊套件來源後，即可透過VCC或ALCOM將Virtual Love加入要使用的專案。需要Unisaki Posing System 3.2.0。
 3. 在Hierarchy中對要安裝的虛擬化身按一下滑鼠右鍵，選擇“Unisaki Studio > 加入Virtual Love（男性）”或“Unisaki Studio > 加入Virtual Love（女性）”。
 4. 選取虛擬化身內新增的“三点だいしゅき(男)”或“三点だいしゅき(女)”，在Inspector中設定要使用的功能和姿勢。

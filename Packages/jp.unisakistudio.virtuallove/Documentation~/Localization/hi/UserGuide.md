@@ -17,7 +17,7 @@ Inspector के सबसे ऊपर “Language / 言語” में प्
 
 ## इंस्टॉल करने का तरीका
 
-1. खरीदी गई फ़ाइलों में शामिल “VirtualLove_Boy.unitypackage” या “VirtualLove_Girl.unitypackage” को Unity में आयात करें।
+1. खरीदी गई फ़ाइलों में शामिल “VirtualLove_Boy.unitypackage” या “VirtualLove_Girl.unitypackage” को Unity में आयात करें। अंग्रेज़ी संस्करण में इन फ़ाइलों के नाम “VirtualLove_Male_Installer.unitypackage” और “VirtualLove_Female_Installer.unitypackage” हैं।
 2. पैकेज स्रोत पंजीकृत करने के बाद VCC या ALCOM से अपने प्रोजेक्ट में Virtual Love जोड़ सकते हैं। Unisaki Posing System 3.2.0 आवश्यक है।
 3. Hierarchy में जिस अवतार पर इसे लगाना है उस पर राइट-क्लिक करें और “Unisaki Studio > Virtual Love (पुरुष) जोड़ें” या “Unisaki Studio > Virtual Love (महिला) जोड़ें” चुनें।
 4. अवतार के अंदर जोड़ा गया “三点だいしゅき(男)” या “三点だいしゅき(女)” चुनें और Inspector में इस्तेमाल होने वाली सुविधाएँ और पोज़ सेट करें।

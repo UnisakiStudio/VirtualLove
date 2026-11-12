@@ -53,7 +53,7 @@
       "product": "VirtualLove",
       "kind": "readme",
       "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/README.md",
-      "source_sha256": "0b858a05bda5fd40b3e46171bec282f09727ca2161809efcf924af7b0933be7a",
+      "source_sha256": "66d967afa348afd0b3d7f59c4a554d31cb80069f64a85248bad0754625b40304",
       "blocks": [
         "0a35c89cbd964ac0",
         "512a6b7e3620010b",
@@ -64,7 +64,7 @@
         "e949435434fc5e4d",
         "7cb8ea25803baf26",
         "e365c0379b008026",
-        "2acb95327d7629b0",
+        "6ac6a8c736db81c9",
         "76cf9e2237b960ba",
         "014aae827a3bded4",
         "c91b6d99606092e8",
@@ -174,7 +174,7 @@
       "product": "VirtualLove",
       "kind": "guide",
       "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/README.md",
-      "source_sha256": "0b858a05bda5fd40b3e46171bec282f09727ca2161809efcf924af7b0933be7a",
+      "source_sha256": "66d967afa348afd0b3d7f59c4a554d31cb80069f64a85248bad0754625b40304",
       "blocks": [
         "0a35c89cbd964ac0",
         "512a6b7e3620010b",
@@ -185,7 +185,7 @@
         "e949435434fc5e4d",
         "7cb8ea25803baf26",
         "e365c0379b008026",
-        "2acb95327d7629b0",
+        "6ac6a8c736db81c9",
         "76cf9e2237b960ba",
         "014aae827a3bded4",
         "c91b6d99606092e8",
@@ -383,9 +383,9 @@
         "VirtualLove/guide"
       ]
     },
-    "2acb95327d7629b0": {
+    "6ac6a8c736db81c9": {
       "language": "ja",
-      "text": "1. 購入ファイルに同梱された「VirtualLove_Boy.unitypackage」または「VirtualLove_Girl.unitypackage」をUnityへインポートします。\n2. パッケージ配布元の登録後は、VCCやALCOMから使用するプロジェクトに「三点だいしゅきツール」を追加できます。ゆにさきポーズシステム 3.2.0 が必要です。\n3. Hierarchyで導入したいアバターを右クリックし、「ゆにさきスタジオ > 三点だいしゅきツール(男)追加」または「ゆにさきスタジオ > 三点だいしゅきツール(女)追加」を選びます。\n4. アバター内に追加された「三点だいしゅき(男)」または「三点だいしゅき(女)」を選び、Inspectorで使う機能とポーズを設定します。\n5. プレビューで姿勢を確認し、通常どおりアバターをアップロードします。",
+      "text": "1. 購入ファイルに同梱された「VirtualLove_Boy.unitypackage」または「VirtualLove_Girl.unitypackage」をUnityへインポートします。英語版の同梱ファイル名は「VirtualLove_Male_Installer.unitypackage」「VirtualLove_Female_Installer.unitypackage」です。\n2. パッケージ配布元の登録後は、VCCやALCOMから使用するプロジェクトに「三点だいしゅきツール」を追加できます。ゆにさきポーズシステム 3.2.0 が必要です。\n3. Hierarchyで導入したいアバターを右クリックし、「ゆにさきスタジオ > 三点だいしゅきツール(男)追加」または「ゆにさきスタジオ > 三点だいしゅきツール(女)追加」を選びます。\n4. アバター内に追加された「三点だいしゅき(男)」または「三点だいしゅき(女)」を選び、Inspectorで使う機能とポーズを設定します。\n5. プレビューで姿勢を確認し、通常どおりアバターをアップロードします。",
       "invariant": false,
       "contexts": [
         "VirtualLove/readme",
@@ -1208,5 +1208,5 @@
       ]
     }
   },
-  "source_sha256": "6bec41c14b7fd9cc70938e6c32faa3efdc2481d90e1c65f4e98a3bd6bd4cdc48"
+  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f"
 }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "6bec41c14b7fd9cc70938e6c32faa3efdc2481d90e1c65f4e98a3bd6bd4cdc48",
+  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -19,7 +19,7 @@
     "e949435434fc5e4d": "ללא בחירה שמורה, נעשה שימוש בשפת המחשב ובאנגלית כאשר השפה אינה נתמכת. התכונה פועלת ב-Windows, ב-macOS וב-Linux. הבחירה האחרונה נשמרת ב-EditorPrefs ומשמשת גם פרויקטים אחרים של אותו משתמש במערכת ההפעלה במחשב זה. כל כלי התנוחות והאווטארים משתמשים באותה שפה. שינוי השפה ב-Inspector של כלי כלשהו מעדכן את ההעדפה המשותפת; בחירות שפה נפרדות לאווטארים אינן משמשות. ההעדפה אינה מסתנכרנת למחשבים אחרים. אחסון הרישיונות אינו משתנה. כפתור השפה מופיע רק באישור ההתקנה הראשוני כשעדיין לא נשמרה שפה. שינויי שפה בהמשך נעשים ב-Inspector.",
     "7cb8ea25803baf26": "אפשר לבחור README ויומן שינויים מתוך [רשימת השפות](Documentation~/Localization/index.html) הכלולה. גם המדריך ויומן השינויים שב-Inspector נפתחים בשפה שנבחרה. גם שמות התנוחות הכלולות ושמות הקטגוריות בתפריט המשחק מוצגים בשפה שנבחרה. תנאי השימוש ממשיכים להיכלל בגרסתם היפנית, כמו קודם.",
     "e365c0379b008026": "## התקנה",
-    "2acb95327d7629b0": "1. ייבאו ל-Unity את הקובץ VirtualLove_Boy.unitypackage או VirtualLove_Girl.unitypackage הכלול בקובצי הרכישה.\n2. לאחר רישום מקור החבילות אפשר להוסיף את Virtual Love לפרויקט שבשימוש דרך VCC או ALCOM. נדרש Unisaki Posing System 3.2.0.\n3. לחצו לחיצה ימנית ב-Hierarchy על האווטאר הרצוי ובחרו Unisaki Studio > הוספת Virtual Love (גבר) או Unisaki Studio > הוספת Virtual Love (אישה).\n4. בחרו את האובייקט 三点だいしゅき(男) או 三点だいしゅき(女) שנוסף לאווטאר, והגדירו ב-Inspector את התכונות והתנוחות הרצויות.\n5. בדקו את התנוחות בתצוגה מקדימה והעלו את האווטאר כרגיל.",
+    "6ac6a8c736db81c9": "1. ייבאו ל-Unity את הקובץ VirtualLove_Boy.unitypackage או VirtualLove_Girl.unitypackage הכלול בקובצי הרכישה. במהדורה האנגלית שמות הקבצים הם VirtualLove_Male_Installer.unitypackage ו-VirtualLove_Female_Installer.unitypackage.\n2. לאחר רישום מקור החבילות אפשר להוסיף את Virtual Love לפרויקט שבשימוש דרך VCC או ALCOM. נדרש Unisaki Posing System 3.2.0.\n3. לחצו לחיצה ימנית ב-Hierarchy על האווטאר הרצוי ובחרו Unisaki Studio > הוספת Virtual Love (גבר) או Unisaki Studio > הוספת Virtual Love (אישה).\n4. בחרו את האובייקט 三点だいしゅき(男) או 三点だいしゅき(女) שנוסף לאווטאר, והגדירו ב-Inspector את התכונות והתנוחות הרצויות.\n5. בדקו את התנוחות בתצוגה מקדימה והעלו את האווטאר כרגיל.",
     "76cf9e2237b960ba": "נדרשים Unity 2022.3, VRChat Avatars SDK 3.10.4 ומעלה, Modular Avatar מסדרת 1.x בגרסה 1.15.1 ומעלה, ו-NDMF מסדרת 1.x בגרסה 1.14.0 ומעלה. עדכנו גם את החבילות הדרושות ב-VCC או ב-ALCOM.",
     "014aae827a3bded4": "## עדכון מגרסה קודמת",
     "c91b6d99606092e8": "עדכנו יחד את המוצר ואת Unisaki Posing System. ההגדרות של כלים שכבר הותקנו נשמרות. בדקו תכונות ושימוש ב-ExpressionParameters ב-Inspector. אם השתמשתם בחישוב מקדים, הפעילו עדכון חישוב מקדים לפני העלאה מחדש.",
