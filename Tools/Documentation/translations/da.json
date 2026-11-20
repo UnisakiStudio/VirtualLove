@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f",
+  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -20,7 +20,6 @@
     "7cb8ea25803baf26": "README og ændringshistorik kan vælges i den medfølgende [sprogoversigt](Documentation~/Localization/index.html). ”Vejledning” og ”Vis ændringer” i Inspector følger også det valgte sprog. Navnene på de medfølgende positurer og på kategorierne i spilmenuen vises ligeledes på det valgte sprog. Brugsbetingelserne medfølger som hidtil på japansk.",
     "e365c0379b008026": "## Installation",
     "6ac6a8c736db81c9": "1. Importér ”VirtualLove_Boy.unitypackage” eller ”VirtualLove_Girl.unitypackage” fra de købte filer til Unity. I den engelske udgave hedder filerne ”VirtualLove_Male_Installer.unitypackage” og ”VirtualLove_Female_Installer.unitypackage”.\n2. Når pakkekilden er registreret, kan du føje Virtual Love til dit projekt fra VCC eller ALCOM. Unisaki Posing System 3.2.0 er påkrævet.\n3. Højreklik på avataren i Hierarchy, og vælg ”Unisaki Studio > Tilføj Virtual Love (mand)” eller ”Unisaki Studio > Tilføj Virtual Love (kvinde)”.\n4. Vælg ”三点だいしゅき(男)” eller ”三点だいしゅき(女)”, som er blevet tilføjet i avataren, og indstil funktioner og positurer i Inspector.\n5. Kontrollér positurerne i forhåndsvisningen, og upload derefter avataren som normalt.",
-    "76cf9e2237b960ba": "Kræver Unity 2022.3, VRChat Avatars SDK 3.10.4 eller nyere, Modular Avatar 1.x fra 1.15.1 og NDMF 1.x fra 1.14.0. Opdatér nødvendige pakker sammen i VCC eller ALCOM.",
     "014aae827a3bded4": "## Opdatering fra tidligere versioner",
     "c91b6d99606092e8": "Opdatér produktet sammen med Unisaki Posing System. Eksisterende værktøjsindstillinger bevares. Kontrollér funktioner og ExpressionParameters-forbrug i Inspector, og tryk ”Opdatér forberegning” før ny upload, hvis den bruges.",
     "19e6f9b458d1faeb": "## Hvor indstillingerne findes",
@@ -97,6 +96,7 @@
     "0a658848c3ad9249": "- Rettet, at der manglede animationsfiler i udgaven til kvinde.",
     "477178ccfa150f36": "- Rettet, at blikretningen bevægede sig i visse animationer.",
     "f7c96a2573c4c515": "- Tilføjet en funktion til at ændre fodhøjden.\n- Rettet, at visse indstillinger forsvandt, når Unity blev åbnet igen.",
-    "a3e2778a13dba26f": "- Første udgivelse."
+    "a3e2778a13dba26f": "- Første udgivelse.",
+    "d1bc753add231591": "Kræver Unity 2022.3, VRChat Avatars SDK 3.10.4 eller nyere, Modular Avatar 1.x fra 1.16.2 og NDMF 1.x fra 1.14.8. Opdatér nødvendige pakker sammen i VCC eller ALCOM."
   }
 }

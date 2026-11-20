@@ -23,7 +23,7 @@ README和更新紀錄可從隨附的[語言清單](../index.html)選擇。Inspec
 4. 選取虛擬化身內新增的“三点だいしゅき(男)”或“三点だいしゅき(女)”，在Inspector中設定要使用的功能和姿勢。
 5. 以預覽確認姿勢後，依一般流程上傳虛擬化身。
 
-所需環境為Unity 2022.3、VRChat Avatars SDK 3.10.4或更高版本、Modular Avatar 1.15.1或更高版本的1.x系列，以及NDMF 1.14.0或更高版本的1.x系列。請通過VCC或ALCOM一同更新所需套件。
+所需環境為Unity 2022.3、VRChat Avatars SDK 3.10.4或更高版本、Modular Avatar 1.16.2或更高版本的1.x系列，以及NDMF 1.14.8或更高版本的1.x系列。請通過VCC或ALCOM一同更新所需套件。
 
 ## 從舊版本更新
 

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f",
+  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -20,7 +20,6 @@
     "7cb8ea25803baf26": "Scegli la lingua di README e cronologia delle modifiche dall’[elenco delle lingue](Documentation~/Localization/index.html) incluso. Anche i collegamenti alla guida e alle novità nell’Inspector seguono la lingua scelta. I nomi delle pose incluse e delle categorie del menu nel gioco vengono mostrati a loro volta nella lingua scelta. Le condizioni d’uso restano incluse in giapponese, come in precedenza.",
     "e365c0379b008026": "## Installazione",
     "6ac6a8c736db81c9": "1. Importa in Unity «VirtualLove_Boy.unitypackage» oppure «VirtualLove_Girl.unitypackage», incluso nei file acquistati. Nell’edizione inglese i file si chiamano «VirtualLove_Male_Installer.unitypackage» e «VirtualLove_Female_Installer.unitypackage».\n2. Dopo aver registrato il repository dei pacchetti, puoi aggiungere Virtual Love al progetto desiderato da VCC o ALCOM. È richiesto Unisaki Posing System 3.2.0.\n3. Nella Hierarchy fai clic destro sull’avatar desiderato e scegli «Unisaki Studio > Aggiungi Virtual Love (Uomo)» oppure «Unisaki Studio > Aggiungi Virtual Love (Donna)».\n4. Seleziona «三点だいしゅき(男)» o «三点だいしゅき(女)» aggiunto nell’avatar e imposta funzioni e pose nell’Inspector.\n5. Controlla le pose con l’anteprima, poi carica l’avatar normalmente.",
-    "76cf9e2237b960ba": "Requisiti: Unity 2022.3, VRChat Avatars SDK 3.10.4 o successivo, Modular Avatar 1.x dalla versione 1.15.1 e NDMF 1.x dalla versione 1.14.0. Aggiorna insieme i pacchetti necessari con VCC o ALCOM.",
     "014aae827a3bded4": "## Aggiornare da una versione precedente",
     "c91b6d99606092e8": "Aggiorna insieme il prodotto e Unisaki Posing System. Le impostazioni degli strumenti già presenti vengono conservate. Controlla funzioni e consumo di ExpressionParameters nell’Inspector; se usavi il precalcolo, premi «Aggiorna precalcolo» prima di ricaricare l’avatar.",
     "19e6f9b458d1faeb": "## Dove configurare le opzioni",
@@ -97,6 +96,7 @@
     "0a658848c3ad9249": "- Corretta l’assenza di file di animazione nell’edizione Donna.",
     "477178ccfa150f36": "- Corretto lo sguardo che si muoveva in alcune animazioni.",
     "f7c96a2573c4c515": "- Aggiunta la regolazione dell’altezza dei piedi.\n- Corretta la perdita di alcune impostazioni alla riapertura di Unity.",
-    "a3e2778a13dba26f": "- Prima pubblicazione."
+    "a3e2778a13dba26f": "- Prima pubblicazione.",
+    "d1bc753add231591": "Requisiti: Unity 2022.3, VRChat Avatars SDK 3.10.4 o successivo, Modular Avatar 1.x dalla versione 1.16.2 e NDMF 1.x dalla versione 1.14.8. Aggiorna insieme i pacchetti necessari con VCC o ALCOM."
   }
 }

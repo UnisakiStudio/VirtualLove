@@ -23,7 +23,7 @@ READMEと変更履歴は同梱の[言語一覧](Documentation~/Localization/inde
 4. アバター内に追加された「三点だいしゅき(男)」または「三点だいしゅき(女)」を選び、Inspectorで使う機能とポーズを設定します。
 5. プレビューで姿勢を確認し、通常どおりアバターをアップロードします。
 
-必要環境はUnity 2022.3、VRChat Avatars SDK 3.10.4以上、Modular Avatar 1.15.1以上の1.x系、NDMF 1.14.0以上の1.x系です。VCCやALCOMで必要なパッケージを併せて更新してください。
+必要環境はUnity 2022.3、VRChat Avatars SDK 3.10.4以上、Modular Avatar 1.16.2以上の1.x系、NDMF 1.14.8以上の1.x系です。VCCやALCOMで必要なパッケージを併せて更新してください。
 
 ## 以前のバージョンから更新する場合
 

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f",
+  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -20,7 +20,6 @@
     "7cb8ea25803baf26": "README和更新紀錄可從隨附的[語言清單](Documentation~/Localization/index.html)選擇。Inspector中的“使用說明”和“更新紀錄”也會依照所選語言顯示。收錄姿勢的名稱和遊戲內選單的分類名稱，同樣會以所選語言顯示。使用條款則和以往一樣隨附日文版。",
     "e365c0379b008026": "## 安裝方法",
     "6ac6a8c736db81c9": "1. 將購買檔案中隨附的“VirtualLove_Boy.unitypackage”或“VirtualLove_Girl.unitypackage”匯入Unity。英文版中的檔案名稱為“VirtualLove_Male_Installer.unitypackage”和“VirtualLove_Female_Installer.unitypackage”。\n2. 註冊套件來源後，即可透過VCC或ALCOM將Virtual Love加入要使用的專案。需要Unisaki Posing System 3.2.0。\n3. 在Hierarchy中對要安裝的虛擬化身按一下滑鼠右鍵，選擇“Unisaki Studio > 加入Virtual Love（男性）”或“Unisaki Studio > 加入Virtual Love（女性）”。\n4. 選取虛擬化身內新增的“三点だいしゅき(男)”或“三点だいしゅき(女)”，在Inspector中設定要使用的功能和姿勢。\n5. 以預覽確認姿勢後，依一般流程上傳虛擬化身。",
-    "76cf9e2237b960ba": "所需環境為Unity 2022.3、VRChat Avatars SDK 3.10.4或更高版本、Modular Avatar 1.15.1或更高版本的1.x系列，以及NDMF 1.14.0或更高版本的1.x系列。請通過VCC或ALCOM一同更新所需套件。",
     "014aae827a3bded4": "## 從舊版本更新",
     "c91b6d99606092e8": "請將本商品和Unisaki Posing System一同更新。已放置工具的設定會繼承。請在Inspector確認啟用功能和ExpressionParameters用量；如果使用過預先建置，重新上傳前請按一下“更新預先建置”。",
     "19e6f9b458d1faeb": "## 設定位置",
@@ -97,6 +96,7 @@
     "0a658848c3ad9249": "- 修復了女性用商品缺少動畫檔案的問題",
     "477178ccfa150f36": "- 修復了部分動畫中視線方向會移動的問題",
     "f7c96a2573c4c515": "- 新增腳部高度調整功能\n- 修復了重新開啟Unity後部分設定遺失的問題",
-    "a3e2778a13dba26f": "- 首次發佈"
+    "a3e2778a13dba26f": "- 首次發佈",
+    "d1bc753add231591": "所需環境為Unity 2022.3、VRChat Avatars SDK 3.10.4或更高版本、Modular Avatar 1.16.2或更高版本的1.x系列，以及NDMF 1.14.8或更高版本的1.x系列。請通過VCC或ALCOM一同更新所需套件。"
   }
 }

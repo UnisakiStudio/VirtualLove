@@ -23,7 +23,7 @@ README ve değişiklik geçmişi, paketteki [dil listesinden](../index.html) se�
 4. Avatarın içine eklenen “三点だいしゅき(男)” veya “三点だいしゅき(女)” nesnesini seçip Inspector’da kullanılacak özellikleri ve pozları ayarlayın.
 5. Pozları önizlemeyle kontrol edin ve avatarı her zamanki gibi yükleyin.
 
-Unity 2022.3, VRChat Avatars SDK 3.10.4 veya sonrası, Modular Avatar 1.x serisi 1.15.1 veya sonrası ve NDMF 1.x serisi 1.14.0 veya sonrası gerekir. Gerekli paketleri VCC veya ALCOM ile birlikte güncelleyin.
+Unity 2022.3, VRChat Avatars SDK 3.10.4 veya sonrası, Modular Avatar 1.x serisi 1.16.2 veya sonrası ve NDMF 1.x serisi 1.14.8 veya sonrası gerekir. Gerekli paketleri VCC veya ALCOM ile birlikte güncelleyin.
 
 ## Önceki sürümden güncelleme
 

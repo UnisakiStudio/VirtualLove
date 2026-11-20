@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f",
+  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -20,7 +20,6 @@
     "7cb8ea25803baf26": "Choisissez la langue du README et de l’historique des modifications dans la [liste des langues](Documentation~/Localization/index.html) fournie. Les liens du guide et de l’historique dans l’Inspector suivent également la langue sélectionnée. Les noms des poses fournies et ceux des catégories du menu du jeu s’affichent eux aussi dans la langue sélectionnée. Les conditions d’utilisation restent fournies en japonais, comme auparavant.",
     "e365c0379b008026": "## Installation",
     "6ac6a8c736db81c9": "1. Importez dans Unity le fichier « VirtualLove_Boy.unitypackage » ou « VirtualLove_Girl.unitypackage » fourni avec votre achat. Dans l’édition anglaise, les fichiers s’appellent « VirtualLove_Male_Installer.unitypackage » et « VirtualLove_Female_Installer.unitypackage ».\n2. Une fois le dépôt de packages enregistré, vous pouvez ajouter Virtual Love au projet utilisé depuis VCC ou ALCOM. Unisaki Posing System 3.2.0 est requis.\n3. Dans la Hierarchy, faites un clic droit sur l’avatar à équiper et choisissez « Unisaki Studio > Ajouter Virtual Love (Homme) » ou « Unisaki Studio > Ajouter Virtual Love (Femme) ».\n4. Sélectionnez l’objet « 三点だいしゅき(男) » ou « 三点だいしゅき(女) » ajouté dans l’avatar, puis réglez les fonctions et les poses voulues dans l’Inspector.\n5. Vérifiez les poses avec l’aperçu, puis envoyez l’avatar normalement.",
-    "76cf9e2237b960ba": "Environnement requis : Unity 2022.3, VRChat Avatars SDK 3.10.4 ou ultérieur, Modular Avatar 1.x à partir de 1.15.1 et NDMF 1.x à partir de 1.14.0. Mettez également à jour les dépendances nécessaires dans VCC ou ALCOM.",
     "014aae827a3bded4": "## Mise à jour depuis une ancienne version",
     "c91b6d99606092e8": "Mettez à jour ensemble ce produit et Unisaki Posing System. Les réglages des outils déjà placés sont conservés. Vérifiez les fonctions et la consommation des ExpressionParameters dans l’Inspector ; si vous utilisiez le précalcul, cliquez sur « Actualiser le précalcul » avant de renvoyer l’avatar.",
     "19e6f9b458d1faeb": "## Où trouver les réglages",
@@ -97,6 +96,7 @@
     "0a658848c3ad9249": "- Correction de fichiers d’animation manquants dans l’édition Femme.",
     "477178ccfa150f36": "- Correction du regard qui bougeait dans certaines animations.",
     "f7c96a2573c4c515": "- Ajout du réglage de la hauteur des pieds.\n- Correction de la perte de certains réglages à la réouverture de Unity.",
-    "a3e2778a13dba26f": "- Première publication."
+    "a3e2778a13dba26f": "- Première publication.",
+    "d1bc753add231591": "Environnement requis : Unity 2022.3, VRChat Avatars SDK 3.10.4 ou ultérieur, Modular Avatar 1.x à partir de 1.16.2 et NDMF 1.x à partir de 1.14.8. Mettez également à jour les dépendances nécessaires dans VCC ou ALCOM."
   }
 }

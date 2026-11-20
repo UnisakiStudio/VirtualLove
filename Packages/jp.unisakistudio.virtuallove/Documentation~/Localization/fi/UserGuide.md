@@ -23,7 +23,7 @@ Voit valita README:n tai muutoslokin mukana toimitetusta [kieliluettelosta](../i
 4. Valitse avatarin sisään lisätty ”三点だいしゅき(男)” tai ”三点だいしゅき(女)” ja määritä käytettävät toiminnot ja asennot Inspectorissa.
 5. Tarkista asennot esikatselulla ja lataa avatar palveluun tavalliseen tapaan.
 
-Vaatimukset ovat Unity 2022.3, VRChat Avatars SDK 3.10.4 tai uudempi, Modular Avatar 1.x vähintään 1.15.1 ja NDMF 1.x vähintään 1.14.0. Päivitä tarvittavat paketit yhdessä VCC:llä tai ALCOMilla.
+Vaatimukset ovat Unity 2022.3, VRChat Avatars SDK 3.10.4 tai uudempi, Modular Avatar 1.x vähintään 1.16.2 ja NDMF 1.x vähintään 1.14.8. Päivitä tarvittavat paketit yhdessä VCC:llä tai ALCOMilla.
 
 ## Päivittäminen vanhemmasta versiosta
 

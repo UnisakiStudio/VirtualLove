@@ -53,7 +53,7 @@
       "product": "VirtualLove",
       "kind": "readme",
       "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/README.md",
-      "source_sha256": "66d967afa348afd0b3d7f59c4a554d31cb80069f64a85248bad0754625b40304",
+      "source_sha256": "b234b424ff3099560ebfaaded62f0f9d3b1f76f5ec72aee85ae2758f2c95642b",
       "blocks": [
         "0a35c89cbd964ac0",
         "512a6b7e3620010b",
@@ -65,7 +65,7 @@
         "7cb8ea25803baf26",
         "e365c0379b008026",
         "6ac6a8c736db81c9",
-        "76cf9e2237b960ba",
+        "d1bc753add231591",
         "014aae827a3bded4",
         "c91b6d99606092e8",
         "19e6f9b458d1faeb",
@@ -174,7 +174,7 @@
       "product": "VirtualLove",
       "kind": "guide",
       "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/README.md",
-      "source_sha256": "66d967afa348afd0b3d7f59c4a554d31cb80069f64a85248bad0754625b40304",
+      "source_sha256": "b234b424ff3099560ebfaaded62f0f9d3b1f76f5ec72aee85ae2758f2c95642b",
       "blocks": [
         "0a35c89cbd964ac0",
         "512a6b7e3620010b",
@@ -186,7 +186,7 @@
         "7cb8ea25803baf26",
         "e365c0379b008026",
         "6ac6a8c736db81c9",
-        "76cf9e2237b960ba",
+        "d1bc753add231591",
         "014aae827a3bded4",
         "c91b6d99606092e8",
         "19e6f9b458d1faeb",
@@ -392,9 +392,9 @@
         "VirtualLove/guide"
       ]
     },
-    "76cf9e2237b960ba": {
+    "d1bc753add231591": {
       "language": "ja",
-      "text": "必要環境はUnity 2022.3、VRChat Avatars SDK 3.10.4以上、Modular Avatar 1.15.1以上の1.x系、NDMF 1.14.0以上の1.x系です。VCCやALCOMで必要なパッケージを併せて更新してください。",
+      "text": "必要環境はUnity 2022.3、VRChat Avatars SDK 3.10.4以上、Modular Avatar 1.16.2以上の1.x系、NDMF 1.14.8以上の1.x系です。VCCやALCOMで必要なパッケージを併せて更新してください。",
       "invariant": false,
       "contexts": [
         "VirtualLove/readme",
@@ -1208,5 +1208,5 @@
       ]
     }
   },
-  "source_sha256": "afcfdbef2496097cafd77ea63dea7493ed4802506b6de5032dce6961a8feff1f"
+  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547"
 }

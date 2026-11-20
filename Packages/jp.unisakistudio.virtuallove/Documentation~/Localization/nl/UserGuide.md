@@ -23,7 +23,7 @@ Kies een README of wijzigingsgeschiedenis in het meegeleverde [taaloverzicht](..
 4. Selecteer 三点だいしゅき(男) of 三点だいしゅき(女), dat in de avatar is toegevoegd, en stel in de Inspector de functies en poses in die je wilt gebruiken.
 5. Controleer de poses in het voorbeeld en upload de avatar zoals gewoonlijk.
 
-Vereist: Unity 2022.3, VRChat Avatars SDK 3.10.4+, Modular Avatar 1.x vanaf 1.15.1 en NDMF 1.x vanaf 1.14.0. Werk benodigde pakketten samen bij met VCC/ALCOM.
+Vereist: Unity 2022.3, VRChat Avatars SDK 3.10.4+, Modular Avatar 1.x vanaf 1.16.2 en NDMF 1.x vanaf 1.14.8. Werk benodigde pakketten samen bij met VCC/ALCOM.
 
 ## Bijwerken vanaf oudere versies
 
