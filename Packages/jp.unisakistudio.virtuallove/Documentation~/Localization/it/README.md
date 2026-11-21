@@ -2,7 +2,7 @@
 
 Strumento per avatar VRChat che permette di assumere pose di coppia insieme a un partner, con tracciamento a 3 punti o in desktop. Include 22 pose per l’uomo e 22 per la donna, 44 in totale. Sono possibili anche la spaccata in piedi e la sfida Jack-O.
 
-Questo README riguarda la versione v3.2.0 in sviluppo. La data di uscita ufficiale non è stabilita. La versione installata compare in alto nell’Inspector.
+Questo README riguarda la versione v3.2.0. La versione installata compare in alto nell’Inspector.
 
 - [Pagina del prodotto su BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Cronologia delle modifiche](CHANGELOG.md)

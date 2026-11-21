@@ -2,7 +2,7 @@
 
 Et verktøy for VRChat-avatarer som lar deg innta parpositurer sammen med en partner, med 3-punktssporing eller i skrivebordsmodus. Det inneholder 22 positurer for mann og 22 for kvinne, 44 totalt. Stående spagat og Jack-O-utfordringen er også med.
 
-Denne README gjelder v3.2.0 under utvikling. Endelig utgivelsesdato er ikke fastsatt. Installert versjon vises øverst i Inspector.
+Denne README gjelder v3.2.0. Installert versjon vises øverst i Inspector.
 
 - [Produktside på BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Endringslogg](CHANGELOG.md)

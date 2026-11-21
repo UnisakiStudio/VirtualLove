@@ -2,7 +2,7 @@
 
 這是一款VRChat虛擬化身專用的工具，即使使用3點追蹤或桌面模式，也能和對方擺出成對的姿勢。男性、女性各收錄22種，合計44種姿勢，還能做出站立一字馬和Jack-O挑戰。
 
-本README面向開發中的v3.2.0。正式發佈日期尚未確定。已安裝的版本可在Inspector頂部查看。
+本README面向v3.2.0。已安裝的版本可在Inspector頂部查看。
 
 - [BOOTH商品頁面](https://yunisaki.booth.pm/items/3641334)
 - [更新紀錄](CHANGELOG.md)

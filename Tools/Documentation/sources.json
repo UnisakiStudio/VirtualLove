@@ -53,11 +53,11 @@
       "product": "VirtualLove",
       "kind": "readme",
       "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/README.md",
-      "source_sha256": "b234b424ff3099560ebfaaded62f0f9d3b1f76f5ec72aee85ae2758f2c95642b",
+      "source_sha256": "dd98499b1da1c7f6fb1ddb0dcb45d1ea80f655b51cf9a1b007601bbd621a2120",
       "blocks": [
         "0a35c89cbd964ac0",
         "512a6b7e3620010b",
-        "359f541ee33a4bb9",
+        "b57fae49dd55e4e1",
         "60b92cf9c9fe5881",
         "dddcc5e2fa2e62d6",
         "f057ec94623ab83e",
@@ -126,10 +126,10 @@
       "product": "VirtualLove",
       "kind": "changelog",
       "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/CHANGELOG.md",
-      "source_sha256": "a8fc327f05bccaab9640125fe6677671b5ca88fd76fc640f33518ec7d6502de2",
+      "source_sha256": "dda9bec6325089f31f8f67336833e541295f2944eb93064a8250d2a657f69bf6",
       "blocks": [
         "3e9e4ae5e303de21",
-        "1fea13aed5680b51",
+        "8466863269dc2e8e",
         "545755f8035c08c9",
         "b3f80d97ed0caa7f",
         "25b732bdda1bb358",
@@ -174,11 +174,11 @@
       "product": "VirtualLove",
       "kind": "guide",
       "source": "VirtualLove/Packages/jp.unisakistudio.virtuallove/README.md",
-      "source_sha256": "b234b424ff3099560ebfaaded62f0f9d3b1f76f5ec72aee85ae2758f2c95642b",
+      "source_sha256": "dd98499b1da1c7f6fb1ddb0dcb45d1ea80f655b51cf9a1b007601bbd621a2120",
       "blocks": [
         "0a35c89cbd964ac0",
         "512a6b7e3620010b",
-        "359f541ee33a4bb9",
+        "b57fae49dd55e4e1",
         "60b92cf9c9fe5881",
         "dddcc5e2fa2e62d6",
         "f057ec94623ab83e",
@@ -320,9 +320,9 @@
         "VirtualLove/guide"
       ]
     },
-    "359f541ee33a4bb9": {
+    "b57fae49dd55e4e1": {
       "language": "ja",
-      "text": "このREADMEは開発中のv3.2.0向けです。正式リリース日は未定です。導入済みのバージョンはInspector上部で確認できます。",
+      "text": "このREADMEはv3.2.0向けです。導入済みのバージョンはInspector上部で確認できます。",
       "invariant": false,
       "contexts": [
         "VirtualLove/readme",
@@ -895,10 +895,10 @@
         "VirtualLove/changelog"
       ]
     },
-    "1fea13aed5680b51": {
+    "8466863269dc2e8e": {
       "language": "ja",
-      "text": "## [3.2.0] - 未リリース",
-      "invariant": false,
+      "text": "## [3.2.0] - 2026-11-22",
+      "invariant": true,
       "contexts": [
         "VirtualLove/changelog"
       ]
@@ -1208,5 +1208,5 @@
       ]
     }
   },
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547"
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033"
 }

@@ -2,7 +2,7 @@
 
 Ein Werkzeug für VRChat-Avatare, mit dem du im 3-Punkt-Tracking oder im Desktop-Modus Paarposen mit deinem Gegenüber einnehmen kannst. Enthalten sind je 22 Posen für Mann und Frau, insgesamt 44. Auch ein Standspagat und die Jack-O-Challenge sind dabei.
 
-Diese README betrifft die in Entwicklung befindliche v3.2.0. Ein Veröffentlichungstermin steht noch nicht fest. Die installierte Version steht oben im Inspector.
+Diese README betrifft v3.2.0. Die installierte Version steht oben im Inspector.
 
 - [BOOTH-Produktseite](https://yunisaki.booth.pm/items/3641334)
 - [Änderungsverlauf](CHANGELOG.md)

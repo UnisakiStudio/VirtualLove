@@ -2,7 +2,7 @@
 
 Công cụ cho avatar VRChat, giúp bạn tận hưởng các tư thế ghép đôi cùng đối phương khi dùng theo dõi 3 điểm hoặc chế độ máy tính. Có 22 tư thế cho mỗi bên nam và nữ, tổng cộng 44 tư thế. Bạn cũng có thể thực hiện xoạc chân đứng và thử thách Jack-O.
 
-README này dành cho v3.2.0 đang phát triển. Chưa xác định ngày phát hành chính thức. Xem phiên bản đã cài ở đầu Inspector.
+README này dành cho v3.2.0. Xem phiên bản đã cài ở đầu Inspector.
 
 - [Trang sản phẩm BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Lịch sử thay đổi](CHANGELOG.md)

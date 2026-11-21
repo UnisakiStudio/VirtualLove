@@ -2,7 +2,7 @@
 
 Outil pour avatars VRChat permettant de prendre des poses à deux avec un partenaire, avec le suivi à 3 points ou en mode bureau. Il comprend 22 poses pour l’homme et 22 pour la femme, soit 44 poses au total. Le grand écart debout et le défi Jack-O sont également possibles.
 
-Ce README concerne la version v3.2.0 en développement. La date de sortie officielle n’est pas encore fixée. La version installée apparaît en haut de l’Inspector.
+Ce README concerne la version v3.2.0. La version installée apparaît en haut de l’Inspector.
 
 - [Page du produit sur BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Historique des modifications](CHANGELOG.md)

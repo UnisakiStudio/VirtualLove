@@ -2,7 +2,7 @@
 
 Narzędzie do awatarów VRChat, które pozwala przyjmować pozy w parze z drugą osobą przy śledzeniu 3-punktowym lub w trybie desktopowym. Zawiera po 22 pozy dla mężczyzny i dla kobiety, łącznie 44. Są wśród nich także szpagat na stojąco i wyzwanie Jack-O.
 
-Ten README dotyczy tworzonej wersji v3.2.0. Data oficjalnego wydania nie została ustalona. Zainstalowana wersja jest widoczna u góry Inspectora.
+Ten README dotyczy wersji v3.2.0. Zainstalowana wersja jest widoczna u góry Inspectora.
 
 - [Strona produktu w BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Historia zmian](CHANGELOG.md)

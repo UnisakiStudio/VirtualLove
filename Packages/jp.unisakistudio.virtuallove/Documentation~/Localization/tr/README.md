@@ -2,7 +2,7 @@
 
 3 noktalı takipte veya masaüstünde, partnerinizle eşleşen pozların keyfini çıkarmanızı sağlayan bir VRChat avatar aracıdır. Erkek ve kadın tarafı için 22’şer, toplam 44 poz içerir. Ayakta spagat ve Jack-O meydan okuması da yapılabilir.
 
-Bu README, geliştirilmekte olan v3.2.0 içindir. Resmî yayın tarihi henüz belirlenmemiştir. Kurulu sürümü Inspector’ın üstünde görebilirsiniz.
+Bu README, v3.2.0 içindir. Kurulu sürümü Inspector’ın üstünde görebilirsiniz.
 
 - [BOOTH ürün sayfası](https://yunisaki.booth.pm/items/3641334)
 - [Değişiklik geçmişi](CHANGELOG.md)

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -12,7 +12,6 @@
     "dfbbaf3c67bb3855": "使用前必須在BOOTH購買商品，並同意使用條款。",
     "f37aa322740fb95a": "[使用條款](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
     "512a6b7e3620010b": "這是一款VRChat虛擬化身專用的工具，即使使用3點追蹤或桌面模式，也能和對方擺出成對的姿勢。男性、女性各收錄22種，合計44種姿勢，還能做出站立一字馬和Jack-O挑戰。",
-    "359f541ee33a4bb9": "本README面向開發中的v3.2.0。正式發佈日期尚未確定。已安裝的版本可在Inspector頂部查看。",
     "60b92cf9c9fe5881": "- [BOOTH商品頁面](https://yunisaki.booth.pm/items/3641334)\n- [更新紀錄](CHANGELOG.md)",
     "dddcc5e2fa2e62d6": "## 顯示語言與離線文件",
     "f057ec94623ab83e": "在Inspector最上方的“Language / 言語”中選擇顯示語言。同一項選擇會同時套用於Inspector和產生的VRChat選單。要更改遊戲內的顯示語言，請重新上傳虛擬化身。",
@@ -75,7 +74,6 @@
     "b84d4589ddb0d9eb": "請在同意以VN3授權範本制定的使用條款後，再使用本商品。",
     "e6cf39db24d7f783": "[Virtual Love使用條款](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
     "3e9e4ae5e303de21": "# 更新紀錄",
-    "1fea13aed5680b51": "## [3.2.0] - 尚未發佈",
     "545755f8035c08c9": "### 新增",
     "b3f80d97ed0caa7f": "- Inspector、安裝選單、授權提示、收錄姿勢名稱和產生的VRChat選單現已支援30種顯示語言。\n- 統一了Inspector和遊戲內選單的語言選擇。初始會使用電腦的語言，同一OS使用者的其他專案也會沿用最後的選擇。\n- 支援以所選語言開啟README和更新紀錄。\n- 為22種收錄姿勢的顯示名稱和5個分類選單的名稱準備了各語言版本。\n- 支援Unisaki Posing System 3.2.0。",
     "25b732bdda1bb358": "### 相容性",
@@ -97,6 +95,7 @@
     "477178ccfa150f36": "- 修復了部分動畫中視線方向會移動的問題",
     "f7c96a2573c4c515": "- 新增腳部高度調整功能\n- 修復了重新開啟Unity後部分設定遺失的問題",
     "a3e2778a13dba26f": "- 首次發佈",
-    "d1bc753add231591": "所需環境為Unity 2022.3、VRChat Avatars SDK 3.10.4或更高版本、Modular Avatar 1.16.2或更高版本的1.x系列，以及NDMF 1.14.8或更高版本的1.x系列。請通過VCC或ALCOM一同更新所需套件。"
+    "d1bc753add231591": "所需環境為Unity 2022.3、VRChat Avatars SDK 3.10.4或更高版本、Modular Avatar 1.16.2或更高版本的1.x系列，以及NDMF 1.14.8或更高版本的1.x系列。請通過VCC或ALCOM一同更新所需套件。",
+    "b57fae49dd55e4e1": "本README面向v3.2.0。已安裝的版本可在Inspector頂部查看。"
   }
 }

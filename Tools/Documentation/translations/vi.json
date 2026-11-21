@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -12,7 +12,6 @@
     "dfbbaf3c67bb3855": "Để sử dụng, bạn cần mua sản phẩm trên BOOTH và đồng ý với điều khoản sử dụng.",
     "f37aa322740fb95a": "[Điều khoản sử dụng](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
     "512a6b7e3620010b": "Công cụ cho avatar VRChat, giúp bạn tận hưởng các tư thế ghép đôi cùng đối phương khi dùng theo dõi 3 điểm hoặc chế độ máy tính. Có 22 tư thế cho mỗi bên nam và nữ, tổng cộng 44 tư thế. Bạn cũng có thể thực hiện xoạc chân đứng và thử thách Jack-O.",
-    "359f541ee33a4bb9": "README này dành cho v3.2.0 đang phát triển. Chưa xác định ngày phát hành chính thức. Xem phiên bản đã cài ở đầu Inspector.",
     "60b92cf9c9fe5881": "- [Trang sản phẩm BOOTH](https://yunisaki.booth.pm/items/3641334)\n- [Lịch sử thay đổi](CHANGELOG.md)",
     "dddcc5e2fa2e62d6": "## Ngôn ngữ hiển thị và tài liệu ngoại tuyến",
     "f057ec94623ab83e": "Chọn ngôn ngữ hiển thị bằng “Language / 言語” ở đầu Inspector. Một lựa chọn áp dụng cho cả Inspector và menu VRChat được tạo. Tải avatar lên lại để thay đổi ngôn ngữ trong trò chơi.",
@@ -75,7 +74,6 @@
     "b84d4589ddb0d9eb": "Vui lòng sử dụng sản phẩm này sau khi đồng ý với điều khoản sử dụng được soạn theo giấy phép VN3.",
     "e6cf39db24d7f783": "[Điều khoản sử dụng của Virtual Love](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
     "3e9e4ae5e303de21": "# Lịch sử thay đổi",
-    "1fea13aed5680b51": "## [3.2.0] - Chưa phát hành",
     "545755f8035c08c9": "### Đã thêm",
     "b3f80d97ed0caa7f": "- Inspector, menu thêm công cụ, thông báo giấy phép, tên các tư thế đi kèm và menu VRChat được tạo nay có thể hiển thị bằng 30 ngôn ngữ.\n- Thống nhất lựa chọn ngôn ngữ của Inspector và menu trong trò chơi. Giá trị ban đầu là ngôn ngữ máy tính, và lựa chọn gần nhất cũng được dùng cho các dự án khác của cùng người dùng hệ điều hành.\n- Có thể mở README và lịch sử thay đổi bằng ngôn ngữ đã chọn.\n- Chuẩn bị tên hiển thị của 22 tư thế đi kèm và tên của 5 menu phân loại cho từng ngôn ngữ.\n- Hỗ trợ Unisaki Posing System 3.2.0.",
     "25b732bdda1bb358": "### Tương thích",
@@ -97,6 +95,7 @@
     "477178ccfa150f36": "- Sửa lỗi hướng mắt bị dịch chuyển ở một số hoạt ảnh",
     "f7c96a2573c4c515": "- Thêm tính năng thay đổi độ cao chân\n- Sửa lỗi một số thiết lập bị mất khi mở lại Unity",
     "a3e2778a13dba26f": "- Phát hành lần đầu",
-    "d1bc753add231591": "Yêu cầu Unity 2022.3, VRChat Avatars SDK 3.10.4 trở lên, Modular Avatar dòng 1.x phiên bản 1.16.2 trở lên và NDMF dòng 1.x phiên bản 1.14.8 trở lên. Cập nhật các gói cần thiết cùng nhau qua VCC hoặc ALCOM."
+    "d1bc753add231591": "Yêu cầu Unity 2022.3, VRChat Avatars SDK 3.10.4 trở lên, Modular Avatar dòng 1.x phiên bản 1.16.2 trở lên và NDMF dòng 1.x phiên bản 1.14.8 trở lên. Cập nhật các gói cần thiết cùng nhau qua VCC hoặc ALCOM.",
+    "b57fae49dd55e4e1": "README này dành cho v3.2.0. Xem phiên bản đã cài ở đầu Inspector."
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -12,7 +12,6 @@
     "dfbbaf3c67bb3855": "Käyttö edellyttää tuotteen ostamista BOOTHista ja käyttöehtojen hyväksymistä.",
     "f37aa322740fb95a": "[Käyttöehdot](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
     "512a6b7e3620010b": "VRChat-avatareille tarkoitettu työkalu, jolla voit ottaa kumppanin kanssa pariasentoja kolmen pisteen seurannalla tai työpöytätilassa. Mukana on 22 asentoa miehelle ja 22 naiselle, yhteensä 44. Mukana ovat myös seisova spagaatti ja Jack-O-haaste.",
-    "359f541ee33a4bb9": "Tämä README koskee kehitteillä olevaa versiota v3.2.0. Virallista julkaisupäivää ei ole päätetty. Asennetun version näet Inspectorin yläosasta.",
     "60b92cf9c9fe5881": "- [BOOTH-tuotesivu](https://yunisaki.booth.pm/items/3641334)\n- [Muutosloki](CHANGELOG.md)",
     "dddcc5e2fa2e62d6": "## Näyttökieli ja offline-ohjeet",
     "f057ec94623ab83e": "Valitse näyttökieli Inspectorin yläosasta kohdasta ”Language / 言語”. Sama valinta koskee Inspectoria ja luotavaa VRChat-valikkoa. Lataa avatar uudelleen palveluun, jotta pelissä näkyvä kieli vaihtuu.",
@@ -75,7 +74,6 @@
     "b84d4589ddb0d9eb": "Käytä tätä tuotetta vasta hyväksyttyäsi sen käyttöehdot, jotka on laadittu VN3-lisenssin pohjalta.",
     "e6cf39db24d7f783": "[Virtual Loven käyttöehdot](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
     "3e9e4ae5e303de21": "# Muutosloki",
-    "1fea13aed5680b51": "## [3.2.0] - Julkaisematon",
     "545755f8035c08c9": "### Lisätty",
     "b3f80d97ed0caa7f": "- Inspector, lisäysvalikot, lisenssi-ilmoitukset, mukana olevien asentojen nimet ja luotavat VRChat-valikot voidaan nyt näyttää 30 kielellä.\n- Inspectorin ja pelinsisäisten valikoiden kielivalinta on yhdistetty. Oletuksena käytetään tietokoneen kieltä, ja viimeisintä valintaa käytetään myös saman käyttöjärjestelmäkäyttäjän muissa projekteissa.\n- README ja muutosloki voidaan nyt avata valitulla kielellä.\n- Mukana olevien 22 asennon näyttönimet ja 5 luokkavalikon nimet on laadittu kullekin kielelle.\n- Lisätty tuki Unisaki Posing System 3.2.0:lle.",
     "25b732bdda1bb358": "### Yhteensopivuus",
@@ -97,6 +95,7 @@
     "477178ccfa150f36": "- Korjattu virhe, jossa katseen suunta liikkui joissakin animaatioissa",
     "f7c96a2573c4c515": "- Lisätty jalkojen korkeuden säätötoiminto\n- Korjattu virhe, jossa osa asetuksista katosi, kun Unity avattiin uudelleen",
     "a3e2778a13dba26f": "- Ensimmäinen julkaisu",
-    "d1bc753add231591": "Vaatimukset ovat Unity 2022.3, VRChat Avatars SDK 3.10.4 tai uudempi, Modular Avatar 1.x vähintään 1.16.2 ja NDMF 1.x vähintään 1.14.8. Päivitä tarvittavat paketit yhdessä VCC:llä tai ALCOMilla."
+    "d1bc753add231591": "Vaatimukset ovat Unity 2022.3, VRChat Avatars SDK 3.10.4 tai uudempi, Modular Avatar 1.x vähintään 1.16.2 ja NDMF 1.x vähintään 1.14.8. Päivitä tarvittavat paketit yhdessä VCC:llä tai ALCOMilla.",
+    "b57fae49dd55e4e1": "Tämä README koskee versiota v3.2.0. Asennetun version näet Inspectorin yläosasta."
   }
 }

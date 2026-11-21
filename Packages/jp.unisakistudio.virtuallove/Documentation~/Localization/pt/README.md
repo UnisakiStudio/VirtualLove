@@ -2,7 +2,7 @@
 
 Ferramenta para avatares VRChat que permite desfrutar de poses a dois com outra pessoa, em rastreamento de 3 pontos ou no modo desktop. Inclui 22 poses para cada lado, masculino e feminino, num total de 44. Também permite fazer a espargata em pé e o desafio Jack-O.
 
-Este README refere-se a v3.2.0 em desenvolvimento. A data oficial não está definida. A versão instalada aparece no topo do Inspector.
+Este README refere-se a v3.2.0. A versão instalada aparece no topo do Inspector.
 
 - [Página do produto na BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Histórico de alterações](CHANGELOG.md)

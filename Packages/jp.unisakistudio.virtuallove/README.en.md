@@ -2,7 +2,7 @@
 
 A VRChat avatar tool for enjoying paired poses with a partner in 3-point tracking or desktop mode. It includes 22 poses for each of the male and female sides, 44 in total. A standing split and the Jack-O challenge are also included.
 
-This README covers v3.2.0, currently in development. A release date has not been set. Check the installed version at the top of the Inspector.
+This README covers v3.2.0. Check the installed version at the top of the Inspector.
 
 - [BOOTH product page](https://yunisaki.booth.pm/items/3641334)
 - [Changelog](Documentation~/Localization/en/CHANGELOG.md)

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -12,7 +12,6 @@
     "dfbbaf3c67bb3855": "이용하려면 BOOTH에서 상품을 구매하고 이용 약관에 동의해야 합니다.",
     "f37aa322740fb95a": "[이용 약관](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
     "512a6b7e3620010b": "3점 트래킹이나 데스크톱에서 상대와 짝을 이루는 자세를 즐길 수 있는 VRChat 아바타용 도구입니다. 남성용과 여성용 각 22종, 총 44종의 포즈를 제공합니다. I자 밸런스와 Jack-O 챌린지도 할 수 있습니다.",
-    "359f541ee33a4bb9": "이 README는 개발 중인 v3.2.0용입니다. 정식 출시일은 정해지지 않았습니다. 설치된 버전은 Inspector 상단에서 확인할 수 있습니다.",
     "60b92cf9c9fe5881": "- [BOOTH 상품 페이지](https://yunisaki.booth.pm/items/3641334)\n- [변경 내역](CHANGELOG.md)",
     "dddcc5e2fa2e62d6": "## 표시 언어와 오프라인 문서",
     "f057ec94623ab83e": "Inspector 최상단의 Language / 言語에서 표시 언어를 선택합니다. 하나의 선택이 Inspector와 생성되는 VRChat 메뉴에 모두 적용됩니다. 게임 내 표시 언어를 바꾸려면 아바타를 다시 업로드하세요.",
@@ -75,7 +74,6 @@
     "b84d4589ddb0d9eb": "이 상품은 VN3 라이선스로 작성한 이용 약관에 동의한 뒤 이용해 주세요.",
     "e6cf39db24d7f783": "[Virtual Love 이용 약관](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
     "3e9e4ae5e303de21": "# 변경 내역",
-    "1fea13aed5680b51": "## [3.2.0] - 미출시",
     "545755f8035c08c9": "### 추가",
     "b3f80d97ed0caa7f": "- Inspector, 추가 메뉴, 라이선스 안내, 수록 포즈 이름, 생성되는 VRChat 메뉴를 30개 언어로 표시할 수 있도록 했습니다.\n- Inspector와 게임 내 메뉴의 언어 선택을 통합했습니다. 기본값은 컴퓨터의 언어를 사용하고 마지막 선택을 같은 OS 사용자의 다른 프로젝트에서도 재사용합니다.\n- README와 변경 내역을 선택한 언어로 열 수 있게 했습니다.\n- 수록 포즈 22종의 표시 이름과 5개 분류 메뉴의 이름을 각 언어로 준비했습니다.\n- Unisaki Posing System 3.2.0을 지원합니다.",
     "25b732bdda1bb358": "### 호환성",
@@ -97,6 +95,7 @@
     "477178ccfa150f36": "- 일부 애니메이션에서 눈의 방향이 움직이는 문제를 수정했습니다.",
     "f7c96a2573c4c515": "- 발 높이 조절 기능을 추가했습니다.\n- Unity를 다시 열면 일부 설정이 사라지는 문제를 수정했습니다.",
     "a3e2778a13dba26f": "- 첫 버전을 출시했습니다.",
-    "d1bc753add231591": "필요 환경은 Unity 2022.3, VRChat Avatars SDK 3.10.4 이상, Modular Avatar 1.x의 1.16.2 이상, NDMF 1.x의 1.14.8 이상입니다. VCC·ALCOM에서 필요한 패키지도 함께 업데이트하세요."
+    "d1bc753add231591": "필요 환경은 Unity 2022.3, VRChat Avatars SDK 3.10.4 이상, Modular Avatar 1.x의 1.16.2 이상, NDMF 1.x의 1.14.8 이상입니다. VCC·ALCOM에서 필요한 패키지도 함께 업데이트하세요.",
+    "b57fae49dd55e4e1": "이 README는 v3.2.0용입니다. 설치된 버전은 Inspector 상단에서 확인할 수 있습니다."
   }
 }

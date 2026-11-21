@@ -2,7 +2,7 @@
 
 VRChat-avatareille tarkoitettu työkalu, jolla voit ottaa kumppanin kanssa pariasentoja kolmen pisteen seurannalla tai työpöytätilassa. Mukana on 22 asentoa miehelle ja 22 naiselle, yhteensä 44. Mukana ovat myös seisova spagaatti ja Jack-O-haaste.
 
-Tämä README koskee kehitteillä olevaa versiota v3.2.0. Virallista julkaisupäivää ei ole päätetty. Asennetun version näet Inspectorin yläosasta.
+Tämä README koskee versiota v3.2.0. Asennetun version näet Inspectorin yläosasta.
 
 - [BOOTH-tuotesivu](https://yunisaki.booth.pm/items/3641334)
 - [Muutosloki](CHANGELOG.md)

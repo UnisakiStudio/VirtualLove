@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -12,7 +12,6 @@
     "dfbbaf3c67bb3855": "For å bruke produktet må du kjøpe det på BOOTH og godta bruksvilkårene.",
     "f37aa322740fb95a": "[Bruksvilkår](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
     "512a6b7e3620010b": "Et verktøy for VRChat-avatarer som lar deg innta parpositurer sammen med en partner, med 3-punktssporing eller i skrivebordsmodus. Det inneholder 22 positurer for mann og 22 for kvinne, 44 totalt. Stående spagat og Jack-O-utfordringen er også med.",
-    "359f541ee33a4bb9": "Denne README gjelder v3.2.0 under utvikling. Endelig utgivelsesdato er ikke fastsatt. Installert versjon vises øverst i Inspector.",
     "60b92cf9c9fe5881": "- [Produktside på BOOTH](https://yunisaki.booth.pm/items/3641334)\n- [Endringslogg](CHANGELOG.md)",
     "dddcc5e2fa2e62d6": "## Visningsspråk og dokumentasjon uten nett",
     "f057ec94623ab83e": "Velg språk med «Language / 言語» øverst i Inspector. Ett valg styrer både Inspector og den genererte VRChat-menyen. Last opp avataren på nytt for å endre språket i spillet.",
@@ -75,7 +74,6 @@
     "b84d4589ddb0d9eb": "Bruk dette produktet først etter at du har godtatt bruksvilkårene, som er utarbeidet med VN3-lisensen.",
     "e6cf39db24d7f783": "[Bruksvilkår for Virtual Love](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
     "3e9e4ae5e303de21": "# Endringslogg",
-    "1fea13aed5680b51": "## [3.2.0] - Ikke utgitt",
     "545755f8035c08c9": "### Lagt til",
     "b3f80d97ed0caa7f": "- Inspector, tilleggingsmenyene, lisensmeldingene, navnene på de medfølgende positurene og de genererte VRChat-menyene kan nå vises på 30 språk.\n- Språkvalget for Inspector og spillmenyene er samlet. Datamaskinens språk brukes som startverdi, og det siste valget brukes også i andre prosjekter for samme OS-bruker.\n- README og endringsloggen kan nå åpnes på det valgte språket.\n- Visningsnavn for de 22 medfølgende positurene og navn på de 5 kategorimenyene finnes nå på hvert språk.\n- Lagt til støtte for Unisaki Posing System 3.2.0.",
     "25b732bdda1bb358": "### Kompatibilitet",
@@ -97,6 +95,7 @@
     "477178ccfa150f36": "- Rettet en feil der blikkretningen flyttet seg i enkelte animasjoner.",
     "f7c96a2573c4c515": "- Lagt til en funksjon for å endre fothøyden.\n- Rettet en feil der enkelte innstillinger forsvant når Unity ble åpnet på nytt.",
     "a3e2778a13dba26f": "- Første utgivelse.",
-    "d1bc753add231591": "Krever Unity 2022.3, VRChat Avatars SDK 3.10.4 eller nyere, Modular Avatar 1.x fra 1.16.2 og NDMF 1.x fra 1.14.8. Oppdater nødvendige pakker sammen i VCC eller ALCOM."
+    "d1bc753add231591": "Krever Unity 2022.3, VRChat Avatars SDK 3.10.4 eller nyere, Modular Avatar 1.x fra 1.16.2 og NDMF 1.x fra 1.14.8. Oppdater nødvendige pakker sammen i VCC eller ALCOM.",
+    "b57fae49dd55e4e1": "Denne README gjelder v3.2.0. Installert versjon vises øverst i Inspector."
   }
 }

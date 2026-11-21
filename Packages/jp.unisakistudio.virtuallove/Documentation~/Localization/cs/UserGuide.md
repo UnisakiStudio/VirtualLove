@@ -2,7 +2,7 @@
 
 Nástroj pro avatary VRChat, se kterým si můžete s partnerem užívat párové pózy při tříbodovém sledování nebo v režimu plochy. Obsahuje 22 póz pro muže a 22 pro ženu, celkem 44. Nechybí ani provaz vestoje a výzva Jack-O.
 
-Tento README je určen pro vyvíjenou verzi v3.2.0. Datum oficiálního vydání zatím nebylo stanoveno. Nainstalovaná verze se zobrazuje nahoře v Inspectoru.
+Tento README je určen pro verzi v3.2.0. Nainstalovaná verze se zobrazuje nahoře v Inspectoru.
 
 - [Stránka produktu na BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Historie změn](CHANGELOG.md)

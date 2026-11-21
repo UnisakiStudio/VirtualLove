@@ -2,7 +2,7 @@
 
 Herramienta para avatares de VRChat que permite adoptar poses en pareja con otra persona, con seguimiento de 3 puntos o en escritorio. Incluye 22 poses para el hombre y 22 para la mujer, 44 en total. También permite hacer el espagat de pie y el reto Jack-O.
 
-Este README corresponde a v3.2.0 en desarrollo. La fecha oficial no está fijada. La versión instalada aparece arriba del Inspector.
+Este README corresponde a v3.2.0. La versión instalada aparece arriba del Inspector.
 
 - [Página del producto en BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Historial de cambios](CHANGELOG.md)

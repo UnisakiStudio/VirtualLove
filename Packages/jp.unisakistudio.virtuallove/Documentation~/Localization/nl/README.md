@@ -2,7 +2,7 @@
 
 Een tool voor VRChat-avatars waarmee je met 3-puntstracking of op desktop samen met een partner bij elkaar horende poses kunt aannemen. Er zijn 22 poses voor de man en 22 voor de vrouw, 44 in totaal. Ook een staande spagaat en de Jack-O-challenge zijn mogelijk.
 
-Deze README is voor v3.2.0 in ontwikkeling; de officiële datum staat niet vast. De geïnstalleerde versie staat boven in de Inspector.
+Deze README is voor v3.2.0. De geïnstalleerde versie staat boven in de Inspector.
 
 - [BOOTH-productpagina](https://yunisaki.booth.pm/items/3641334)
 - [Wijzigingsgeschiedenis](CHANGELOG.md)

@@ -2,7 +2,7 @@
 
 Alat untuk avatar VRChat yang memungkinkan Anda menikmati pose berpasangan bersama pasangan dalam pelacakan 3 titik atau mode desktop. Tersedia 22 pose untuk masing-masing sisi pria dan wanita, 44 pose secara keseluruhan. Split berdiri dan tantangan Jack-O juga dapat dilakukan.
 
-README ini ditujukan untuk v3.2.0 yang sedang dikembangkan. Tanggal rilis resmi belum ditentukan. Versi terpasang dapat diperiksa di bagian atas Inspector.
+README ini ditujukan untuk v3.2.0. Versi terpasang dapat diperiksa di bagian atas Inspector.
 
 - [Halaman produk BOOTH](https://yunisaki.booth.pm/items/3641334)
 - [Riwayat perubahan](CHANGELOG.md)

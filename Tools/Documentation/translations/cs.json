@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -12,7 +12,6 @@
     "dfbbaf3c67bb3855": "K používání je nutné zakoupit produkt na BOOTH a souhlasit s podmínkami použití.",
     "f37aa322740fb95a": "[Podmínky použití](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
     "512a6b7e3620010b": "Nástroj pro avatary VRChat, se kterým si můžete s partnerem užívat párové pózy při tříbodovém sledování nebo v režimu plochy. Obsahuje 22 póz pro muže a 22 pro ženu, celkem 44. Nechybí ani provaz vestoje a výzva Jack-O.",
-    "359f541ee33a4bb9": "Tento README je určen pro vyvíjenou verzi v3.2.0. Datum oficiálního vydání zatím nebylo stanoveno. Nainstalovaná verze se zobrazuje nahoře v Inspectoru.",
     "60b92cf9c9fe5881": "- [Stránka produktu na BOOTH](https://yunisaki.booth.pm/items/3641334)\n- [Historie změn](CHANGELOG.md)",
     "dddcc5e2fa2e62d6": "## Jazyk rozhraní a offline dokumentace",
     "f057ec94623ab83e": "Vyberte jazyk v poli „Language / 言語“ nahoře v Inspectoru. Jedna volba řídí Inspector i vytvářenou nabídku VRChat. Pro změnu jazyka ve hře avatara znovu nahrajte.",
@@ -75,7 +74,6 @@
     "b84d4589ddb0d9eb": "Tento produkt používejte až po odsouhlasení podmínek použití, které byly vytvořeny pomocí licence VN3.",
     "e6cf39db24d7f783": "[Podmínky použití Virtual Love](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
     "3e9e4ae5e303de21": "# Historie změn",
-    "1fea13aed5680b51": "## [3.2.0] - Nevydáno",
     "545755f8035c08c9": "### Přidáno",
     "b3f80d97ed0caa7f": "- Inspector, nabídky pro přidání, informace o licenci, názvy obsažených póz a generované nabídky VRChat lze nyní zobrazit ve 30 jazycích.\n- Výběr jazyka pro Inspector a herní nabídky byl sjednocen. Výchozí je jazyk počítače a poslední volba se používá i v dalších projektech stejného uživatele OS.\n- README a historii změn lze nyní otevřít ve zvoleném jazyce.\n- Pro každý jazyk byly připraveny zobrazované názvy 22 obsažených póz a názvy 5 nabídek kategorií.\n- Přidána podpora Unisaki Posing System 3.2.0.",
     "25b732bdda1bb358": "### Kompatibilita",
@@ -97,6 +95,7 @@
     "477178ccfa150f36": "- Opravena chyba, kvůli které se v některých animacích pohyboval směr očí",
     "f7c96a2573c4c515": "- Přidána funkce pro změnu výšky chodidel\n- Opravena chyba, kvůli které se po opětovném otevření Unity ztratila některá nastavení",
     "a3e2778a13dba26f": "- První vydání",
-    "d1bc753add231591": "Požadováno je Unity 2022.3, VRChat Avatars SDK 3.10.4 nebo novější, Modular Avatar 1.x od 1.16.2 a NDMF 1.x od 1.14.8. Aktualizujte potřebné balíčky společně přes VCC nebo ALCOM."
+    "d1bc753add231591": "Požadováno je Unity 2022.3, VRChat Avatars SDK 3.10.4 nebo novější, Modular Avatar 1.x od 1.16.2 a NDMF 1.x od 1.14.8. Aktualizujte potřebné balíčky společně přes VCC nebo ALCOM.",
+    "b57fae49dd55e4e1": "Tento README je určen pro verzi v3.2.0. Nainstalovaná verze se zobrazuje nahoře v Inspectoru."
   }
 }

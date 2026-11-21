@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -12,7 +12,6 @@
     "dfbbaf3c67bb3855": "Untuk menggunakannya, Anda perlu membeli produk ini di BOOTH dan menyetujui ketentuan penggunaan.",
     "f37aa322740fb95a": "[Ketentuan penggunaan](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
     "512a6b7e3620010b": "Alat untuk avatar VRChat yang memungkinkan Anda menikmati pose berpasangan bersama pasangan dalam pelacakan 3 titik atau mode desktop. Tersedia 22 pose untuk masing-masing sisi pria dan wanita, 44 pose secara keseluruhan. Split berdiri dan tantangan Jack-O juga dapat dilakukan.",
-    "359f541ee33a4bb9": "README ini ditujukan untuk v3.2.0 yang sedang dikembangkan. Tanggal rilis resmi belum ditentukan. Versi terpasang dapat diperiksa di bagian atas Inspector.",
     "60b92cf9c9fe5881": "- [Halaman produk BOOTH](https://yunisaki.booth.pm/items/3641334)\n- [Riwayat perubahan](CHANGELOG.md)",
     "dddcc5e2fa2e62d6": "## Bahasa tampilan dan dokumen offline",
     "f057ec94623ab83e": "Pilih bahasa melalui “Language / 言語” di bagian atas Inspector. Satu pilihan berlaku untuk Inspector dan menu VRChat yang dibuat. Unggah ulang avatar untuk mengubah bahasa di dalam gim.",
@@ -75,7 +74,6 @@
     "b84d4589ddb0d9eb": "Gunakan produk ini setelah menyetujui ketentuan penggunaan yang disusun dengan lisensi VN3.",
     "e6cf39db24d7f783": "[Ketentuan penggunaan Virtual Love](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
     "3e9e4ae5e303de21": "# Riwayat perubahan",
-    "1fea13aed5680b51": "## [3.2.0] - Belum dirilis",
     "545755f8035c08c9": "### Ditambahkan",
     "b3f80d97ed0caa7f": "- Inspector, menu pemasangan, pemberitahuan lisensi, nama pose yang disertakan, dan menu VRChat yang dibuat kini dapat ditampilkan dalam 30 bahasa.\n- Pemilihan bahasa Inspector dan menu dalam permainan disatukan. Nilai awalnya memakai bahasa komputer, dan pilihan terakhir juga digunakan di proyek lain milik pengguna OS yang sama.\n- README dan riwayat perubahan kini dapat dibuka dalam bahasa pilihan.\n- Menyediakan nama tampilan untuk 22 pose yang disertakan dan nama 5 menu kategori dalam setiap bahasa.\n- Mendukung Unisaki Posing System 3.2.0.",
     "25b732bdda1bb358": "### Kompatibilitas",
@@ -97,6 +95,7 @@
     "477178ccfa150f36": "- Memperbaiki arah mata yang ikut bergerak pada beberapa animasi.",
     "f7c96a2573c4c515": "- Menambahkan fitur pengubah tinggi kaki.\n- Memperbaiki beberapa pengaturan yang hilang saat Unity dibuka kembali.",
     "a3e2778a13dba26f": "- Rilis pertama.",
-    "d1bc753add231591": "Persyaratan: Unity 2022.3, VRChat Avatars SDK 3.10.4 atau lebih baru, Modular Avatar seri 1.x versi 1.16.2 atau lebih baru, dan NDMF seri 1.x versi 1.14.8 atau lebih baru. Perbarui juga paket yang diperlukan melalui VCC atau ALCOM."
+    "d1bc753add231591": "Persyaratan: Unity 2022.3, VRChat Avatars SDK 3.10.4 atau lebih baru, Modular Avatar seri 1.x versi 1.16.2 atau lebih baru, dan NDMF seri 1.x versi 1.14.8 atau lebih baru. Perbarui juga paket yang diperlukan melalui VCC atau ALCOM.",
+    "b57fae49dd55e4e1": "README ini ditujukan untuk v3.2.0. Versi terpasang dapat diperiksa di bagian atas Inspector."
   }
 }

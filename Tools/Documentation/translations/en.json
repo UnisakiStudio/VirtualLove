@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "f1a926fbde01fe446a2266c792f9a24b82d09a16658011c40a2e1aa51a725547",
+  "source_sha256": "f2f3c83ecf4b4ab6033ee076cf83ac81f247ab39ef8603e0ab0d9d697db6a033",
   "translator": "AI contextual translation",
   "translations": {
     "0a35c89cbd964ac0": "# Virtual Love",
@@ -12,7 +12,6 @@
     "dfbbaf3c67bb3855": "Use requires purchasing the product on BOOTH and accepting the terms of use.",
     "f37aa322740fb95a": "[Terms of use](Packages/jp.unisakistudio.virtuallove/三点だいしゅきツール利用規約（日本語版）Ver2.0.0.pdf)",
     "512a6b7e3620010b": "A VRChat avatar tool for enjoying paired poses with a partner in 3-point tracking or desktop mode. It includes 22 poses for each of the male and female sides, 44 in total. A standing split and the Jack-O challenge are also included.",
-    "359f541ee33a4bb9": "This README covers v3.2.0, currently in development. A release date has not been set. Check the installed version at the top of the Inspector.",
     "60b92cf9c9fe5881": "- [BOOTH product page](https://yunisaki.booth.pm/items/3641334)\n- [Changelog](CHANGELOG.md)",
     "dddcc5e2fa2e62d6": "## Display language and offline documentation",
     "f057ec94623ab83e": "Choose a display language with Language / 言語 at the top of the Inspector. One selection controls both the Inspector and generated VRChat menu. Re-upload the avatar to change its in-game language.",
@@ -75,7 +74,6 @@
     "b84d4589ddb0d9eb": "Use this product only after agreeing to its terms of use, which are written with the VN3 license.",
     "e6cf39db24d7f783": "[Virtual Love terms of use](https://drive.google.com/file/d/1Uu8y4z-G-P0btDCdY-ahQsTJInCNbxyD/view?usp=sharing)",
     "3e9e4ae5e303de21": "# Changelog",
-    "1fea13aed5680b51": "## [3.2.0] - Unreleased",
     "545755f8035c08c9": "### Added",
     "b3f80d97ed0caa7f": "- The Inspector, the add menus, the license notices, the included pose names and the generated VRChat menus can now be displayed in 30 languages.\n- Unified the language selection for the Inspector and the in-game menus. It starts with your computer's language, and your last choice is also used in other projects of the same OS user.\n- The README and the changelog can now be opened in the selected language.\n- Prepared display names for the 22 included poses and names for the 5 category menus in each language.\n- Added support for Unisaki Posing System 3.2.0.",
     "25b732bdda1bb358": "### Compatibility",
@@ -97,6 +95,7 @@
     "477178ccfa150f36": "- Fixed the eye direction moving in some animations.",
     "f7c96a2573c4c515": "- Added the foot height adjustment feature.\n- Fixed some settings being lost when Unity was reopened.",
     "a3e2778a13dba26f": "- Initial release.",
-    "d1bc753add231591": "Requires Unity 2022.3, VRChat Avatars SDK 3.10.4 or later, Modular Avatar 1.x version 1.16.2 or later, and NDMF 1.x version 1.14.8 or later. Update the required packages together in VCC or ALCOM."
+    "d1bc753add231591": "Requires Unity 2022.3, VRChat Avatars SDK 3.10.4 or later, Modular Avatar 1.x version 1.16.2 or later, and NDMF 1.x version 1.14.8 or later. Update the required packages together in VCC or ALCOM.",
+    "b57fae49dd55e4e1": "This README covers v3.2.0. Check the installed version at the top of the Inspector."
   }
 }
